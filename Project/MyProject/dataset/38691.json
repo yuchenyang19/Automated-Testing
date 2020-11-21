@@ -1,0 +1,1263 @@
+{
+  "activity_name": "ch.bitspin.timely/ch.bitspin.timely.activity.MainActivity_", 
+  "activity": {
+    "root": {
+      "scrollable-horizontal": false, 
+      "draw": true, 
+      "ancestors": [
+        "android.widget.FrameLayout", 
+        "android.view.ViewGroup", 
+        "android.view.View", 
+        "java.lang.Object"
+      ], 
+      "clickable": false, 
+      "pressed": "not_pressed", 
+      "focusable": false, 
+      "long-clickable": false, 
+      "enabled": true, 
+      "bounds": [
+        160, 
+        84, 
+        1280, 
+        2392
+      ], 
+      "visibility": "visible", 
+      "content-desc": [
+        null
+      ], 
+      "rel-bounds": [
+        0, 
+        0, 
+        1120, 
+        2308
+      ], 
+      "focused": false, 
+      "selected": false, 
+      "scrollable-vertical": false, 
+      "children": [
+        {
+          "scrollable-horizontal": false, 
+          "draw": true, 
+          "ancestors": [
+            "android.view.ViewGroup", 
+            "android.view.View", 
+            "java.lang.Object"
+          ], 
+          "clickable": false, 
+          "pressed": "not_pressed", 
+          "focusable": false, 
+          "long-clickable": false, 
+          "enabled": true, 
+          "bounds": [
+            160, 
+            84, 
+            1280, 
+            2392
+          ], 
+          "visibility": "visible", 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            1120, 
+            2308
+          ], 
+          "focused": false, 
+          "selected": false, 
+          "scrollable-vertical": false, 
+          "children": [
+            {
+              "resource-id": "android:id/content", 
+              "adapter-view": false, 
+              "pointer": "ef22bea", 
+              "children": [
+                {
+                  "resource-id": "ch.bitspin.timely:id/share_fragment", 
+                  "adapter-view": false, 
+                  "pointer": "77a2edb", 
+                  "children": [
+                    {
+                      "resource-id": "ch.bitspin.timely:id/dialog_container", 
+                      "adapter-view": false, 
+                      "pointer": "1aedd78", 
+                      "children": [
+                        {
+                          "text": "Share", 
+                          "resource-id": "ch.bitspin.timely:id/title_text", 
+                          "adapter-view": false, 
+                          "pointer": "1bf0c51", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "ch.bitspin.timely.view.RobotoTextView", 
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            56, 
+                            28, 
+                            250, 
+                            196
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif-light", 
+                          "class": "ch.bitspin.timely.view.RobotoLightTextView", 
+                          "visible-to-user": true, 
+                          "package": "ch.bitspin.timely", 
+                          "enabled": true, 
+                          "bounds": [
+                            244, 
+                            403, 
+                            438, 
+                            571
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }, 
+                        {
+                          "resource-id": "ch.bitspin.timely:id/balance_share_icon", 
+                          "adapter-view": false, 
+                          "pointer": "bbf1cb6", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            955, 
+                            42, 
+                            1008, 
+                            112
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "class": "android.widget.ImageView", 
+                          "visible-to-user": true, 
+                          "package": "ch.bitspin.timely", 
+                          "enabled": true, 
+                          "bounds": [
+                            1143, 
+                            417, 
+                            1196, 
+                            487
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }, 
+                        {
+                          "text": "0", 
+                          "resource-id": "ch.bitspin.timely:id/balance_amount", 
+                          "adapter-view": false, 
+                          "pointer": "5e2ddb7", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            913, 
+                            42, 
+                            941, 
+                            112
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "class": "android.widget.TextView", 
+                          "visible-to-user": true, 
+                          "package": "ch.bitspin.timely", 
+                          "enabled": true, 
+                          "bounds": [
+                            1101, 
+                            417, 
+                            1129, 
+                            487
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }, 
+                        {
+                          "text": "Balance:", 
+                          "resource-id": "ch.bitspin.timely:id/balance_text", 
+                          "adapter-view": false, 
+                          "pointer": "3b05924", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "ch.bitspin.timely.view.RobotoTextView", 
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            719, 
+                            42, 
+                            899, 
+                            112
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif-light", 
+                          "class": "ch.bitspin.timely.view.RobotoLightTextView", 
+                          "visible-to-user": true, 
+                          "package": "ch.bitspin.timely", 
+                          "enabled": true, 
+                          "bounds": [
+                            907, 
+                            417, 
+                            1087, 
+                            487
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }, 
+                        {
+                          "text": "", 
+                          "resource-id": "ch.bitspin.timely:id/code_text_description", 
+                          "adapter-view": false, 
+                          "pointer": "3171c8d", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "ch.bitspin.timely.view.RobotoTextView", 
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            1008, 
+                            112, 
+                            1008, 
+                            182
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif-light", 
+                          "class": "ch.bitspin.timely.view.RobotoLightTextView", 
+                          "visible-to-user": false, 
+                          "package": "ch.bitspin.timely", 
+                          "enabled": true, 
+                          "bounds": [
+                            1196, 
+                            487, 
+                            1196, 
+                            557
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }, 
+                        {
+                          "resource-id": "ch.bitspin.timely:id/title_divider", 
+                          "adapter-view": false, 
+                          "pointer": "d984e42", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            224, 
+                            1064, 
+                            228
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "class": "android.view.View", 
+                          "visible-to-user": true, 
+                          "package": "ch.bitspin.timely", 
+                          "enabled": true, 
+                          "bounds": [
+                            188, 
+                            599, 
+                            1252, 
+                            603
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }, 
+                        {
+                          "resource-id": "ch.bitspin.timely:id/content_container", 
+                          "adapter-view": false, 
+                          "pointer": "abd9e53", 
+                          "children": [
+                            {
+                              "resource-id": "ch.bitspin.timely:id/content_scrollview", 
+                              "adapter-view": false, 
+                              "pointer": "1b59d32", 
+                              "children": [
+                                {
+                                  "scrollable-horizontal": false, 
+                                  "draw": true, 
+                                  "ancestors": [
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "clickable": false, 
+                                  "pressed": "not_pressed", 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    244, 
+                                    603, 
+                                    1196, 
+                                    2101
+                                  ], 
+                                  "visibility": "visible", 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    0, 
+                                    952, 
+                                    1498
+                                  ], 
+                                  "focused": false, 
+                                  "selected": false, 
+                                  "scrollable-vertical": false, 
+                                  "children": [
+                                    {
+                                      "text": "Invite your friends to unlock this feature for free!", 
+                                      "resource-id": "ch.bitspin.timely:id/share_description_text", 
+                                      "adapter-view": false, 
+                                      "pointer": "365f489", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        0, 
+                                        0
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "gone", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.TextView", 
+                                      "visible-to-user": false, 
+                                      "package": "ch.bitspin.timely", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        244, 
+                                        603, 
+                                        244, 
+                                        603
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "resource-id": "ch.bitspin.timely:id/share_grid_view", 
+                                      "adapter-view": true, 
+                                      "pointer": "7d0721d", 
+                                      "children": [
+                                        {
+                                          "scrollable-horizontal": false, 
+                                          "draw": false, 
+                                          "ancestors": [
+                                            "ch.bitspin.timely.billing.ui.ShareGridItemView", 
+                                            "android.widget.FrameLayout", 
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "clickable": true, 
+                                          "pressed": "not_pressed", 
+                                          "focusable": true, 
+                                          "long-clickable": false, 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            244, 
+                                            631, 
+                                            706, 
+                                            1093
+                                          ], 
+                                          "visibility": "visible", 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            462, 
+                                            462
+                                          ], 
+                                          "focused": false, 
+                                          "selected": false, 
+                                          "scrollable-vertical": false, 
+                                          "children": [
+                                            {
+                                              "text": "Facebook", 
+                                              "resource-id": "ch.bitspin.timely:id/appName", 
+                                              "adapter-view": false, 
+                                              "pointer": "95b2260", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "ch.bitspin.timely.view.RobotoTextView", 
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                111, 
+                                                95, 
+                                                350, 
+                                                367
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif-light", 
+                                              "class": "ch.bitspin.timely.view.RobotoLightTextView", 
+                                              "visible-to-user": true, 
+                                              "package": "ch.bitspin.timely", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                355, 
+                                                726, 
+                                                594, 
+                                                998
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "adapter-view": false, 
+                                          "abs-pos": true, 
+                                          "pointer": "de10c8e", 
+                                          "class": "ch.bitspin.timely.billing.ui.ShareGridItemView_", 
+                                          "visible-to-user": true
+                                        }, 
+                                        {
+                                          "scrollable-horizontal": false, 
+                                          "draw": false, 
+                                          "ancestors": [
+                                            "ch.bitspin.timely.billing.ui.ShareGridItemView", 
+                                            "android.widget.FrameLayout", 
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "clickable": true, 
+                                          "pressed": "not_pressed", 
+                                          "focusable": true, 
+                                          "long-clickable": false, 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            734, 
+                                            631, 
+                                            1196, 
+                                            1093
+                                          ], 
+                                          "visibility": "visible", 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            490, 
+                                            0, 
+                                            952, 
+                                            462
+                                          ], 
+                                          "focused": false, 
+                                          "selected": false, 
+                                          "scrollable-vertical": false, 
+                                          "children": [
+                                            {
+                                              "text": "Bluetooth", 
+                                              "resource-id": "ch.bitspin.timely:id/appName", 
+                                              "adapter-view": false, 
+                                              "pointer": "6871319", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "ch.bitspin.timely.view.RobotoTextView", 
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                113, 
+                                                95, 
+                                                348, 
+                                                367
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif-light", 
+                                              "class": "ch.bitspin.timely.view.RobotoLightTextView", 
+                                              "visible-to-user": true, 
+                                              "package": "ch.bitspin.timely", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                847, 
+                                                726, 
+                                                1082, 
+                                                998
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "adapter-view": false, 
+                                          "abs-pos": true, 
+                                          "pointer": "e79ccaf", 
+                                          "class": "ch.bitspin.timely.billing.ui.ShareGridItemView_", 
+                                          "visible-to-user": true
+                                        }, 
+                                        {
+                                          "scrollable-horizontal": false, 
+                                          "draw": false, 
+                                          "ancestors": [
+                                            "ch.bitspin.timely.billing.ui.ShareGridItemView", 
+                                            "android.widget.FrameLayout", 
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "clickable": true, 
+                                          "pressed": "not_pressed", 
+                                          "focusable": true, 
+                                          "long-clickable": false, 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            244, 
+                                            1121, 
+                                            706, 
+                                            1583
+                                          ], 
+                                          "visibility": "visible", 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            490, 
+                                            462, 
+                                            952
+                                          ], 
+                                          "focused": false, 
+                                          "selected": false, 
+                                          "scrollable-vertical": false, 
+                                          "children": [
+                                            {
+                                              "text": "Messaging", 
+                                              "resource-id": "ch.bitspin.timely:id/appName", 
+                                              "adapter-view": false, 
+                                              "pointer": "daaefde", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "ch.bitspin.timely.view.RobotoTextView", 
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                96, 
+                                                95, 
+                                                365, 
+                                                367
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif-light", 
+                                              "class": "ch.bitspin.timely.view.RobotoLightTextView", 
+                                              "visible-to-user": true, 
+                                              "package": "ch.bitspin.timely", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                340, 
+                                                1216, 
+                                                609, 
+                                                1488
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "adapter-view": false, 
+                                          "abs-pos": true, 
+                                          "pointer": "493a8bc", 
+                                          "class": "ch.bitspin.timely.billing.ui.ShareGridItemView_", 
+                                          "visible-to-user": true
+                                        }, 
+                                        {
+                                          "scrollable-horizontal": false, 
+                                          "draw": false, 
+                                          "ancestors": [
+                                            "ch.bitspin.timely.billing.ui.ShareGridItemView", 
+                                            "android.widget.FrameLayout", 
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "clickable": true, 
+                                          "pressed": "not_pressed", 
+                                          "focusable": true, 
+                                          "long-clickable": false, 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            734, 
+                                            1121, 
+                                            1196, 
+                                            1583
+                                          ], 
+                                          "visibility": "visible", 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            490, 
+                                            490, 
+                                            952, 
+                                            952
+                                          ], 
+                                          "focused": false, 
+                                          "selected": false, 
+                                          "scrollable-vertical": false, 
+                                          "children": [
+                                            {
+                                              "text": "Android Beam", 
+                                              "resource-id": "ch.bitspin.timely:id/appName", 
+                                              "adapter-view": false, 
+                                              "pointer": "a91f5bf", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "ch.bitspin.timely.view.RobotoTextView", 
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                57, 
+                                                95, 
+                                                404, 
+                                                367
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif-light", 
+                                              "class": "ch.bitspin.timely.view.RobotoLightTextView", 
+                                              "visible-to-user": true, 
+                                              "package": "ch.bitspin.timely", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                791, 
+                                                1216, 
+                                                1138, 
+                                                1488
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "adapter-view": false, 
+                                          "abs-pos": true, 
+                                          "pointer": "db05045", 
+                                          "class": "ch.bitspin.timely.billing.ui.ShareGridItemView_", 
+                                          "visible-to-user": true
+                                        }, 
+                                        {
+                                          "scrollable-horizontal": false, 
+                                          "draw": false, 
+                                          "ancestors": [
+                                            "ch.bitspin.timely.billing.ui.ShareGridItemView", 
+                                            "android.widget.FrameLayout", 
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "clickable": true, 
+                                          "pressed": "not_pressed", 
+                                          "focusable": true, 
+                                          "long-clickable": false, 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            244, 
+                                            1611, 
+                                            706, 
+                                            2073
+                                          ], 
+                                          "visibility": "visible", 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            980, 
+                                            462, 
+                                            1442
+                                          ], 
+                                          "focused": false, 
+                                          "selected": false, 
+                                          "scrollable-vertical": false, 
+                                          "children": [
+                                            {
+                                              "text": "Fake GPS - Search location", 
+                                              "resource-id": "ch.bitspin.timely:id/appName", 
+                                              "adapter-view": false, 
+                                              "pointer": "7773984", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "ch.bitspin.timely.view.RobotoTextView", 
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                104, 
+                                                462, 
+                                                357
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif-light", 
+                                              "class": "ch.bitspin.timely.view.RobotoLightTextView", 
+                                              "visible-to-user": true, 
+                                              "package": "ch.bitspin.timely", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                244, 
+                                                1715, 
+                                                706, 
+                                                1968
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "adapter-view": false, 
+                                          "abs-pos": true, 
+                                          "pointer": "8b18397", 
+                                          "class": "ch.bitspin.timely.billing.ui.ShareGridItemView_", 
+                                          "visible-to-user": true
+                                        }
+                                      ], 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "ch.bitspin.timely.billing.ui.ShareGridView", 
+                                        "android.widget.GridView", 
+                                        "android.widget.AbsListView", 
+                                        "android.widget.AdapterView", 
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        28, 
+                                        952, 
+                                        1470
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": true, 
+                                      "abs-pos": true, 
+                                      "class": "ch.bitspin.timely.billing.ui.ShareGridView_", 
+                                      "visible-to-user": true, 
+                                      "package": "ch.bitspin.timely", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        244, 
+                                        631, 
+                                        1196, 
+                                        2073
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }
+                                  ], 
+                                  "adapter-view": false, 
+                                  "abs-pos": true, 
+                                  "pointer": "2be390", 
+                                  "class": "android.widget.LinearLayout", 
+                                  "visible-to-user": true
+                                }
+                              ], 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "ch.bitspin.timely.billing.ui.ShareScrollView", 
+                                "ch.bitspin.timely.edgeeffect.ColorableScrollView", 
+                                "android.widget.ScrollView", 
+                                "android.widget.FrameLayout", 
+                                "android.view.ViewGroup", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                0, 
+                                952, 
+                                1498
+                              ], 
+                              "draw": false, 
+                              "focusable": true, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "ch.bitspin.timely.billing.ui.ShareScrollView_", 
+                              "visible-to-user": true, 
+                              "package": "ch.bitspin.timely", 
+                              "enabled": true, 
+                              "bounds": [
+                                244, 
+                                603, 
+                                1196, 
+                                2101
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }
+                          ], 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.view.ViewGroup", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            56, 
+                            228, 
+                            1008, 
+                            1726
+                          ], 
+                          "draw": true, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "class": "android.widget.FrameLayout", 
+                          "visible-to-user": true, 
+                          "package": "ch.bitspin.timely", 
+                          "enabled": true, 
+                          "bounds": [
+                            244, 
+                            603, 
+                            1196, 
+                            2101
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }, 
+                        {
+                          "resource-id": "ch.bitspin.timely:id/expand_button_container", 
+                          "adapter-view": false, 
+                          "pointer": "6e5639a", 
+                          "children": [
+                            {
+                              "resource-id": "ch.bitspin.timely:id/expand_button_image", 
+                              "adapter-view": false, 
+                              "pointer": "72084cb", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                "more items"
+                              ], 
+                              "rel-bounds": [
+                                259, 
+                                0, 
+                                804, 
+                                33
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.ImageView", 
+                              "visible-to-user": false, 
+                              "package": "ch.bitspin.timely", 
+                              "enabled": true, 
+                              "bounds": [
+                                447, 
+                                1967, 
+                                992, 
+                                2000
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "text": "More", 
+                              "resource-id": "ch.bitspin.timely:id/more_items_text", 
+                              "adapter-view": false, 
+                              "pointer": "15094a8", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                475, 
+                                40, 
+                                589, 
+                                106
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.TextView", 
+                              "visible-to-user": false, 
+                              "package": "ch.bitspin.timely", 
+                              "enabled": true, 
+                              "bounds": [
+                                663, 
+                                2007, 
+                                777, 
+                                2073
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }
+                          ], 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.view.ViewGroup", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            1592, 
+                            1064, 
+                            1726
+                          ], 
+                          "draw": true, 
+                          "focusable": true, 
+                          "long-clickable": false, 
+                          "visibility": "invisible", 
+                          "focused": false, 
+                          "clickable": true, 
+                          "abs-pos": true, 
+                          "class": "android.widget.LinearLayout", 
+                          "visible-to-user": false, 
+                          "package": "ch.bitspin.timely", 
+                          "enabled": true, 
+                          "bounds": [
+                            188, 
+                            1967, 
+                            1252, 
+                            2101
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }
+                      ], 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        28, 
+                        291, 
+                        1092, 
+                        2017
+                      ], 
+                      "draw": true, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": true, 
+                      "abs-pos": true, 
+                      "class": "android.widget.RelativeLayout", 
+                      "visible-to-user": true, 
+                      "package": "ch.bitspin.timely", 
+                      "enabled": true, 
+                      "bounds": [
+                        188, 
+                        375, 
+                        1252, 
+                        2101
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "scrollable-horizontal": false, 
+                  "ancestors": [
+                    "ch.bitspin.timely.billing.ui.ShareDialogFragmentView", 
+                    "android.widget.RelativeLayout", 
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "selected": false, 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    0, 
+                    1120, 
+                    2308
+                  ], 
+                  "draw": false, 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "visibility": "visible", 
+                  "focused": false, 
+                  "clickable": true, 
+                  "abs-pos": true, 
+                  "class": "ch.bitspin.timely.billing.ui.ShareDialogFragmentView_", 
+                  "visible-to-user": true, 
+                  "package": "ch.bitspin.timely", 
+                  "enabled": true, 
+                  "bounds": [
+                    160, 
+                    84, 
+                    1280, 
+                    2392
+                  ], 
+                  "pressed": "not_pressed", 
+                  "scrollable-vertical": false
+                }
+              ], 
+              "scrollable-horizontal": false, 
+              "ancestors": [
+                "android.view.ViewGroup", 
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "selected": false, 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                0, 
+                1120, 
+                2308
+              ], 
+              "draw": true, 
+              "focusable": false, 
+              "long-clickable": false, 
+              "visibility": "visible", 
+              "focused": false, 
+              "clickable": false, 
+              "abs-pos": true, 
+              "class": "android.widget.FrameLayout", 
+              "visible-to-user": true, 
+              "package": "android", 
+              "enabled": true, 
+              "bounds": [
+                160, 
+                84, 
+                1280, 
+                2392
+              ], 
+              "pressed": "not_pressed", 
+              "scrollable-vertical": false
+            }, 
+            {
+              "resource-id": "android:id/action_mode_bar_stub", 
+              "adapter-view": false, 
+              "pointer": "e8aabc1", 
+              "scrollable-horizontal": false, 
+              "ancestors": [
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "selected": false, 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                0, 
+                0, 
+                0
+              ], 
+              "draw": true, 
+              "focusable": false, 
+              "long-clickable": false, 
+              "visibility": "gone", 
+              "focused": false, 
+              "clickable": false, 
+              "abs-pos": true, 
+              "class": "android.view.ViewStub", 
+              "visible-to-user": false, 
+              "package": "android", 
+              "enabled": true, 
+              "bounds": [
+                160, 
+                84, 
+                160, 
+                84
+              ], 
+              "pressed": "not_pressed", 
+              "scrollable-vertical": false
+            }
+          ], 
+          "adapter-view": false, 
+          "abs-pos": true, 
+          "pointer": "86cc7d5", 
+          "class": "android.widget.FrameLayout", 
+          "visible-to-user": true
+        }
+      ], 
+      "adapter-view": false, 
+      "abs-pos": true, 
+      "pointer": "9c0048c", 
+      "class": "com.android.internal.policy.PhoneWindow$DecorView", 
+      "visible-to-user": true
+    }, 
+    "added_fragments": [], 
+    "active_fragments": []
+  }, 
+  "is_keyboard_deployed": false, 
+  "request_id": "1435"
+}

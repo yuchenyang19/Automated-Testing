@@ -1,0 +1,1604 @@
+{
+  "activity_name": "com.contextlogic.wishlocal/com.contextlogic.wishlocal.activity.profile.update.UpdateProfileActivity", 
+  "activity": {
+    "root": {
+      "scrollable-horizontal": false, 
+      "draw": true, 
+      "ancestors": [
+        "android.widget.FrameLayout", 
+        "android.view.ViewGroup", 
+        "android.view.View", 
+        "java.lang.Object"
+      ], 
+      "clickable": false, 
+      "pressed": "not_pressed", 
+      "focusable": false, 
+      "long-clickable": false, 
+      "enabled": true, 
+      "bounds": [
+        0, 
+        0, 
+        1440, 
+        2560
+      ], 
+      "visibility": "visible", 
+      "content-desc": [
+        null
+      ], 
+      "rel-bounds": [
+        0, 
+        0, 
+        1440, 
+        2560
+      ], 
+      "focused": false, 
+      "selected": false, 
+      "scrollable-vertical": false, 
+      "children": [
+        {
+          "scrollable-horizontal": false, 
+          "draw": true, 
+          "ancestors": [
+            "android.view.ViewGroup", 
+            "android.view.View", 
+            "java.lang.Object"
+          ], 
+          "clickable": false, 
+          "pressed": "not_pressed", 
+          "focusable": false, 
+          "long-clickable": false, 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            0, 
+            1440, 
+            2392
+          ], 
+          "visibility": "visible", 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            1440, 
+            2392
+          ], 
+          "focused": false, 
+          "selected": false, 
+          "scrollable-vertical": false, 
+          "children": [
+            {
+              "resource-id": "android:id/action_mode_bar_stub", 
+              "adapter-view": false, 
+              "pointer": "875d3a4", 
+              "scrollable-horizontal": false, 
+              "ancestors": [
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "selected": false, 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                0, 
+                0, 
+                0
+              ], 
+              "draw": true, 
+              "focusable": false, 
+              "long-clickable": false, 
+              "visibility": "gone", 
+              "focused": false, 
+              "clickable": false, 
+              "abs-pos": true, 
+              "class": "android.view.ViewStub", 
+              "visible-to-user": false, 
+              "package": "android", 
+              "enabled": true, 
+              "bounds": [
+                0, 
+                0, 
+                0, 
+                0
+              ], 
+              "pressed": "not_pressed", 
+              "scrollable-vertical": false
+            }, 
+            {
+              "scrollable-horizontal": false, 
+              "draw": true, 
+              "ancestors": [
+                "android.view.ViewGroup", 
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "clickable": false, 
+              "pressed": "not_pressed", 
+              "focusable": false, 
+              "long-clickable": false, 
+              "enabled": true, 
+              "bounds": [
+                0, 
+                84, 
+                1440, 
+                2392
+              ], 
+              "visibility": "visible", 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                84, 
+                1440, 
+                2392
+              ], 
+              "focused": false, 
+              "selected": false, 
+              "scrollable-vertical": false, 
+              "children": [
+                {
+                  "resource-id": "com.contextlogic.wishlocal:id/action_bar_root", 
+                  "adapter-view": false, 
+                  "pointer": "3488cc2", 
+                  "children": [
+                    {
+                      "resource-id": "com.contextlogic.wishlocal:id/action_mode_bar_stub", 
+                      "adapter-view": false, 
+                      "pointer": "d33ad3", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": true, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.internal.widget.ViewStubCompat", 
+                      "visible-to-user": false, 
+                      "package": "com.contextlogic.wishlocal", 
+                      "enabled": true, 
+                      "bounds": [
+                        0, 
+                        84, 
+                        0, 
+                        84
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "android:id/content", 
+                      "adapter-view": false, 
+                      "pointer": "80e8610", 
+                      "children": [
+                        {
+                          "resource-id": "com.contextlogic.wishlocal:id/drawer_activity_root_layout", 
+                          "adapter-view": false, 
+                          "pointer": "b682509", 
+                          "children": [
+                            {
+                              "resource-id": "com.contextlogic.wishlocal:id/drawer_activity_toolbar_container", 
+                              "adapter-view": false, 
+                              "pointer": "496b30e", 
+                              "children": [
+                                {
+                                  "resource-id": "com.contextlogic.wishlocal:id/drawer_activity_toolbar", 
+                                  "adapter-view": false, 
+                                  "pointer": "98cb12f", 
+                                  "children": [
+                                    {
+                                      "text": "Update Profile", 
+                                      "scrollable-vertical": false, 
+                                      "adapter-view": false, 
+                                      "pointer": "83df33c", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.widget.TextView", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        56, 
+                                        0, 
+                                        503, 
+                                        196
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "font-family": "default", 
+                                      "class": "com.contextlogic.wishlocal.ui.text.ThemedTextView", 
+                                      "visible-to-user": true, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        56, 
+                                        84, 
+                                        503, 
+                                        280
+                                      ], 
+                                      "pressed": "not_pressed"
+                                    }, 
+                                    {
+                                      "scrollable-horizontal": false, 
+                                      "draw": true, 
+                                      "ancestors": [
+                                        "android.support.v7.widget.LinearLayoutCompat", 
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "clickable": false, 
+                                      "pressed": "not_pressed", 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        1440, 
+                                        84, 
+                                        1440, 
+                                        280
+                                      ], 
+                                      "visibility": "visible", 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        1440, 
+                                        0, 
+                                        1440, 
+                                        196
+                                      ], 
+                                      "focused": false, 
+                                      "selected": false, 
+                                      "scrollable-vertical": false, 
+                                      "adapter-view": false, 
+                                      "abs-pos": true, 
+                                      "pointer": "ee508c5", 
+                                      "class": "android.support.v7.widget.ActionMenuView", 
+                                      "visible-to-user": false
+                                    }
+                                  ], 
+                                  "scrollable-horizontal": false, 
+                                  "ancestors": [
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "selected": false, 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    0, 
+                                    1440, 
+                                    196
+                                  ], 
+                                  "draw": true, 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "visibility": "visible", 
+                                  "focused": false, 
+                                  "clickable": false, 
+                                  "abs-pos": true, 
+                                  "class": "android.support.v7.widget.Toolbar", 
+                                  "visible-to-user": true, 
+                                  "package": "com.contextlogic.wishlocal", 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    84, 
+                                    1440, 
+                                    280
+                                  ], 
+                                  "pressed": "not_pressed", 
+                                  "scrollable-vertical": false
+                                }, 
+                                {
+                                  "text": "", 
+                                  "resource-id": "com.contextlogic.wishlocal:id/drawer_activity_toolbar_badge", 
+                                  "adapter-view": false, 
+                                  "pointer": "d8ef21a", 
+                                  "scrollable-horizontal": false, 
+                                  "ancestors": [
+                                    "android.widget.TextView", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "selected": false, 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0
+                                  ], 
+                                  "draw": false, 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "visibility": "gone", 
+                                  "focused": false, 
+                                  "clickable": false, 
+                                  "abs-pos": true, 
+                                  "font-family": "default", 
+                                  "class": "com.contextlogic.wishlocal.ui.text.ThemedTextView", 
+                                  "visible-to-user": false, 
+                                  "package": "com.contextlogic.wishlocal", 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    84, 
+                                    0, 
+                                    84
+                                  ], 
+                                  "pressed": "not_pressed", 
+                                  "scrollable-vertical": false
+                                }
+                              ], 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.ViewGroup", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                0, 
+                                1440, 
+                                196
+                              ], 
+                              "draw": true, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.FrameLayout", 
+                              "visible-to-user": true, 
+                              "package": "com.contextlogic.wishlocal", 
+                              "enabled": true, 
+                              "bounds": [
+                                0, 
+                                84, 
+                                1440, 
+                                280
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "resource-id": "com.contextlogic.wishlocal:id/drawer_activity_drawer_layout", 
+                              "adapter-view": false, 
+                              "pointer": "dbd314b", 
+                              "children": [
+                                {
+                                  "resource-id": "com.contextlogic.wishlocal:id/drawer_activity_authenticating_view", 
+                                  "adapter-view": false, 
+                                  "pointer": "9950728", 
+                                  "children": [
+                                    {
+                                      "resource-id": "com.contextlogic.wishlocal:id/drawer_activity_authenticating_progress", 
+                                      "adapter-view": false, 
+                                      "pointer": "d926c41", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        0, 
+                                        0
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "com.hannesdorfmann.CircleProgressView", 
+                                      "visible-to-user": false, 
+                                      "package": "com.contextlogic.wishlocal", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        0, 
+                                        280, 
+                                        0, 
+                                        280
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }
+                                  ], 
+                                  "scrollable-horizontal": false, 
+                                  "ancestors": [
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "selected": false, 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0
+                                  ], 
+                                  "draw": true, 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "visibility": "gone", 
+                                  "focused": false, 
+                                  "clickable": false, 
+                                  "abs-pos": true, 
+                                  "class": "android.widget.FrameLayout", 
+                                  "visible-to-user": false, 
+                                  "package": "com.contextlogic.wishlocal", 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    280, 
+                                    0, 
+                                    280
+                                  ], 
+                                  "pressed": "not_pressed", 
+                                  "scrollable-vertical": false
+                                }, 
+                                {
+                                  "resource-id": "com.contextlogic.wishlocal:id/drawer_activity_content_view", 
+                                  "adapter-view": false, 
+                                  "pointer": "f9a15e6", 
+                                  "children": [
+                                    {
+                                      "scrollable-horizontal": false, 
+                                      "draw": false, 
+                                      "ancestors": [
+                                        "android.widget.FrameLayout", 
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "clickable": false, 
+                                      "pressed": "not_pressed", 
+                                      "focusable": true, 
+                                      "long-clickable": false, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        0, 
+                                        280, 
+                                        1440, 
+                                        2392
+                                      ], 
+                                      "visibility": "visible", 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        1440, 
+                                        2112
+                                      ], 
+                                      "focused": false, 
+                                      "selected": false, 
+                                      "scrollable-vertical": true, 
+                                      "children": [
+                                        {
+                                          "scrollable-horizontal": false, 
+                                          "draw": true, 
+                                          "ancestors": [
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "clickable": false, 
+                                          "pressed": "not_pressed", 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            280, 
+                                            1440, 
+                                            1737
+                                          ], 
+                                          "visibility": "visible", 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            1440, 
+                                            1457
+                                          ], 
+                                          "focused": false, 
+                                          "selected": false, 
+                                          "scrollable-vertical": false, 
+                                          "children": [
+                                            {
+                                              "scrollable-horizontal": false, 
+                                              "draw": false, 
+                                              "ancestors": [
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "clickable": false, 
+                                              "pressed": "not_pressed", 
+                                              "focusable": true, 
+                                              "long-clickable": false, 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                35, 
+                                                315, 
+                                                35, 
+                                                315
+                                              ], 
+                                              "visibility": "visible", 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                35, 
+                                                35, 
+                                                35, 
+                                                35
+                                              ], 
+                                              "focused": true, 
+                                              "selected": false, 
+                                              "scrollable-vertical": false, 
+                                              "adapter-view": false, 
+                                              "abs-pos": true, 
+                                              "pointer": "8588b7d", 
+                                              "class": "com.contextlogic.wishlocal.ui.FocusConsumingView", 
+                                              "visible-to-user": false
+                                            }, 
+                                            {
+                                              "scrollable-horizontal": false, 
+                                              "draw": true, 
+                                              "ancestors": [
+                                                "android.view.ViewGroup", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "clickable": false, 
+                                              "pressed": "not_pressed", 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                35, 
+                                                315, 
+                                                1405, 
+                                                630
+                                              ], 
+                                              "visibility": "visible", 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                35, 
+                                                35, 
+                                                1405, 
+                                                350
+                                              ], 
+                                              "focused": false, 
+                                              "selected": false, 
+                                              "scrollable-vertical": false, 
+                                              "children": [
+                                                {
+                                                  "scrollable-horizontal": false, 
+                                                  "draw": true, 
+                                                  "ancestors": [
+                                                    "android.view.ViewGroup", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "clickable": false, 
+                                                  "pressed": "not_pressed", 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    35, 
+                                                    315, 
+                                                    350, 
+                                                    630
+                                                  ], 
+                                                  "visibility": "visible", 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    0, 
+                                                    315, 
+                                                    315
+                                                  ], 
+                                                  "focused": false, 
+                                                  "selected": false, 
+                                                  "scrollable-vertical": false, 
+                                                  "children": [
+                                                    {
+                                                      "resource-id": "com.contextlogic.wishlocal:id/update_profile_fragment_profile_image", 
+                                                      "adapter-view": false, 
+                                                      "pointer": "48c6aac", 
+                                                      "scrollable-horizontal": false, 
+                                                      "ancestors": [
+                                                        "com.contextlogic.wishlocal.ui.image.ZoomingImageView", 
+                                                        "com.contextlogic.wishlocal.ui.image.SafeImageView", 
+                                                        "com.contextlogic.wishlocal.ui.image.AspectRatioImageView", 
+                                                        "android.widget.ImageView", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "selected": false, 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        0, 
+                                                        0, 
+                                                        315, 
+                                                        315
+                                                      ], 
+                                                      "draw": false, 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "visibility": "visible", 
+                                                      "focused": false, 
+                                                      "clickable": true, 
+                                                      "abs-pos": true, 
+                                                      "class": "com.contextlogic.wishlocal.ui.image.NetworkImageView", 
+                                                      "visible-to-user": true, 
+                                                      "package": "com.contextlogic.wishlocal", 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        35, 
+                                                        315, 
+                                                        350, 
+                                                        630
+                                                      ], 
+                                                      "pressed": "not_pressed", 
+                                                      "scrollable-vertical": false
+                                                    }, 
+                                                    {
+                                                      "text": "Edit", 
+                                                      "resource-id": "com.contextlogic.wishlocal:id/update_profile_edit_profile_picture_button", 
+                                                      "adapter-view": false, 
+                                                      "pointer": "abb3e5", 
+                                                      "scrollable-horizontal": false, 
+                                                      "ancestors": [
+                                                        "android.widget.TextView", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "selected": false, 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        96, 
+                                                        222, 
+                                                        219, 
+                                                        315
+                                                      ], 
+                                                      "draw": false, 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "visibility": "visible", 
+                                                      "focused": false, 
+                                                      "clickable": true, 
+                                                      "abs-pos": true, 
+                                                      "font-family": "default", 
+                                                      "class": "com.contextlogic.wishlocal.ui.text.ThemedTextView", 
+                                                      "visible-to-user": true, 
+                                                      "package": "com.contextlogic.wishlocal", 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        131, 
+                                                        537, 
+                                                        254, 
+                                                        630
+                                                      ], 
+                                                      "pressed": "not_pressed", 
+                                                      "scrollable-vertical": false
+                                                    }
+                                                  ], 
+                                                  "adapter-view": false, 
+                                                  "abs-pos": true, 
+                                                  "pointer": "3307ec3", 
+                                                  "class": "android.widget.FrameLayout", 
+                                                  "visible-to-user": true
+                                                }, 
+                                                {
+                                                  "scrollable-horizontal": false, 
+                                                  "draw": true, 
+                                                  "ancestors": [
+                                                    "android.view.ViewGroup", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "clickable": false, 
+                                                  "pressed": "not_pressed", 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    385, 
+                                                    322, 
+                                                    1405, 
+                                                    622
+                                                  ], 
+                                                  "visibility": "visible", 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    350, 
+                                                    7, 
+                                                    1370, 
+                                                    307
+                                                  ], 
+                                                  "focused": false, 
+                                                  "selected": false, 
+                                                  "scrollable-vertical": false, 
+                                                  "children": [
+                                                    {
+                                                      "text": "John", 
+                                                      "resource-id": "com.contextlogic.wishlocal:id/update_profile_fragment_first_name_text", 
+                                                      "adapter-view": false, 
+                                                      "pointer": "c676279", 
+                                                      "scrollable-horizontal": false, 
+                                                      "ancestors": [
+                                                        "android.widget.EditText", 
+                                                        "android.widget.TextView", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "selected": false, 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        0, 
+                                                        0, 
+                                                        1020, 
+                                                        141
+                                                      ], 
+                                                      "draw": false, 
+                                                      "focusable": true, 
+                                                      "long-clickable": true, 
+                                                      "visibility": "visible", 
+                                                      "text-hint": "First Name", 
+                                                      "focused": false, 
+                                                      "clickable": true, 
+                                                      "abs-pos": true, 
+                                                      "font-family": "default", 
+                                                      "class": "com.contextlogic.wishlocal.ui.text.ThemedEditText", 
+                                                      "visible-to-user": true, 
+                                                      "package": "com.contextlogic.wishlocal", 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        385, 
+                                                        322, 
+                                                        1405, 
+                                                        463
+                                                      ], 
+                                                      "pressed": "not_pressed", 
+                                                      "scrollable-vertical": false
+                                                    }, 
+                                                    {
+                                                      "text": "Smith", 
+                                                      "resource-id": "com.contextlogic.wishlocal:id/update_profile_fragment_last_name_text", 
+                                                      "adapter-view": false, 
+                                                      "pointer": "a9bfbbe", 
+                                                      "scrollable-horizontal": false, 
+                                                      "ancestors": [
+                                                        "android.widget.EditText", 
+                                                        "android.widget.TextView", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "selected": false, 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        0, 
+                                                        159, 
+                                                        1020, 
+                                                        300
+                                                      ], 
+                                                      "draw": false, 
+                                                      "focusable": true, 
+                                                      "long-clickable": true, 
+                                                      "visibility": "visible", 
+                                                      "text-hint": "Last Name", 
+                                                      "focused": false, 
+                                                      "clickable": true, 
+                                                      "abs-pos": true, 
+                                                      "font-family": "default", 
+                                                      "class": "com.contextlogic.wishlocal.ui.text.ThemedEditText", 
+                                                      "visible-to-user": true, 
+                                                      "package": "com.contextlogic.wishlocal", 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        385, 
+                                                        481, 
+                                                        1405, 
+                                                        622
+                                                      ], 
+                                                      "pressed": "not_pressed", 
+                                                      "scrollable-vertical": false
+                                                    }
+                                                  ], 
+                                                  "adapter-view": false, 
+                                                  "abs-pos": true, 
+                                                  "pointer": "179340", 
+                                                  "class": "android.widget.LinearLayout", 
+                                                  "visible-to-user": true
+                                                }
+                                              ], 
+                                              "adapter-view": false, 
+                                              "abs-pos": true, 
+                                              "pointer": "7e1aa72", 
+                                              "class": "android.widget.LinearLayout", 
+                                              "visible-to-user": true
+                                            }, 
+                                            {
+                                              "text": "Location:", 
+                                              "scrollable-vertical": false, 
+                                              "adapter-view": false, 
+                                              "pointer": "e12441f", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                35, 
+                                                420, 
+                                                1405, 
+                                                496
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.contextlogic.wishlocal.ui.text.ThemedTextView", 
+                                              "visible-to-user": true, 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                35, 
+                                                700, 
+                                                1405, 
+                                                776
+                                              ], 
+                                              "pressed": "not_pressed"
+                                            }, 
+                                            {
+                                              "text": "Your exact address will not be shared with others", 
+                                              "scrollable-vertical": false, 
+                                              "adapter-view": false, 
+                                              "pointer": "d82a36c", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                35, 
+                                                496, 
+                                                1405, 
+                                                553
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.contextlogic.wishlocal.ui.text.ThemedTextView", 
+                                              "visible-to-user": true, 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                35, 
+                                                776, 
+                                                1405, 
+                                                833
+                                              ], 
+                                              "pressed": "not_pressed"
+                                            }, 
+                                            {
+                                              "text": "40.1141, -88.2253", 
+                                              "resource-id": "com.contextlogic.wishlocal:id/update_profile_fragment_location_text", 
+                                              "adapter-view": false, 
+                                              "pointer": "ff2ad35", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                35, 
+                                                571, 
+                                                1405, 
+                                                712
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": true, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.contextlogic.wishlocal.ui.text.ThemedTextView", 
+                                              "visible-to-user": true, 
+                                              "package": "com.contextlogic.wishlocal", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                35, 
+                                                851, 
+                                                1405, 
+                                                992
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "Gender:", 
+                                              "scrollable-vertical": false, 
+                                              "adapter-view": false, 
+                                              "pointer": "71815ca", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                35, 
+                                                782, 
+                                                1405, 
+                                                858
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.contextlogic.wishlocal.ui.text.ThemedTextView", 
+                                              "visible-to-user": true, 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                35, 
+                                                1062, 
+                                                1405, 
+                                                1138
+                                              ], 
+                                              "pressed": "not_pressed"
+                                            }, 
+                                            {
+                                              "scrollable-horizontal": false, 
+                                              "draw": true, 
+                                              "ancestors": [
+                                                "android.view.ViewGroup", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "clickable": false, 
+                                              "pressed": "not_pressed", 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                35, 
+                                                1156, 
+                                                1405, 
+                                                1303
+                                              ], 
+                                              "visibility": "visible", 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                35, 
+                                                876, 
+                                                1405, 
+                                                1023
+                                              ], 
+                                              "focused": false, 
+                                              "selected": false, 
+                                              "scrollable-vertical": false, 
+                                              "children": [
+                                                {
+                                                  "text": "Female", 
+                                                  "resource-id": "com.contextlogic.wishlocal:id/update_profile_fragment_female_button", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "7ac8a58", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": true, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    0, 
+                                                    685, 
+                                                    147
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": true, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "default", 
+                                                  "class": "com.contextlogic.wishlocal.ui.text.ThemedTextView", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.contextlogic.wishlocal", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    35, 
+                                                    1156, 
+                                                    720, 
+                                                    1303
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }, 
+                                                {
+                                                  "text": "Male", 
+                                                  "resource-id": "com.contextlogic.wishlocal:id/update_profile_fragment_male_button", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "eade7b1", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    685, 
+                                                    0, 
+                                                    1370, 
+                                                    147
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": true, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "default", 
+                                                  "class": "com.contextlogic.wishlocal.ui.text.ThemedTextView", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.contextlogic.wishlocal", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    720, 
+                                                    1156, 
+                                                    1405, 
+                                                    1303
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }
+                                              ], 
+                                              "adapter-view": false, 
+                                              "abs-pos": true, 
+                                              "pointer": "21033b", 
+                                              "class": "android.widget.LinearLayout", 
+                                              "visible-to-user": true
+                                            }, 
+                                            {
+                                              "text": "Save", 
+                                              "resource-id": "com.contextlogic.wishlocal:id/update_profile_fragment_save_button", 
+                                              "adapter-view": false, 
+                                              "pointer": "89c496", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                35, 
+                                                1093, 
+                                                1405, 
+                                                1240
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": true, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.contextlogic.wishlocal.ui.text.ThemedTextView", 
+                                              "visible-to-user": true, 
+                                              "package": "com.contextlogic.wishlocal", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                35, 
+                                                1373, 
+                                                1405, 
+                                                1520
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "Skip", 
+                                              "resource-id": "com.contextlogic.wishlocal:id/update_profile_fragment_skip_button", 
+                                              "adapter-view": false, 
+                                              "pointer": "2098eba", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                35, 
+                                                1275, 
+                                                1405, 
+                                                1422
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": true, 
+                                              "abs-pos": true, 
+                                              "font-family": "default", 
+                                              "class": "com.contextlogic.wishlocal.ui.text.ThemedTextView", 
+                                              "visible-to-user": true, 
+                                              "package": "com.contextlogic.wishlocal", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                35, 
+                                                1555, 
+                                                1405, 
+                                                1702
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "adapter-view": false, 
+                                          "abs-pos": true, 
+                                          "pointer": "2c76dd4", 
+                                          "class": "android.widget.LinearLayout", 
+                                          "visible-to-user": true
+                                        }
+                                      ], 
+                                      "adapter-view": false, 
+                                      "abs-pos": true, 
+                                      "pointer": "d2b9727", 
+                                      "class": "android.widget.ScrollView", 
+                                      "visible-to-user": true
+                                    }
+                                  ], 
+                                  "scrollable-horizontal": false, 
+                                  "ancestors": [
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "selected": false, 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    0, 
+                                    1440, 
+                                    2112
+                                  ], 
+                                  "draw": true, 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "visibility": "visible", 
+                                  "focused": false, 
+                                  "clickable": false, 
+                                  "abs-pos": true, 
+                                  "class": "android.widget.FrameLayout", 
+                                  "visible-to-user": true, 
+                                  "package": "com.contextlogic.wishlocal", 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    280, 
+                                    1440, 
+                                    2392
+                                  ], 
+                                  "pressed": "not_pressed", 
+                                  "scrollable-vertical": false
+                                }, 
+                                {
+                                  "resource-id": "com.contextlogic.wishlocal:id/drawer_activity_menu_view", 
+                                  "adapter-view": false, 
+                                  "pointer": "6929817", 
+                                  "scrollable-horizontal": false, 
+                                  "ancestors": [
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "selected": false, 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    -910, 
+                                    0, 
+                                    0, 
+                                    2112
+                                  ], 
+                                  "draw": true, 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "visibility": "invisible", 
+                                  "focused": false, 
+                                  "clickable": false, 
+                                  "abs-pos": true, 
+                                  "class": "android.widget.FrameLayout", 
+                                  "visible-to-user": false, 
+                                  "package": "com.contextlogic.wishlocal", 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    280, 
+                                    0, 
+                                    2392
+                                  ], 
+                                  "pressed": "not_pressed", 
+                                  "scrollable-vertical": false
+                                }
+                              ], 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.support.v4.widget.DrawerLayout", 
+                                "android.view.ViewGroup", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                196, 
+                                1440, 
+                                2308
+                              ], 
+                              "draw": true, 
+                              "focusable": true, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "com.contextlogic.wishlocal.ui.drawer.SelfClosingDrawerLayout", 
+                              "visible-to-user": true, 
+                              "package": "com.contextlogic.wishlocal", 
+                              "enabled": true, 
+                              "bounds": [
+                                0, 
+                                280, 
+                                1440, 
+                                2392
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }
+                          ], 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.view.ViewGroup", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            1440, 
+                            2308
+                          ], 
+                          "draw": true, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "class": "android.widget.FrameLayout", 
+                          "visible-to-user": true, 
+                          "package": "com.contextlogic.wishlocal", 
+                          "enabled": true, 
+                          "bounds": [
+                            0, 
+                            84, 
+                            1440, 
+                            2392
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }
+                      ], 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.FrameLayout", 
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        1440, 
+                        2308
+                      ], 
+                      "draw": true, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.internal.widget.ContentFrameLayout", 
+                      "visible-to-user": true, 
+                      "package": "android", 
+                      "enabled": true, 
+                      "bounds": [
+                        0, 
+                        84, 
+                        1440, 
+                        2392
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "scrollable-horizontal": false, 
+                  "ancestors": [
+                    "android.widget.LinearLayout", 
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "selected": false, 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    0, 
+                    1440, 
+                    2308
+                  ], 
+                  "draw": true, 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "visibility": "visible", 
+                  "focused": false, 
+                  "clickable": false, 
+                  "abs-pos": true, 
+                  "class": "android.support.v7.internal.widget.FitWindowsLinearLayout", 
+                  "visible-to-user": true, 
+                  "package": "com.contextlogic.wishlocal", 
+                  "enabled": true, 
+                  "bounds": [
+                    0, 
+                    84, 
+                    1440, 
+                    2392
+                  ], 
+                  "pressed": "not_pressed", 
+                  "scrollable-vertical": false
+                }
+              ], 
+              "adapter-view": false, 
+              "abs-pos": true, 
+              "pointer": "57f450d", 
+              "class": "android.widget.FrameLayout", 
+              "visible-to-user": true
+            }
+          ], 
+          "adapter-view": false, 
+          "abs-pos": true, 
+          "pointer": "5bfb237", 
+          "class": "android.widget.LinearLayout", 
+          "visible-to-user": true
+        }, 
+        {
+          "resource-id": "android:id/navigationBarBackground", 
+          "adapter-view": false, 
+          "pointer": "f8bf404", 
+          "scrollable-horizontal": false, 
+          "ancestors": [
+            "java.lang.Object"
+          ], 
+          "selected": false, 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            2392, 
+            1440, 
+            2560
+          ], 
+          "draw": false, 
+          "focusable": false, 
+          "long-clickable": false, 
+          "visibility": "visible", 
+          "focused": false, 
+          "clickable": false, 
+          "abs-pos": true, 
+          "class": "android.view.View", 
+          "visible-to-user": true, 
+          "package": "android", 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            2392, 
+            1440, 
+            2560
+          ], 
+          "pressed": "not_pressed", 
+          "scrollable-vertical": false
+        }, 
+        {
+          "resource-id": "android:id/statusBarBackground", 
+          "adapter-view": false, 
+          "pointer": "2084ded", 
+          "scrollable-horizontal": false, 
+          "ancestors": [
+            "java.lang.Object"
+          ], 
+          "selected": false, 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            1440, 
+            84
+          ], 
+          "draw": false, 
+          "focusable": false, 
+          "long-clickable": false, 
+          "visibility": "visible", 
+          "focused": false, 
+          "clickable": false, 
+          "abs-pos": true, 
+          "class": "android.view.View", 
+          "visible-to-user": true, 
+          "package": "android", 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            0, 
+            1440, 
+            84
+          ], 
+          "pressed": "not_pressed", 
+          "scrollable-vertical": false
+        }
+      ], 
+      "adapter-view": false, 
+      "abs-pos": true, 
+      "pointer": "5707336", 
+      "class": "com.android.internal.policy.PhoneWindow$DecorView", 
+      "visible-to-user": true
+    }, 
+    "added_fragments": [], 
+    "active_fragments": []
+  }, 
+  "is_keyboard_deployed": false, 
+  "request_id": "446"
+}

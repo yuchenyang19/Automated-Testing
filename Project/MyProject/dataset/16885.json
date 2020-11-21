@@ -1,0 +1,1474 @@
+{
+  "activity_name": "com.apartments.mobile.android/com.apartments.mobile.android.activities.HomeActivity", 
+  "activity": {
+    "root": {
+      "scrollable-horizontal": false, 
+      "draw": true, 
+      "ancestors": [
+        "android.widget.FrameLayout", 
+        "android.view.ViewGroup", 
+        "android.view.View", 
+        "java.lang.Object"
+      ], 
+      "clickable": false, 
+      "pressed": "not_pressed", 
+      "focusable": false, 
+      "long-clickable": false, 
+      "enabled": true, 
+      "bounds": [
+        0, 
+        0, 
+        1440, 
+        2560
+      ], 
+      "visibility": "visible", 
+      "content-desc": [
+        null
+      ], 
+      "rel-bounds": [
+        0, 
+        0, 
+        1440, 
+        2560
+      ], 
+      "focused": false, 
+      "selected": false, 
+      "scrollable-vertical": false, 
+      "children": [
+        {
+          "scrollable-horizontal": false, 
+          "draw": true, 
+          "ancestors": [
+            "android.view.ViewGroup", 
+            "android.view.View", 
+            "java.lang.Object"
+          ], 
+          "clickable": false, 
+          "pressed": "not_pressed", 
+          "focusable": false, 
+          "long-clickable": false, 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            0, 
+            1440, 
+            2392
+          ], 
+          "visibility": "visible", 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            1440, 
+            2392
+          ], 
+          "focused": false, 
+          "selected": false, 
+          "scrollable-vertical": false, 
+          "children": [
+            {
+              "resource-id": "android:id/action_mode_bar_stub", 
+              "adapter-view": false, 
+              "pointer": "752d31a", 
+              "scrollable-horizontal": false, 
+              "ancestors": [
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "selected": false, 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                0, 
+                0, 
+                0
+              ], 
+              "draw": true, 
+              "focusable": false, 
+              "long-clickable": false, 
+              "visibility": "gone", 
+              "focused": false, 
+              "clickable": false, 
+              "abs-pos": true, 
+              "class": "android.view.ViewStub", 
+              "visible-to-user": false, 
+              "package": "android", 
+              "enabled": true, 
+              "bounds": [
+                0, 
+                0, 
+                0, 
+                0
+              ], 
+              "pressed": "not_pressed", 
+              "scrollable-vertical": false
+            }, 
+            {
+              "resource-id": "android:id/content", 
+              "adapter-view": false, 
+              "pointer": "ab1fe4b", 
+              "children": [
+                {
+                  "scrollable-horizontal": false, 
+                  "draw": true, 
+                  "ancestors": [
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "clickable": false, 
+                  "pressed": "not_pressed", 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "enabled": true, 
+                  "bounds": [
+                    0, 
+                    84, 
+                    1440, 
+                    2392
+                  ], 
+                  "visibility": "visible", 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    0, 
+                    1440, 
+                    2308
+                  ], 
+                  "focused": false, 
+                  "selected": false, 
+                  "scrollable-vertical": false, 
+                  "children": [
+                    {
+                      "resource-id": "com.apartments.mobile.android:id/appbar_base_dialog", 
+                      "adapter-view": false, 
+                      "pointer": "b4c8141", 
+                      "children": [
+                        {
+                          "resource-id": "com.apartments.mobile.android:id/toolbar", 
+                          "adapter-view": false, 
+                          "pointer": "83b06e6", 
+                          "children": [
+                            {
+                              "text": "Sign In", 
+                              "scrollable-vertical": false, 
+                              "adapter-view": false, 
+                              "pointer": "9203427", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.widget.TextView", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                252, 
+                                51, 
+                                467, 
+                                144
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "font-family": "sans-serif-medium", 
+                              "class": "android.support.v7.widget.AppCompatTextView", 
+                              "visible-to-user": true, 
+                              "enabled": true, 
+                              "bounds": [
+                                252, 
+                                135, 
+                                467, 
+                                228
+                              ], 
+                              "pressed": "not_pressed"
+                            }, 
+                            {
+                              "scrollable-horizontal": false, 
+                              "draw": false, 
+                              "ancestors": [
+                                "android.widget.ImageButton", 
+                                "android.widget.ImageView", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "clickable": true, 
+                              "pressed": "not_pressed", 
+                              "focusable": true, 
+                              "long-clickable": false, 
+                              "enabled": true, 
+                              "bounds": [
+                                0, 
+                                84, 
+                                196, 
+                                280
+                              ], 
+                              "visibility": "visible", 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                0, 
+                                196, 
+                                196
+                              ], 
+                              "focused": false, 
+                              "selected": false, 
+                              "scrollable-vertical": false, 
+                              "adapter-view": false, 
+                              "abs-pos": true, 
+                              "pointer": "fc446d4", 
+                              "class": "android.support.v7.widget.AppCompatImageButton", 
+                              "visible-to-user": true
+                            }
+                          ], 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.view.ViewGroup", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            1440, 
+                            196
+                          ], 
+                          "draw": true, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "class": "android.support.v7.widget.Toolbar", 
+                          "visible-to-user": true, 
+                          "package": "com.apartments.mobile.android", 
+                          "enabled": true, 
+                          "bounds": [
+                            0, 
+                            84, 
+                            1440, 
+                            280
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }
+                      ], 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.LinearLayout", 
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        1440, 
+                        196
+                      ], 
+                      "draw": true, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.design.widget.AppBarLayout", 
+                      "visible-to-user": true, 
+                      "package": "com.apartments.mobile.android", 
+                      "enabled": true, 
+                      "bounds": [
+                        0, 
+                        84, 
+                        1440, 
+                        280
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "scrollable-horizontal": false, 
+                      "draw": true, 
+                      "ancestors": [
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "clickable": false, 
+                      "pressed": "not_pressed", 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "enabled": true, 
+                      "bounds": [
+                        0, 
+                        280, 
+                        1440, 
+                        2392
+                      ], 
+                      "visibility": "visible", 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        196, 
+                        1440, 
+                        2308
+                      ], 
+                      "focused": false, 
+                      "selected": false, 
+                      "scrollable-vertical": false, 
+                      "children": [
+                        {
+                          "scrollable-horizontal": false, 
+                          "draw": false, 
+                          "ancestors": [
+                            "android.widget.FrameLayout", 
+                            "android.view.ViewGroup", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "clickable": false, 
+                          "pressed": "not_pressed", 
+                          "focusable": true, 
+                          "long-clickable": false, 
+                          "enabled": true, 
+                          "bounds": [
+                            0, 
+                            280, 
+                            1440, 
+                            2392
+                          ], 
+                          "visibility": "visible", 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            1440, 
+                            2112
+                          ], 
+                          "focused": false, 
+                          "selected": false, 
+                          "scrollable-vertical": true, 
+                          "children": [
+                            {
+                              "resource-id": "com.apartments.mobile.android:id/container", 
+                              "adapter-view": false, 
+                              "pointer": "651ebc3", 
+                              "children": [
+                                {
+                                  "scrollable-horizontal": false, 
+                                  "draw": true, 
+                                  "ancestors": [
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "clickable": false, 
+                                  "pressed": "not_pressed", 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    280, 
+                                    1440, 
+                                    2024
+                                  ], 
+                                  "visibility": "visible", 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    0, 
+                                    1440, 
+                                    1744
+                                  ], 
+                                  "focused": false, 
+                                  "selected": false, 
+                                  "scrollable-vertical": false, 
+                                  "children": [
+                                    {
+                                      "scrollable-horizontal": false, 
+                                      "draw": false, 
+                                      "ancestors": [
+                                        "android.widget.FrameLayout", 
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "clickable": false, 
+                                      "pressed": "not_pressed", 
+                                      "focusable": true, 
+                                      "long-clickable": false, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        0, 
+                                        280, 
+                                        1440, 
+                                        2024
+                                      ], 
+                                      "visibility": "visible", 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        1440, 
+                                        1744
+                                      ], 
+                                      "focused": false, 
+                                      "selected": false, 
+                                      "scrollable-vertical": true, 
+                                      "children": [
+                                        {
+                                          "resource-id": "com.apartments.mobile.android:id/container", 
+                                          "adapter-view": false, 
+                                          "pointer": "64a0cbe", 
+                                          "children": [
+                                            {
+                                              "resource-id": "com.apartments.mobile.android:id/container", 
+                                              "adapter-view": false, 
+                                              "pointer": "65d811f", 
+                                              "children": [
+                                                {
+                                                  "scrollable-horizontal": false, 
+                                                  "draw": false, 
+                                                  "ancestors": [
+                                                    "android.widget.ImageView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "clickable": false, 
+                                                  "pressed": "not_pressed", 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    254, 
+                                                    363, 
+                                                    1186, 
+                                                    512
+                                                  ], 
+                                                  "visibility": "visible", 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    137, 
+                                                    35, 
+                                                    1233, 
+                                                    210
+                                                  ], 
+                                                  "focused": false, 
+                                                  "selected": false, 
+                                                  "scrollable-vertical": false, 
+                                                  "adapter-view": false, 
+                                                  "abs-pos": true, 
+                                                  "pointer": "219c6c", 
+                                                  "class": "android.support.v7.widget.AppCompatImageView", 
+                                                  "visible-to-user": true
+                                                }, 
+                                                {
+                                                  "text": "Sign up or sign in to access your saved searches and favorites or to add a rental listing on Apartments.com", 
+                                                  "scrollable-vertical": false, 
+                                                  "adapter-view": false, 
+                                                  "pointer": "380b235", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    35, 
+                                                    210, 
+                                                    1335, 
+                                                    404
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "sans-serif", 
+                                                  "class": "android.support.v7.widget.AppCompatTextView", 
+                                                  "visible-to-user": true, 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    70, 
+                                                    525, 
+                                                    1370, 
+                                                    719
+                                                  ], 
+                                                  "pressed": "not_pressed"
+                                                }, 
+                                                {
+                                                  "resource-id": "com.apartments.mobile.android:id/inputLayoutEmail", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "e1636ca", 
+                                                  "children": [
+                                                    {
+                                                      "scrollable-horizontal": false, 
+                                                      "draw": true, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "clickable": false, 
+                                                      "pressed": "not_pressed", 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        70, 
+                                                        757, 
+                                                        1370, 
+                                                        915
+                                                      ], 
+                                                      "visibility": "visible", 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        0, 
+                                                        38, 
+                                                        1300, 
+                                                        196
+                                                      ], 
+                                                      "focused": false, 
+                                                      "selected": false, 
+                                                      "scrollable-vertical": false, 
+                                                      "children": [
+                                                        {
+                                                          "text": "appcrawler5@gmail.com", 
+                                                          "resource-id": "com.apartments.mobile.android:id/textEmail", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "7c21358", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.support.v7.widget.AppCompatEditText", 
+                                                            "android.widget.EditText", 
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            0, 
+                                                            1300, 
+                                                            158
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": true, 
+                                                          "long-clickable": true, 
+                                                          "visibility": "visible", 
+                                                          "focused": true, 
+                                                          "clickable": true, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.design.widget.TextInputEditText", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.apartments.mobile.android", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            70, 
+                                                            757, 
+                                                            1370, 
+                                                            915
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "adapter-view": false, 
+                                                      "abs-pos": true, 
+                                                      "pointer": "e63103b", 
+                                                      "class": "android.widget.FrameLayout", 
+                                                      "visible-to-user": true
+                                                    }
+                                                  ], 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.LinearLayout", 
+                                                    "android.view.ViewGroup", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    35, 
+                                                    404, 
+                                                    1335, 
+                                                    600
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "class": "android.support.design.widget.TextInputLayout", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.apartments.mobile.android", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    70, 
+                                                    719, 
+                                                    1370, 
+                                                    915
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }, 
+                                                {
+                                                  "resource-id": "com.apartments.mobile.android:id/inputLayoutPassword", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "431e555", 
+                                                  "children": [
+                                                    {
+                                                      "scrollable-horizontal": false, 
+                                                      "draw": true, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "clickable": false, 
+                                                      "pressed": "not_pressed", 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        70, 
+                                                        953, 
+                                                        1370, 
+                                                        1111
+                                                      ], 
+                                                      "visibility": "visible", 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        0, 
+                                                        38, 
+                                                        1300, 
+                                                        196
+                                                      ], 
+                                                      "focused": false, 
+                                                      "selected": false, 
+                                                      "scrollable-vertical": false, 
+                                                      "children": [
+                                                        {
+                                                          "text": "appcrawler3116", 
+                                                          "resource-id": "com.apartments.mobile.android:id/textPassword", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "fc8f596", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.support.v7.widget.AppCompatEditText", 
+                                                            "android.widget.EditText", 
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            0, 
+                                                            1300, 
+                                                            158
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": true, 
+                                                          "long-clickable": true, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": true, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.design.widget.TextInputEditText", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.apartments.mobile.android", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            70, 
+                                                            953, 
+                                                            1370, 
+                                                            1111
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "adapter-view": false, 
+                                                      "abs-pos": true, 
+                                                      "pointer": "d973cb1", 
+                                                      "class": "android.widget.FrameLayout", 
+                                                      "visible-to-user": true
+                                                    }
+                                                  ], 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.LinearLayout", 
+                                                    "android.view.ViewGroup", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    35, 
+                                                    600, 
+                                                    1335, 
+                                                    796
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "class": "android.support.design.widget.TextInputLayout", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.apartments.mobile.android", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    70, 
+                                                    915, 
+                                                    1370, 
+                                                    1111
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }, 
+                                                {
+                                                  "text": "Sign In", 
+                                                  "resource-id": "com.apartments.mobile.android:id/btnSubmit", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "b687517", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.Button", 
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    35, 
+                                                    849, 
+                                                    1335, 
+                                                    1017
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": true, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": true, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "sans-serif-medium", 
+                                                  "class": "android.support.v7.widget.AppCompatButton", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.apartments.mobile.android", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    70, 
+                                                    1164, 
+                                                    1370, 
+                                                    1332
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }, 
+                                                {
+                                                  "text": "Forgot Password?", 
+                                                  "resource-id": "com.apartments.mobile.android:id/btnForgotPassword", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "5f10d04", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.Button", 
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    408, 
+                                                    1052, 
+                                                    961, 
+                                                    1220
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": true, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": true, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "sans-serif-medium", 
+                                                  "class": "android.support.v7.widget.AppCompatButton", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.apartments.mobile.android", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    443, 
+                                                    1367, 
+                                                    996, 
+                                                    1535
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }, 
+                                                {
+                                                  "scrollable-horizontal": false, 
+                                                  "draw": false, 
+                                                  "ancestors": [
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "clickable": false, 
+                                                  "pressed": "not_pressed", 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    70, 
+                                                    1535, 
+                                                    1370, 
+                                                    1539
+                                                  ], 
+                                                  "visibility": "visible", 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    35, 
+                                                    1220, 
+                                                    1335, 
+                                                    1224
+                                                  ], 
+                                                  "focused": false, 
+                                                  "selected": false, 
+                                                  "scrollable-vertical": false, 
+                                                  "adapter-view": false, 
+                                                  "abs-pos": true, 
+                                                  "pointer": "eb1f2ed", 
+                                                  "class": "android.view.View", 
+                                                  "visible-to-user": true
+                                                }, 
+                                                {
+                                                  "scrollable-horizontal": false, 
+                                                  "draw": true, 
+                                                  "ancestors": [
+                                                    "android.view.ViewGroup", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "clickable": false, 
+                                                  "pressed": "not_pressed", 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    390, 
+                                                    1592, 
+                                                    1049, 
+                                                    1715
+                                                  ], 
+                                                  "visibility": "visible", 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    355, 
+                                                    1277, 
+                                                    1014, 
+                                                    1400
+                                                  ], 
+                                                  "focused": false, 
+                                                  "selected": false, 
+                                                  "scrollable-vertical": false, 
+                                                  "children": [
+                                                    {
+                                                      "text": "Or connect with", 
+                                                      "scrollable-vertical": false, 
+                                                      "adapter-view": false, 
+                                                      "pointer": "af54bb3", 
+                                                      "scrollable-horizontal": false, 
+                                                      "ancestors": [
+                                                        "android.widget.TextView", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "selected": false, 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        0, 
+                                                        0, 
+                                                        343, 
+                                                        123
+                                                      ], 
+                                                      "draw": false, 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "visibility": "visible", 
+                                                      "focused": false, 
+                                                      "clickable": false, 
+                                                      "abs-pos": true, 
+                                                      "font-family": "sans-serif", 
+                                                      "class": "android.support.v7.widget.AppCompatTextView", 
+                                                      "visible-to-user": true, 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        390, 
+                                                        1592, 
+                                                        733, 
+                                                        1715
+                                                      ], 
+                                                      "pressed": "not_pressed"
+                                                    }, 
+                                                    {
+                                                      "resource-id": "com.apartments.mobile.android:id/btnSignInFacebook", 
+                                                      "adapter-view": false, 
+                                                      "pointer": "6f3f570", 
+                                                      "scrollable-horizontal": false, 
+                                                      "ancestors": [
+                                                        "android.widget.ImageView", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "selected": false, 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        378, 
+                                                        0, 
+                                                        501, 
+                                                        123
+                                                      ], 
+                                                      "draw": false, 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "visibility": "visible", 
+                                                      "focused": false, 
+                                                      "clickable": true, 
+                                                      "abs-pos": true, 
+                                                      "class": "android.support.v7.widget.AppCompatImageView", 
+                                                      "visible-to-user": true, 
+                                                      "package": "com.apartments.mobile.android", 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        768, 
+                                                        1592, 
+                                                        891, 
+                                                        1715
+                                                      ], 
+                                                      "pressed": "not_pressed", 
+                                                      "scrollable-vertical": false
+                                                    }, 
+                                                    {
+                                                      "resource-id": "com.apartments.mobile.android:id/btnSignInGoogle", 
+                                                      "adapter-view": false, 
+                                                      "pointer": "f47d0e9", 
+                                                      "scrollable-horizontal": false, 
+                                                      "ancestors": [
+                                                        "android.widget.ImageView", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "selected": false, 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        536, 
+                                                        0, 
+                                                        659, 
+                                                        123
+                                                      ], 
+                                                      "draw": false, 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "visibility": "visible", 
+                                                      "focused": false, 
+                                                      "clickable": true, 
+                                                      "abs-pos": true, 
+                                                      "class": "android.support.v7.widget.AppCompatImageView", 
+                                                      "visible-to-user": true, 
+                                                      "package": "com.apartments.mobile.android", 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        926, 
+                                                        1592, 
+                                                        1049, 
+                                                        1715
+                                                      ], 
+                                                      "pressed": "not_pressed", 
+                                                      "scrollable-vertical": false
+                                                    }
+                                                  ], 
+                                                  "adapter-view": false, 
+                                                  "abs-pos": true, 
+                                                  "pointer": "a16d522", 
+                                                  "class": "android.widget.LinearLayout", 
+                                                  "visible-to-user": true
+                                                }, 
+                                                {
+                                                  "text": "Sign Up", 
+                                                  "resource-id": "com.apartments.mobile.android:id/btnSignUp", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "71216e", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.Button", 
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    35, 
+                                                    1471, 
+                                                    1335, 
+                                                    1639
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": true, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": true, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "sans-serif-medium", 
+                                                  "class": "android.support.v7.widget.AppCompatButton", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.apartments.mobile.android", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    70, 
+                                                    1786, 
+                                                    1370, 
+                                                    1954
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }
+                                              ], 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.view.ViewGroup", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                1370, 
+                                                1674
+                                              ], 
+                                              "draw": true, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "class": "android.widget.LinearLayout", 
+                                              "visible-to-user": true, 
+                                              "package": "com.apartments.mobile.android", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                35, 
+                                                315, 
+                                                1405, 
+                                                1989
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            35, 
+                                            35, 
+                                            1405, 
+                                            1709
+                                          ], 
+                                          "draw": true, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": false, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.LinearLayout", 
+                                          "visible-to-user": true, 
+                                          "package": "com.apartments.mobile.android", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            35, 
+                                            315, 
+                                            1405, 
+                                            1989
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }
+                                      ], 
+                                      "adapter-view": false, 
+                                      "abs-pos": true, 
+                                      "pointer": "aaf1779", 
+                                      "class": "android.widget.ScrollView", 
+                                      "visible-to-user": true
+                                    }, 
+                                    {
+                                      "resource-id": "com.apartments.mobile.android:id/progress", 
+                                      "adapter-view": false, 
+                                      "pointer": "16ef00f", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        636, 
+                                        788, 
+                                        804, 
+                                        956
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "gone", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.ProgressBar", 
+                                      "visible-to-user": false, 
+                                      "package": "com.apartments.mobile.android", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        636, 
+                                        1068, 
+                                        804, 
+                                        1236
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }
+                                  ], 
+                                  "adapter-view": false, 
+                                  "abs-pos": true, 
+                                  "pointer": "288fc40", 
+                                  "class": "android.widget.FrameLayout", 
+                                  "visible-to-user": true
+                                }
+                              ], 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.ViewGroup", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                0, 
+                                1440, 
+                                1744
+                              ], 
+                              "draw": true, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.FrameLayout", 
+                              "visible-to-user": true, 
+                              "package": "com.apartments.mobile.android", 
+                              "enabled": true, 
+                              "bounds": [
+                                0, 
+                                280, 
+                                1440, 
+                                2024
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }
+                          ], 
+                          "adapter-view": false, 
+                          "abs-pos": true, 
+                          "pointer": "820ab72", 
+                          "class": "android.widget.ScrollView", 
+                          "visible-to-user": true
+                        }, 
+                        {
+                          "resource-id": "com.apartments.mobile.android:id/progress", 
+                          "adapter-view": false, 
+                          "pointer": "3faf89c", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            0, 
+                            0
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "gone", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "class": "android.widget.ProgressBar", 
+                          "visible-to-user": false, 
+                          "package": "com.apartments.mobile.android", 
+                          "enabled": true, 
+                          "bounds": [
+                            0, 
+                            280, 
+                            0, 
+                            280
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }
+                      ], 
+                      "adapter-view": false, 
+                      "abs-pos": true, 
+                      "pointer": "1ef07d", 
+                      "class": "android.widget.FrameLayout", 
+                      "visible-to-user": true
+                    }
+                  ], 
+                  "adapter-view": false, 
+                  "abs-pos": true, 
+                  "pointer": "2465028", 
+                  "class": "android.widget.RelativeLayout", 
+                  "visible-to-user": true
+                }
+              ], 
+              "scrollable-horizontal": false, 
+              "ancestors": [
+                "android.view.ViewGroup", 
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "selected": false, 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                84, 
+                1440, 
+                2392
+              ], 
+              "draw": true, 
+              "focusable": false, 
+              "long-clickable": false, 
+              "visibility": "visible", 
+              "focused": false, 
+              "clickable": false, 
+              "abs-pos": true, 
+              "class": "android.widget.FrameLayout", 
+              "visible-to-user": true, 
+              "package": "android", 
+              "enabled": true, 
+              "bounds": [
+                0, 
+                84, 
+                1440, 
+                2392
+              ], 
+              "pressed": "not_pressed", 
+              "scrollable-vertical": false
+            }
+          ], 
+          "adapter-view": false, 
+          "abs-pos": true, 
+          "pointer": "1b7cdc5", 
+          "class": "android.widget.LinearLayout", 
+          "visible-to-user": true
+        }, 
+        {
+          "resource-id": "android:id/navigationBarBackground", 
+          "adapter-view": false, 
+          "pointer": "e4392a5", 
+          "scrollable-horizontal": false, 
+          "ancestors": [
+            "java.lang.Object"
+          ], 
+          "selected": false, 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            2392, 
+            1440, 
+            2560
+          ], 
+          "draw": false, 
+          "focusable": false, 
+          "long-clickable": false, 
+          "visibility": "visible", 
+          "focused": false, 
+          "clickable": false, 
+          "abs-pos": true, 
+          "class": "android.view.View", 
+          "visible-to-user": true, 
+          "package": "android", 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            2392, 
+            1440, 
+            2560
+          ], 
+          "pressed": "not_pressed", 
+          "scrollable-vertical": false
+        }, 
+        {
+          "resource-id": "android:id/statusBarBackground", 
+          "adapter-view": false, 
+          "pointer": "a11e67a", 
+          "scrollable-horizontal": false, 
+          "ancestors": [
+            "java.lang.Object"
+          ], 
+          "selected": false, 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            1440, 
+            84
+          ], 
+          "draw": false, 
+          "focusable": false, 
+          "long-clickable": false, 
+          "visibility": "visible", 
+          "focused": false, 
+          "clickable": false, 
+          "abs-pos": true, 
+          "class": "android.view.View", 
+          "visible-to-user": true, 
+          "package": "android", 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            0, 
+            1440, 
+            84
+          ], 
+          "pressed": "not_pressed", 
+          "scrollable-vertical": false
+        }
+      ], 
+      "adapter-view": false, 
+      "abs-pos": true, 
+      "pointer": "d3cac3c", 
+      "class": "com.android.internal.policy.PhoneWindow$DecorView", 
+      "visible-to-user": true
+    }, 
+    "added_fragments": [], 
+    "active_fragments": []
+  }, 
+  "is_keyboard_deployed": false, 
+  "request_id": "794"
+}

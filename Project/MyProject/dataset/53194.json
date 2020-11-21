@@ -1,0 +1,3066 @@
+{
+  "activity_name": "org.leo.android.dict/org.leo.android.dict.LeoDict", 
+  "activity": {
+    "root": {
+      "scrollable-horizontal": false, 
+      "draw": true, 
+      "ancestors": [
+        "android.widget.FrameLayout", 
+        "android.view.ViewGroup", 
+        "android.view.View", 
+        "java.lang.Object"
+      ], 
+      "clickable": false, 
+      "pressed": "not_pressed", 
+      "focusable": false, 
+      "long-clickable": false, 
+      "enabled": true, 
+      "bounds": [
+        0, 
+        0, 
+        1440, 
+        2560
+      ], 
+      "visibility": "visible", 
+      "content-desc": [
+        null
+      ], 
+      "rel-bounds": [
+        0, 
+        0, 
+        1440, 
+        2560
+      ], 
+      "focused": false, 
+      "selected": false, 
+      "scrollable-vertical": false, 
+      "children": [
+        {
+          "scrollable-horizontal": false, 
+          "draw": true, 
+          "ancestors": [
+            "android.view.ViewGroup", 
+            "android.view.View", 
+            "java.lang.Object"
+          ], 
+          "clickable": false, 
+          "pressed": "not_pressed", 
+          "focusable": false, 
+          "long-clickable": false, 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            0, 
+            1440, 
+            2392
+          ], 
+          "visibility": "visible", 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            1440, 
+            2392
+          ], 
+          "focused": false, 
+          "selected": false, 
+          "scrollable-vertical": false, 
+          "children": [
+            {
+              "resource-id": "android:id/action_mode_bar_stub", 
+              "adapter-view": false, 
+              "pointer": "89ec920", 
+              "scrollable-horizontal": false, 
+              "ancestors": [
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "selected": false, 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                0, 
+                0, 
+                0
+              ], 
+              "draw": true, 
+              "focusable": false, 
+              "long-clickable": false, 
+              "visibility": "gone", 
+              "focused": false, 
+              "clickable": false, 
+              "abs-pos": true, 
+              "class": "android.view.ViewStub", 
+              "visible-to-user": false, 
+              "package": "android", 
+              "enabled": true, 
+              "bounds": [
+                0, 
+                0, 
+                0, 
+                0
+              ], 
+              "pressed": "not_pressed", 
+              "scrollable-vertical": false
+            }, 
+            {
+              "scrollable-horizontal": false, 
+              "draw": true, 
+              "ancestors": [
+                "android.view.ViewGroup", 
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "clickable": false, 
+              "pressed": "not_pressed", 
+              "focusable": false, 
+              "long-clickable": false, 
+              "enabled": true, 
+              "bounds": [
+                0, 
+                84, 
+                1440, 
+                2392
+              ], 
+              "visibility": "visible", 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                84, 
+                1440, 
+                2392
+              ], 
+              "focused": false, 
+              "selected": false, 
+              "scrollable-vertical": false, 
+              "children": [
+                {
+                  "resource-id": "org.leo.android.dict:id/action_bar_root", 
+                  "adapter-view": false, 
+                  "pointer": "839d49e", 
+                  "children": [
+                    {
+                      "resource-id": "org.leo.android.dict:id/action_mode_bar_stub", 
+                      "adapter-view": false, 
+                      "pointer": "f9bdb7f", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": true, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.widget.ViewStubCompat", 
+                      "visible-to-user": false, 
+                      "package": "org.leo.android.dict", 
+                      "enabled": true, 
+                      "bounds": [
+                        0, 
+                        84, 
+                        0, 
+                        84
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "android:id/content", 
+                      "adapter-view": false, 
+                      "pointer": "577574c", 
+                      "children": [
+                        {
+                          "resource-id": "org.leo.android.dict:id/drawer_layout", 
+                          "adapter-view": false, 
+                          "pointer": "1318395", 
+                          "children": [
+                            {
+                              "resource-id": "org.leo.android.dict:id/activity_layout", 
+                              "adapter-view": false, 
+                              "pointer": "26a9caa", 
+                              "children": [
+                                {
+                                  "resource-id": "org.leo.android.dict:id/toolbar_action", 
+                                  "adapter-view": false, 
+                                  "pointer": "89cb09b", 
+                                  "children": [
+                                    {
+                                      "resource-id": "org.leo.android.dict:id/action_dict", 
+                                      "adapter-view": false, 
+                                      "pointer": "b689c38", 
+                                      "children": [
+                                        {
+                                          "resource-id": "org.leo.android.dict:id/dict_change_layout", 
+                                          "adapter-view": false, 
+                                          "pointer": "673c411", 
+                                          "children": [
+                                            {
+                                              "resource-id": "org.leo.android.dict:id/dict_icon", 
+                                              "adapter-view": false, 
+                                              "pointer": "b2dd976", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.ImageView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                14, 
+                                                168, 
+                                                154
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": true, 
+                                              "abs-pos": true, 
+                                              "class": "android.support.v7.widget.q", 
+                                              "visible-to-user": true, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                252, 
+                                                98, 
+                                                420, 
+                                                238
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            168, 
+                                            168
+                                          ], 
+                                          "draw": true, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.RelativeLayout", 
+                                          "visible-to-user": true, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            252, 
+                                            84, 
+                                            420, 
+                                            252
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "resource-id": "org.leo.android.dict:id/voice_search_layout", 
+                                          "adapter-view": false, 
+                                          "pointer": "20bbb77", 
+                                          "children": [
+                                            {
+                                              "resource-id": "org.leo.android.dict:id/voice_search", 
+                                              "adapter-view": false, 
+                                              "pointer": "72743e4", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.ImageView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                46, 
+                                                46, 
+                                                121, 
+                                                121
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": true, 
+                                              "abs-pos": true, 
+                                              "class": "android.support.v7.widget.q", 
+                                              "visible-to-user": true, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                1318, 
+                                                130, 
+                                                1393, 
+                                                205
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            1020, 
+                                            0, 
+                                            1188, 
+                                            168
+                                          ], 
+                                          "draw": true, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.RelativeLayout", 
+                                          "visible-to-user": true, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            1272, 
+                                            84, 
+                                            1440, 
+                                            252
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "resource-id": "org.leo.android.dict:id/input_layout", 
+                                          "adapter-view": false, 
+                                          "pointer": "8bf904d", 
+                                          "children": [
+                                            {
+                                              "text": "moneys", 
+                                              "resource-id": "org.leo.android.dict:id/input", 
+                                              "adapter-view": false, 
+                                              "pointer": "161702", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                35, 
+                                                17, 
+                                                817, 
+                                                151
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": true, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif", 
+                                              "class": "android.support.v7.widget.ab", 
+                                              "visible-to-user": true, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                455, 
+                                                101, 
+                                                1237, 
+                                                235
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            168, 
+                                            0, 
+                                            1020, 
+                                            168
+                                          ], 
+                                          "draw": true, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": false, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.RelativeLayout", 
+                                          "visible-to-user": true, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            420, 
+                                            84, 
+                                            1272, 
+                                            252
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }
+                                      ], 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        252, 
+                                        0, 
+                                        1440, 
+                                        168
+                                      ], 
+                                      "draw": true, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.RelativeLayout", 
+                                      "visible-to-user": true, 
+                                      "package": "org.leo.android.dict", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        252, 
+                                        84, 
+                                        1440, 
+                                        252
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "resource-id": "org.leo.android.dict:id/action_trainer", 
+                                      "adapter-view": false, 
+                                      "pointer": "1f69813", 
+                                      "children": [
+                                        {
+                                          "resource-id": "org.leo.android.dict:id/trainer_dict_layout", 
+                                          "adapter-view": false, 
+                                          "pointer": "a06ba50", 
+                                          "children": [
+                                            {
+                                              "resource-id": "org.leo.android.dict:id/trainer_dict_icon", 
+                                              "adapter-view": false, 
+                                              "pointer": "b81e449", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.ImageView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                14, 
+                                                168, 
+                                                154
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": true, 
+                                              "abs-pos": true, 
+                                              "class": "android.support.v7.widget.q", 
+                                              "visible-to-user": false, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                252, 
+                                                98, 
+                                                420, 
+                                                238
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            168, 
+                                            168
+                                          ], 
+                                          "draw": true, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.RelativeLayout", 
+                                          "visible-to-user": false, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            252, 
+                                            84, 
+                                            420, 
+                                            252
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "resource-id": "org.leo.android.dict:id/trainer_sync_layout", 
+                                          "adapter-view": false, 
+                                          "pointer": "352a14e", 
+                                          "children": [
+                                            {
+                                              "resource-id": "org.leo.android.dict:id/trainer_sync", 
+                                              "adapter-view": false, 
+                                              "pointer": "7a8a26f", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.ImageView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                28, 
+                                                28, 
+                                                140, 
+                                                140
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": true, 
+                                              "abs-pos": true, 
+                                              "class": "android.support.v7.widget.q", 
+                                              "visible-to-user": false, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                1300, 
+                                                112, 
+                                                1412, 
+                                                224
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            1020, 
+                                            0, 
+                                            1188, 
+                                            168
+                                          ], 
+                                          "draw": true, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.RelativeLayout", 
+                                          "visible-to-user": false, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            1272, 
+                                            84, 
+                                            1440, 
+                                            252
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }
+                                      ], 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        252, 
+                                        0, 
+                                        1440, 
+                                        168
+                                      ], 
+                                      "draw": true, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "gone", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.RelativeLayout", 
+                                      "visible-to-user": false, 
+                                      "package": "org.leo.android.dict", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        252, 
+                                        84, 
+                                        1440, 
+                                        252
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "resource-id": "org.leo.android.dict:id/action_exercise", 
+                                      "adapter-view": false, 
+                                      "pointer": "5252b7c", 
+                                      "children": [
+                                        {
+                                          "resource-id": "org.leo.android.dict:id/exercise_direction_layout", 
+                                          "adapter-view": false, 
+                                          "pointer": "1fb7c05", 
+                                          "children": [
+                                            {
+                                              "resource-id": "org.leo.android.dict:id/exercise_direction", 
+                                              "adapter-view": false, 
+                                              "pointer": "8bb845a", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.ImageView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                0, 
+                                                0
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": true, 
+                                              "abs-pos": true, 
+                                              "class": "android.support.v7.widget.q", 
+                                              "visible-to-user": false, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                84, 
+                                                0, 
+                                                84
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            0, 
+                                            0
+                                          ], 
+                                          "draw": true, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.RelativeLayout", 
+                                          "visible-to-user": false, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            84, 
+                                            0, 
+                                            84
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "text": "", 
+                                          "resource-id": "org.leo.android.dict:id/exercise_text", 
+                                          "adapter-view": false, 
+                                          "pointer": "1c6f68b", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            0, 
+                                            0
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": false, 
+                                          "abs-pos": true, 
+                                          "font-family": "sans-serif", 
+                                          "class": "android.support.v7.widget.ab", 
+                                          "visible-to-user": false, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            84, 
+                                            0, 
+                                            84
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }
+                                      ], 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        0, 
+                                        0
+                                      ], 
+                                      "draw": true, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "gone", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.RelativeLayout", 
+                                      "visible-to-user": false, 
+                                      "package": "org.leo.android.dict", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        0, 
+                                        84, 
+                                        0, 
+                                        84
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "resource-id": "org.leo.android.dict:id/action_course", 
+                                      "adapter-view": false, 
+                                      "pointer": "b578368", 
+                                      "children": [
+                                        {
+                                          "text": "Franz\u00f6sisch - Niveau: A1/A2", 
+                                          "resource-id": "org.leo.android.dict:id/course_text", 
+                                          "adapter-view": false, 
+                                          "pointer": "8bcd381", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            1188, 
+                                            168
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": false, 
+                                          "abs-pos": true, 
+                                          "font-family": "sans-serif", 
+                                          "class": "android.support.v7.widget.ab", 
+                                          "visible-to-user": false, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            252, 
+                                            84, 
+                                            1440, 
+                                            252
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }
+                                      ], 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        252, 
+                                        0, 
+                                        1440, 
+                                        168
+                                      ], 
+                                      "draw": true, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "gone", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.RelativeLayout", 
+                                      "visible-to-user": false, 
+                                      "package": "org.leo.android.dict", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        252, 
+                                        84, 
+                                        1440, 
+                                        252
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "scrollable-horizontal": false, 
+                                      "draw": false, 
+                                      "ancestors": [
+                                        "android.widget.ImageButton", 
+                                        "android.widget.ImageView", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "clickable": true, 
+                                      "pressed": "not_pressed", 
+                                      "focusable": true, 
+                                      "long-clickable": false, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        0, 
+                                        84, 
+                                        196, 
+                                        252
+                                      ], 
+                                      "visibility": "visible", 
+                                      "content-desc": [
+                                        "Open navigation drawer"
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        196, 
+                                        168
+                                      ], 
+                                      "focused": false, 
+                                      "selected": false, 
+                                      "scrollable-vertical": false, 
+                                      "adapter-view": false, 
+                                      "abs-pos": true, 
+                                      "pointer": "a2c7067", 
+                                      "class": "android.support.v7.widget.o", 
+                                      "visible-to-user": true
+                                    }, 
+                                    {
+                                      "scrollable-horizontal": false, 
+                                      "draw": true, 
+                                      "ancestors": [
+                                        "android.support.v7.widget.aq", 
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "clickable": false, 
+                                      "pressed": "not_pressed", 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        1440, 
+                                        84, 
+                                        1440, 
+                                        252
+                                      ], 
+                                      "visibility": "visible", 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        1440, 
+                                        0, 
+                                        1440, 
+                                        168
+                                      ], 
+                                      "focused": false, 
+                                      "selected": false, 
+                                      "scrollable-vertical": false, 
+                                      "adapter-view": false, 
+                                      "abs-pos": true, 
+                                      "pointer": "5d56e14", 
+                                      "class": "android.support.v7.widget.ActionMenuView", 
+                                      "visible-to-user": false
+                                    }
+                                  ], 
+                                  "scrollable-horizontal": false, 
+                                  "ancestors": [
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "selected": false, 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    0, 
+                                    1440, 
+                                    168
+                                  ], 
+                                  "draw": true, 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "visibility": "visible", 
+                                  "focused": false, 
+                                  "clickable": false, 
+                                  "abs-pos": true, 
+                                  "class": "android.support.v7.widget.Toolbar", 
+                                  "visible-to-user": true, 
+                                  "package": "org.leo.android.dict", 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    84, 
+                                    1440, 
+                                    252
+                                  ], 
+                                  "pressed": "not_pressed", 
+                                  "scrollable-vertical": false
+                                }, 
+                                {
+                                  "resource-id": "org.leo.android.dict:id/ad", 
+                                  "adapter-view": false, 
+                                  "pointer": "ae226bd", 
+                                  "scrollable-horizontal": true, 
+                                  "ancestors": [
+                                    "android.widget.AbsoluteLayout", 
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "selected": false, 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    2133, 
+                                    1440, 
+                                    2308
+                                  ], 
+                                  "draw": false, 
+                                  "focusable": true, 
+                                  "long-clickable": false, 
+                                  "visibility": "visible", 
+                                  "focused": true, 
+                                  "clickable": true, 
+                                  "abs-pos": true, 
+                                  "class": "android.webkit.WebView", 
+                                  "visible-to-user": true, 
+                                  "package": "org.leo.android.dict", 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    2217, 
+                                    1440, 
+                                    2392
+                                  ], 
+                                  "pressed": "not_pressed", 
+                                  "scrollable-vertical": true
+                                }, 
+                                {
+                                  "resource-id": "org.leo.android.dict:id/id_content_frame", 
+                                  "adapter-view": false, 
+                                  "pointer": "d4644b2", 
+                                  "children": [
+                                    {
+                                      "scrollable-horizontal": false, 
+                                      "draw": true, 
+                                      "ancestors": [
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "clickable": false, 
+                                      "pressed": "not_pressed", 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        0, 
+                                        252, 
+                                        1440, 
+                                        2217
+                                      ], 
+                                      "visibility": "visible", 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        1440, 
+                                        1965
+                                      ], 
+                                      "focused": false, 
+                                      "selected": false, 
+                                      "scrollable-vertical": false, 
+                                      "children": [
+                                        {
+                                          "resource-id": "android:id/list", 
+                                          "adapter-view": true, 
+                                          "pointer": "f5103d", 
+                                          "children": [
+                                            {
+                                              "text": "Conjugation table for:  advance", 
+                                              "resource-id": "org.leo.android.dict:id/text", 
+                                              "adapter-view": false, 
+                                              "pointer": "4be7183", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                1440, 
+                                                102
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif", 
+                                              "class": "android.support.v7.widget.ab", 
+                                              "visible-to-user": true, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                252, 
+                                                1440, 
+                                                354
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "scrollable-horizontal": false, 
+                                              "draw": true, 
+                                              "ancestors": [
+                                                "android.view.ViewGroup", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "clickable": false, 
+                                              "pressed": "not_pressed", 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                358, 
+                                                1440, 
+                                                460
+                                              ], 
+                                              "visibility": "visible", 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                106, 
+                                                1440, 
+                                                208
+                                              ], 
+                                              "focused": false, 
+                                              "selected": false, 
+                                              "scrollable-vertical": false, 
+                                              "children": [
+                                                {
+                                                  "text": "Indicative", 
+                                                  "resource-id": "org.leo.android.dict:id/text", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "1277339", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    0, 
+                                                    1440, 
+                                                    102
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "sans-serif", 
+                                                  "class": "android.support.v7.widget.ab", 
+                                                  "visible-to-user": true, 
+                                                  "package": "org.leo.android.dict", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    0, 
+                                                    358, 
+                                                    1440, 
+                                                    460
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }
+                                              ], 
+                                              "adapter-view": false, 
+                                              "abs-pos": true, 
+                                              "pointer": "9fe6f00", 
+                                              "class": "android.widget.LinearLayout", 
+                                              "visible-to-user": true
+                                            }, 
+                                            {
+                                              "scrollable-horizontal": false, 
+                                              "draw": true, 
+                                              "ancestors": [
+                                                "android.view.ViewGroup", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "clickable": false, 
+                                              "pressed": "not_pressed", 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                464, 
+                                                1440, 
+                                                566
+                                              ], 
+                                              "visibility": "visible", 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                212, 
+                                                1440, 
+                                                314
+                                              ], 
+                                              "focused": false, 
+                                              "selected": false, 
+                                              "scrollable-vertical": false, 
+                                              "children": [
+                                                {
+                                                  "text": "Simple present", 
+                                                  "resource-id": "org.leo.android.dict:id/text", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "46ca2df", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    0, 
+                                                    1440, 
+                                                    102
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "sans-serif", 
+                                                  "class": "android.support.v7.widget.ab", 
+                                                  "visible-to-user": true, 
+                                                  "package": "org.leo.android.dict", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    0, 
+                                                    464, 
+                                                    1440, 
+                                                    566
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }
+                                              ], 
+                                              "adapter-view": false, 
+                                              "abs-pos": true, 
+                                              "pointer": "9fd9d7e", 
+                                              "class": "android.widget.LinearLayout", 
+                                              "visible-to-user": true
+                                            }, 
+                                            {
+                                              "text": "I advance", 
+                                              "resource-id": "org.leo.android.dict:id/text", 
+                                              "adapter-view": false, 
+                                              "pointer": "35b7b2c", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                318, 
+                                                1440, 
+                                                417
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif", 
+                                              "class": "android.support.v7.widget.ab", 
+                                              "visible-to-user": true, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                570, 
+                                                1440, 
+                                                669
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "you advance", 
+                                              "resource-id": "org.leo.android.dict:id/text", 
+                                              "adapter-view": false, 
+                                              "pointer": "d8309f5", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                421, 
+                                                1440, 
+                                                520
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif", 
+                                              "class": "android.support.v7.widget.ab", 
+                                              "visible-to-user": true, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                673, 
+                                                1440, 
+                                                772
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "he/she/it advances", 
+                                              "resource-id": "org.leo.android.dict:id/text", 
+                                              "adapter-view": false, 
+                                              "pointer": "652138a", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                524, 
+                                                1440, 
+                                                623
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif", 
+                                              "class": "android.support.v7.widget.ab", 
+                                              "visible-to-user": true, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                776, 
+                                                1440, 
+                                                875
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "we advance", 
+                                              "resource-id": "org.leo.android.dict:id/text", 
+                                              "adapter-view": false, 
+                                              "pointer": "9a28dfb", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                627, 
+                                                1440, 
+                                                726
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif", 
+                                              "class": "android.support.v7.widget.ab", 
+                                              "visible-to-user": true, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                879, 
+                                                1440, 
+                                                978
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "you advance", 
+                                              "resource-id": "org.leo.android.dict:id/text", 
+                                              "adapter-view": false, 
+                                              "pointer": "c9b1e18", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                730, 
+                                                1440, 
+                                                829
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif", 
+                                              "class": "android.support.v7.widget.ab", 
+                                              "visible-to-user": true, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                982, 
+                                                1440, 
+                                                1081
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "they advance", 
+                                              "resource-id": "org.leo.android.dict:id/text", 
+                                              "adapter-view": false, 
+                                              "pointer": "fc75071", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                833, 
+                                                1440, 
+                                                932
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif", 
+                                              "class": "android.support.v7.widget.ab", 
+                                              "visible-to-user": true, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                1085, 
+                                                1440, 
+                                                1184
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "scrollable-horizontal": false, 
+                                              "draw": true, 
+                                              "ancestors": [
+                                                "android.view.ViewGroup", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "clickable": false, 
+                                              "pressed": "not_pressed", 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                1188, 
+                                                1440, 
+                                                1290
+                                              ], 
+                                              "visibility": "visible", 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                936, 
+                                                1440, 
+                                                1038
+                                              ], 
+                                              "focused": false, 
+                                              "selected": false, 
+                                              "scrollable-vertical": false, 
+                                              "children": [
+                                                {
+                                                  "text": "Present progressive", 
+                                                  "resource-id": "org.leo.android.dict:id/text", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "c820ed7", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    0, 
+                                                    1440, 
+                                                    102
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "sans-serif", 
+                                                  "class": "android.support.v7.widget.ab", 
+                                                  "visible-to-user": true, 
+                                                  "package": "org.leo.android.dict", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    0, 
+                                                    1188, 
+                                                    1440, 
+                                                    1290
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }
+                                              ], 
+                                              "adapter-view": false, 
+                                              "abs-pos": true, 
+                                              "pointer": "ac5de56", 
+                                              "class": "android.widget.LinearLayout", 
+                                              "visible-to-user": true
+                                            }, 
+                                            {
+                                              "text": "I am advancing", 
+                                              "resource-id": "org.leo.android.dict:id/text", 
+                                              "adapter-view": false, 
+                                              "pointer": "53003c4", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                1042, 
+                                                1440, 
+                                                1141
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif", 
+                                              "class": "android.support.v7.widget.ab", 
+                                              "visible-to-user": true, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                1294, 
+                                                1440, 
+                                                1393
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "you are advancing", 
+                                              "resource-id": "org.leo.android.dict:id/text", 
+                                              "adapter-view": false, 
+                                              "pointer": "42f82ad", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                1145, 
+                                                1440, 
+                                                1244
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif", 
+                                              "class": "android.support.v7.widget.ab", 
+                                              "visible-to-user": true, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                1397, 
+                                                1440, 
+                                                1496
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "he/she/it is advancing", 
+                                              "resource-id": "org.leo.android.dict:id/text", 
+                                              "adapter-view": false, 
+                                              "pointer": "d989e2", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                1248, 
+                                                1440, 
+                                                1347
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif", 
+                                              "class": "android.support.v7.widget.ab", 
+                                              "visible-to-user": true, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                1500, 
+                                                1440, 
+                                                1599
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "we are advancing", 
+                                              "resource-id": "org.leo.android.dict:id/text", 
+                                              "adapter-view": false, 
+                                              "pointer": "b6ec173", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                1351, 
+                                                1440, 
+                                                1450
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif", 
+                                              "class": "android.support.v7.widget.ab", 
+                                              "visible-to-user": true, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                1603, 
+                                                1440, 
+                                                1702
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "you are advancing", 
+                                              "resource-id": "org.leo.android.dict:id/text", 
+                                              "adapter-view": false, 
+                                              "pointer": "f0b9830", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                1454, 
+                                                1440, 
+                                                1553
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif", 
+                                              "class": "android.support.v7.widget.ab", 
+                                              "visible-to-user": true, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                1706, 
+                                                1440, 
+                                                1805
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "they are advancing", 
+                                              "resource-id": "org.leo.android.dict:id/text", 
+                                              "adapter-view": false, 
+                                              "pointer": "56e9ca9", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                1557, 
+                                                1440, 
+                                                1656
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif", 
+                                              "class": "android.support.v7.widget.ab", 
+                                              "visible-to-user": true, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                1809, 
+                                                1440, 
+                                                1908
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "scrollable-horizontal": false, 
+                                              "draw": true, 
+                                              "ancestors": [
+                                                "android.view.ViewGroup", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "clickable": false, 
+                                              "pressed": "not_pressed", 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                1912, 
+                                                1440, 
+                                                2014
+                                              ], 
+                                              "visibility": "visible", 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                1660, 
+                                                1440, 
+                                                1762
+                                              ], 
+                                              "focused": false, 
+                                              "selected": false, 
+                                              "scrollable-vertical": false, 
+                                              "children": [
+                                                {
+                                                  "text": "Simple past", 
+                                                  "resource-id": "org.leo.android.dict:id/text", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "d6a01cf", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    0, 
+                                                    1440, 
+                                                    102
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "sans-serif", 
+                                                  "class": "android.support.v7.widget.ab", 
+                                                  "visible-to-user": true, 
+                                                  "package": "org.leo.android.dict", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    0, 
+                                                    1912, 
+                                                    1440, 
+                                                    2014
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }
+                                              ], 
+                                              "adapter-view": false, 
+                                              "abs-pos": true, 
+                                              "pointer": "78a622e", 
+                                              "class": "android.widget.LinearLayout", 
+                                              "visible-to-user": true
+                                            }, 
+                                            {
+                                              "text": "I advanced", 
+                                              "resource-id": "org.leo.android.dict:id/text", 
+                                              "adapter-view": false, 
+                                              "pointer": "7ca075c", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                1766, 
+                                                1440, 
+                                                1865
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif", 
+                                              "class": "android.support.v7.widget.ab", 
+                                              "visible-to-user": true, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                2018, 
+                                                1440, 
+                                                2117
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }, 
+                                            {
+                                              "text": "you advanced", 
+                                              "resource-id": "org.leo.android.dict:id/text", 
+                                              "adapter-view": false, 
+                                              "pointer": "c6b5a65", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                1869, 
+                                                1440, 
+                                                1968
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif", 
+                                              "class": "android.support.v7.widget.ab", 
+                                              "visible-to-user": true, 
+                                              "package": "org.leo.android.dict", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                2121, 
+                                                1440, 
+                                                2217
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.AbsListView", 
+                                            "android.widget.AdapterView", 
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            1440, 
+                                            1965
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": true, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.ListView", 
+                                          "visible-to-user": true, 
+                                          "package": "android", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            252, 
+                                            1440, 
+                                            2217
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": true
+                                        }
+                                      ], 
+                                      "adapter-view": false, 
+                                      "abs-pos": true, 
+                                      "pointer": "f78b032", 
+                                      "class": "android.widget.LinearLayout", 
+                                      "visible-to-user": true
+                                    }
+                                  ], 
+                                  "scrollable-horizontal": false, 
+                                  "ancestors": [
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "selected": false, 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    168, 
+                                    1440, 
+                                    2133
+                                  ], 
+                                  "draw": true, 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "visibility": "visible", 
+                                  "focused": false, 
+                                  "clickable": false, 
+                                  "abs-pos": true, 
+                                  "class": "android.widget.FrameLayout", 
+                                  "visible-to-user": true, 
+                                  "package": "org.leo.android.dict", 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    252, 
+                                    1440, 
+                                    2217
+                                  ], 
+                                  "pressed": "not_pressed", 
+                                  "scrollable-vertical": false
+                                }
+                              ], 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.ViewGroup", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                0, 
+                                1440, 
+                                2308
+                              ], 
+                              "draw": true, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.RelativeLayout", 
+                              "visible-to-user": true, 
+                              "package": "org.leo.android.dict", 
+                              "enabled": true, 
+                              "bounds": [
+                                0, 
+                                84, 
+                                1440, 
+                                2392
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "resource-id": "org.leo.android.dict:id/left_drawer", 
+                              "adapter-view": false, 
+                              "pointer": "79417dc", 
+                              "children": [
+                                {
+                                  "scrollable-horizontal": false, 
+                                  "draw": false, 
+                                  "ancestors": [
+                                    "android.widget.FrameLayout", 
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "clickable": false, 
+                                  "pressed": "not_pressed", 
+                                  "focusable": true, 
+                                  "long-clickable": false, 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    84, 
+                                    0, 
+                                    1939
+                                  ], 
+                                  "visibility": "visible", 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    0, 
+                                    840, 
+                                    1855
+                                  ], 
+                                  "focused": false, 
+                                  "selected": false, 
+                                  "scrollable-vertical": true, 
+                                  "children": [
+                                    {
+                                      "scrollable-horizontal": false, 
+                                      "draw": true, 
+                                      "ancestors": [
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "clickable": false, 
+                                      "pressed": "not_pressed", 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        0, 
+                                        84, 
+                                        0, 
+                                        1939
+                                      ], 
+                                      "visibility": "visible", 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        840, 
+                                        1855
+                                      ], 
+                                      "focused": false, 
+                                      "selected": false, 
+                                      "scrollable-vertical": false, 
+                                      "children": [
+                                        {
+                                          "text": "Start page", 
+                                          "resource-id": "org.leo.android.dict:id/view_start", 
+                                          "adapter-view": false, 
+                                          "pointer": "5242642", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            840, 
+                                            168
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "font-family": "sans-serif", 
+                                          "class": "android.support.v7.widget.ab", 
+                                          "visible-to-user": false, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            84, 
+                                            0, 
+                                            252
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "text": "Dictionary search", 
+                                          "resource-id": "org.leo.android.dict:id/view_dict", 
+                                          "adapter-view": false, 
+                                          "pointer": "d189653", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            168, 
+                                            840, 
+                                            336
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "font-family": "sans-serif", 
+                                          "class": "android.support.v7.widget.ab", 
+                                          "visible-to-user": false, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            252, 
+                                            0, 
+                                            420
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "text": "Search history", 
+                                          "resource-id": "org.leo.android.dict:id/view_history", 
+                                          "adapter-view": false, 
+                                          "pointer": "8777b90", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            336, 
+                                            840, 
+                                            504
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "font-family": "sans-serif", 
+                                          "class": "android.support.v7.widget.ab", 
+                                          "visible-to-user": false, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            420, 
+                                            0, 
+                                            588
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "text": "Forum", 
+                                          "resource-id": "org.leo.android.dict:id/view_forum", 
+                                          "adapter-view": false, 
+                                          "pointer": "3e5ac89", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            504, 
+                                            840, 
+                                            672
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "font-family": "sans-serif", 
+                                          "class": "android.support.v7.widget.ab", 
+                                          "visible-to-user": false, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            588, 
+                                            0, 
+                                            756
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "text": "Trainer", 
+                                          "resource-id": "org.leo.android.dict:id/view_trainer", 
+                                          "adapter-view": false, 
+                                          "pointer": "e52648e", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            672, 
+                                            840, 
+                                            840
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "font-family": "sans-serif", 
+                                          "class": "android.support.v7.widget.ab", 
+                                          "visible-to-user": false, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            756, 
+                                            0, 
+                                            924
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "text": "Courses", 
+                                          "resource-id": "org.leo.android.dict:id/view_courses", 
+                                          "adapter-view": false, 
+                                          "pointer": "78c44af", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            840, 
+                                            840, 
+                                            1008
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "font-family": "sans-serif", 
+                                          "class": "android.support.v7.widget.ab", 
+                                          "visible-to-user": false, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            924, 
+                                            0, 
+                                            1092
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "scrollable-horizontal": false, 
+                                          "draw": false, 
+                                          "ancestors": [
+                                            "java.lang.Object"
+                                          ], 
+                                          "clickable": false, 
+                                          "pressed": "not_pressed", 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            1092, 
+                                            0, 
+                                            1099
+                                          ], 
+                                          "visibility": "visible", 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            1008, 
+                                            840, 
+                                            1015
+                                          ], 
+                                          "focused": false, 
+                                          "selected": false, 
+                                          "scrollable-vertical": false, 
+                                          "adapter-view": false, 
+                                          "abs-pos": true, 
+                                          "pointer": "200c0bc", 
+                                          "class": "android.view.View", 
+                                          "visible-to-user": false
+                                        }, 
+                                        {
+                                          "text": "Donate", 
+                                          "resource-id": "org.leo.android.dict:id/view_donation", 
+                                          "adapter-view": false, 
+                                          "pointer": "2738845", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            1015, 
+                                            840, 
+                                            1183
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "font-family": "sans-serif", 
+                                          "class": "android.support.v7.widget.ab", 
+                                          "visible-to-user": false, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            1099, 
+                                            0, 
+                                            1267
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "text": "Change dictionary", 
+                                          "resource-id": "org.leo.android.dict:id/view_dictionaries", 
+                                          "adapter-view": false, 
+                                          "pointer": "9143b9a", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            1183, 
+                                            840, 
+                                            1351
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "font-family": "sans-serif", 
+                                          "class": "android.support.v7.widget.ab", 
+                                          "visible-to-user": false, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            1267, 
+                                            0, 
+                                            1435
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "text": "Settings", 
+                                          "resource-id": "org.leo.android.dict:id/view_settings", 
+                                          "adapter-view": false, 
+                                          "pointer": "ae27ccb", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            1351, 
+                                            840, 
+                                            1519
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "font-family": "sans-serif", 
+                                          "class": "android.support.v7.widget.ab", 
+                                          "visible-to-user": false, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            1435, 
+                                            0, 
+                                            1603
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "text": "Help", 
+                                          "resource-id": "org.leo.android.dict:id/view_help", 
+                                          "adapter-view": false, 
+                                          "pointer": "4772ca8", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            1519, 
+                                            840, 
+                                            1687
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "font-family": "sans-serif", 
+                                          "class": "android.support.v7.widget.ab", 
+                                          "visible-to-user": false, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            1603, 
+                                            0, 
+                                            1771
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "text": "Info", 
+                                          "resource-id": "org.leo.android.dict:id/view_about", 
+                                          "adapter-view": false, 
+                                          "pointer": "84963c1", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            1687, 
+                                            840, 
+                                            1855
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "font-family": "sans-serif", 
+                                          "class": "android.support.v7.widget.ab", 
+                                          "visible-to-user": false, 
+                                          "package": "org.leo.android.dict", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            1771, 
+                                            0, 
+                                            1939
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }
+                                      ], 
+                                      "adapter-view": false, 
+                                      "abs-pos": true, 
+                                      "pointer": "48b548d", 
+                                      "class": "android.widget.LinearLayout", 
+                                      "visible-to-user": false
+                                    }
+                                  ], 
+                                  "adapter-view": false, 
+                                  "abs-pos": true, 
+                                  "pointer": "df27124", 
+                                  "class": "android.widget.ScrollView", 
+                                  "visible-to-user": false
+                                }
+                              ], 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.ViewGroup", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                -840, 
+                                0, 
+                                0, 
+                                2308
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "invisible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.LinearLayout", 
+                              "visible-to-user": false, 
+                              "package": "org.leo.android.dict", 
+                              "enabled": true, 
+                              "bounds": [
+                                0, 
+                                84, 
+                                0, 
+                                2392
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }
+                          ], 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.view.ViewGroup", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            1440, 
+                            2308
+                          ], 
+                          "draw": true, 
+                          "focusable": true, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "class": "android.support.v4.widget.DrawerLayout", 
+                          "visible-to-user": true, 
+                          "package": "org.leo.android.dict", 
+                          "enabled": true, 
+                          "bounds": [
+                            0, 
+                            84, 
+                            1440, 
+                            2392
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }
+                      ], 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.FrameLayout", 
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        1440, 
+                        2308
+                      ], 
+                      "draw": true, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.widget.ContentFrameLayout", 
+                      "visible-to-user": true, 
+                      "package": "android", 
+                      "enabled": true, 
+                      "bounds": [
+                        0, 
+                        84, 
+                        1440, 
+                        2392
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "scrollable-horizontal": false, 
+                  "ancestors": [
+                    "android.widget.LinearLayout", 
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "selected": false, 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    0, 
+                    1440, 
+                    2308
+                  ], 
+                  "draw": true, 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "visibility": "visible", 
+                  "focused": false, 
+                  "clickable": false, 
+                  "abs-pos": true, 
+                  "class": "android.support.v7.widget.FitWindowsLinearLayout", 
+                  "visible-to-user": true, 
+                  "package": "org.leo.android.dict", 
+                  "enabled": true, 
+                  "bounds": [
+                    0, 
+                    84, 
+                    1440, 
+                    2392
+                  ], 
+                  "pressed": "not_pressed", 
+                  "scrollable-vertical": false
+                }
+              ], 
+              "adapter-view": false, 
+              "abs-pos": true, 
+              "pointer": "ba392d9", 
+              "class": "android.widget.FrameLayout", 
+              "visible-to-user": true
+            }
+          ], 
+          "adapter-view": false, 
+          "abs-pos": true, 
+          "pointer": "ddd6023", 
+          "class": "android.widget.LinearLayout", 
+          "visible-to-user": true
+        }, 
+        {
+          "resource-id": "android:id/navigationBarBackground", 
+          "adapter-view": false, 
+          "pointer": "fd89f3f", 
+          "scrollable-horizontal": false, 
+          "ancestors": [
+            "java.lang.Object"
+          ], 
+          "selected": false, 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            2392, 
+            1440, 
+            2560
+          ], 
+          "draw": false, 
+          "focusable": false, 
+          "long-clickable": false, 
+          "visibility": "visible", 
+          "focused": false, 
+          "clickable": false, 
+          "abs-pos": true, 
+          "class": "android.view.View", 
+          "visible-to-user": true, 
+          "package": "android", 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            2392, 
+            1440, 
+            2560
+          ], 
+          "pressed": "not_pressed", 
+          "scrollable-vertical": false
+        }, 
+        {
+          "resource-id": "android:id/statusBarBackground", 
+          "adapter-view": false, 
+          "pointer": "97b300c", 
+          "scrollable-horizontal": false, 
+          "ancestors": [
+            "java.lang.Object"
+          ], 
+          "selected": false, 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            1440, 
+            84
+          ], 
+          "draw": false, 
+          "focusable": false, 
+          "long-clickable": false, 
+          "visibility": "visible", 
+          "focused": false, 
+          "clickable": false, 
+          "abs-pos": true, 
+          "class": "android.view.View", 
+          "visible-to-user": true, 
+          "package": "android", 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            0, 
+            1440, 
+            84
+          ], 
+          "pressed": "not_pressed", 
+          "scrollable-vertical": false
+        }
+      ], 
+      "adapter-view": false, 
+      "abs-pos": true, 
+      "pointer": "f59b552", 
+      "class": "com.android.internal.policy.PhoneWindow$DecorView", 
+      "visible-to-user": true
+    }, 
+    "added_fragments": [], 
+    "active_fragments": []
+  }, 
+  "is_keyboard_deployed": false, 
+  "request_id": "972"
+}

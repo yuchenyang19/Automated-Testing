@@ -1,0 +1,3091 @@
+{
+  "activity_name": "com.bravolang.spanish/com.bravolang.spanish.InAppDialog2", 
+  "activity": {
+    "root": {
+      "scrollable-horizontal": false, 
+      "draw": true, 
+      "ancestors": [
+        "android.widget.FrameLayout", 
+        "android.view.ViewGroup", 
+        "android.view.View", 
+        "java.lang.Object"
+      ], 
+      "clickable": false, 
+      "pressed": "not_pressed", 
+      "focusable": false, 
+      "long-clickable": false, 
+      "enabled": true, 
+      "bounds": [
+        0, 
+        0, 
+        1440, 
+        2560
+      ], 
+      "visibility": "visible", 
+      "content-desc": [
+        null
+      ], 
+      "rel-bounds": [
+        0, 
+        0, 
+        1440, 
+        2560
+      ], 
+      "focused": false, 
+      "selected": false, 
+      "scrollable-vertical": false, 
+      "children": [
+        {
+          "scrollable-horizontal": false, 
+          "draw": true, 
+          "ancestors": [
+            "android.view.ViewGroup", 
+            "android.view.View", 
+            "java.lang.Object"
+          ], 
+          "clickable": false, 
+          "pressed": "not_pressed", 
+          "focusable": false, 
+          "long-clickable": false, 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            0, 
+            1440, 
+            2392
+          ], 
+          "visibility": "visible", 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            1440, 
+            2392
+          ], 
+          "focused": false, 
+          "selected": false, 
+          "scrollable-vertical": false, 
+          "children": [
+            {
+              "scrollable-horizontal": false, 
+              "draw": true, 
+              "ancestors": [
+                "android.view.ViewGroup", 
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "clickable": false, 
+              "pressed": "not_pressed", 
+              "focusable": false, 
+              "long-clickable": false, 
+              "enabled": true, 
+              "bounds": [
+                0, 
+                84, 
+                1440, 
+                2392
+              ], 
+              "visibility": "visible", 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                84, 
+                1440, 
+                2392
+              ], 
+              "focused": false, 
+              "selected": false, 
+              "scrollable-vertical": false, 
+              "children": [
+                {
+                  "resource-id": "com.bravolang.spanish:id/action_bar_root", 
+                  "adapter-view": false, 
+                  "pointer": "ebbbf8", 
+                  "children": [
+                    {
+                      "resource-id": "com.bravolang.spanish:id/action_mode_bar_stub", 
+                      "adapter-view": false, 
+                      "pointer": "174c8d1", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": true, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.widget.ViewStubCompat", 
+                      "visible-to-user": false, 
+                      "package": "com.bravolang.spanish", 
+                      "enabled": true, 
+                      "bounds": [
+                        0, 
+                        84, 
+                        0, 
+                        84
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "android:id/content", 
+                      "adapter-view": false, 
+                      "pointer": "68f5f36", 
+                      "children": [
+                        {
+                          "resource-id": "com.bravolang.spanish:id/top_wrapper", 
+                          "adapter-view": false, 
+                          "pointer": "3d22e37", 
+                          "children": [
+                            {
+                              "resource-id": "com.bravolang.spanish:id/appbar", 
+                              "adapter-view": false, 
+                              "pointer": "4fd4c76", 
+                              "children": [
+                                {
+                                  "resource-id": "com.bravolang.spanish:id/toolbar", 
+                                  "adapter-view": false, 
+                                  "pointer": "1c9fa4", 
+                                  "children": [
+                                    {
+                                      "scrollable-horizontal": false, 
+                                      "draw": false, 
+                                      "ancestors": [
+                                        "android.widget.ImageButton", 
+                                        "android.widget.ImageView", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "clickable": true, 
+                                      "pressed": "not_pressed", 
+                                      "focusable": true, 
+                                      "long-clickable": false, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        0, 
+                                        84, 
+                                        196, 
+                                        280
+                                      ], 
+                                      "visibility": "visible", 
+                                      "content-desc": [
+                                        "Navigate up"
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        196, 
+                                        196
+                                      ], 
+                                      "focused": false, 
+                                      "selected": false, 
+                                      "scrollable-vertical": false, 
+                                      "adapter-view": false, 
+                                      "abs-pos": true, 
+                                      "pointer": "1ac210d", 
+                                      "class": "android.support.v7.widget.AppCompatImageButton", 
+                                      "visible-to-user": true
+                                    }, 
+                                    {
+                                      "text": "Upgrade To Premium", 
+                                      "scrollable-vertical": false, 
+                                      "adapter-view": false, 
+                                      "pointer": "56a38c2", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.widget.TextView", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        252, 
+                                        51, 
+                                        916, 
+                                        144
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "font-family": "sans-serif-medium", 
+                                      "class": "android.support.v7.widget.AppCompatTextView", 
+                                      "visible-to-user": true, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        252, 
+                                        135, 
+                                        916, 
+                                        228
+                                      ], 
+                                      "pressed": "not_pressed"
+                                    }, 
+                                    {
+                                      "scrollable-horizontal": false, 
+                                      "draw": true, 
+                                      "ancestors": [
+                                        "android.support.v7.widget.LinearLayoutCompat", 
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "clickable": false, 
+                                      "pressed": "not_pressed", 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        1440, 
+                                        84, 
+                                        1440, 
+                                        280
+                                      ], 
+                                      "visibility": "visible", 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        1440, 
+                                        0, 
+                                        1440, 
+                                        196
+                                      ], 
+                                      "focused": false, 
+                                      "selected": false, 
+                                      "scrollable-vertical": false, 
+                                      "adapter-view": false, 
+                                      "abs-pos": true, 
+                                      "pointer": "39176d3", 
+                                      "class": "android.support.v7.widget.ActionMenuView", 
+                                      "visible-to-user": false
+                                    }
+                                  ], 
+                                  "scrollable-horizontal": false, 
+                                  "ancestors": [
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "selected": false, 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    0, 
+                                    1440, 
+                                    196
+                                  ], 
+                                  "draw": true, 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "visibility": "visible", 
+                                  "focused": false, 
+                                  "clickable": false, 
+                                  "abs-pos": true, 
+                                  "class": "android.support.v7.widget.Toolbar", 
+                                  "visible-to-user": true, 
+                                  "package": "com.bravolang.spanish", 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    84, 
+                                    1440, 
+                                    280
+                                  ], 
+                                  "pressed": "not_pressed", 
+                                  "scrollable-vertical": false
+                                }
+                              ], 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.widget.LinearLayout", 
+                                "android.view.ViewGroup", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                0, 
+                                1440, 
+                                196
+                              ], 
+                              "draw": true, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.support.design.widget.AppBarLayout", 
+                              "visible-to-user": true, 
+                              "package": "com.bravolang.spanish", 
+                              "enabled": true, 
+                              "bounds": [
+                                0, 
+                                84, 
+                                1440, 
+                                280
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "scrollable-horizontal": false, 
+                              "draw": true, 
+                              "ancestors": [
+                                "android.view.ViewGroup", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "clickable": false, 
+                              "pressed": "not_pressed", 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "enabled": true, 
+                              "bounds": [
+                                0, 
+                                280, 
+                                1440, 
+                                2392
+                              ], 
+                              "visibility": "visible", 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                196, 
+                                1440, 
+                                2308
+                              ], 
+                              "focused": false, 
+                              "selected": false, 
+                              "scrollable-vertical": false, 
+                              "children": [
+                                {
+                                  "resource-id": "com.bravolang.spanish:id/content_scroll", 
+                                  "adapter-view": false, 
+                                  "pointer": "1561210", 
+                                  "children": [
+                                    {
+                                      "resource-id": "com.bravolang.spanish:id/content_wrapper", 
+                                      "adapter-view": false, 
+                                      "pointer": "386c109", 
+                                      "children": [
+                                        {
+                                          "resource-id": "com.bravolang.spanish:id/title_card", 
+                                          "adapter-view": false, 
+                                          "pointer": "5271f0e", 
+                                          "children": [
+                                            {
+                                              "resource-id": "com.bravolang.spanish:id/title_wrapper", 
+                                              "adapter-view": false, 
+                                              "pointer": "ff2ad2f", 
+                                              "children": [
+                                                {
+                                                  "resource-id": "com.bravolang.spanish:id/icon", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "c723f3c", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.ImageView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    524, 
+                                                    56, 
+                                                    874, 
+                                                    406
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "class": "android.support.v7.widget.AppCompatImageView", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.bravolang.spanish", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    545, 
+                                                    361, 
+                                                    895, 
+                                                    711
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }, 
+                                                {
+                                                  "text": "Learn languages without limits", 
+                                                  "scrollable-vertical": false, 
+                                                  "adapter-view": false, 
+                                                  "pointer": "e6b6ee4", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    56, 
+                                                    406, 
+                                                    1342, 
+                                                    554
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "sans-serif", 
+                                                  "class": "com.bravolang.spanish.AutoResizeTextView", 
+                                                  "visible-to-user": true, 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    77, 
+                                                    711, 
+                                                    1363, 
+                                                    859
+                                                  ], 
+                                                  "pressed": "not_pressed"
+                                                }, 
+                                                {
+                                                  "text": "Premium lets you learn all phrases anytime. No Internet required and ad-free.", 
+                                                  "scrollable-vertical": false, 
+                                                  "adapter-view": false, 
+                                                  "pointer": "5164c5", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    56, 
+                                                    554, 
+                                                    1342, 
+                                                    724
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "sans-serif", 
+                                                  "class": "android.support.v7.widget.AppCompatTextView", 
+                                                  "visible-to-user": true, 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    77, 
+                                                    859, 
+                                                    1363, 
+                                                    1029
+                                                  ], 
+                                                  "pressed": "not_pressed"
+                                                }
+                                              ], 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.view.ViewGroup", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                7, 
+                                                11, 
+                                                1405, 
+                                                791
+                                              ], 
+                                              "draw": true, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "class": "android.widget.LinearLayout", 
+                                              "visible-to-user": true, 
+                                              "package": "com.bravolang.spanish", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                21, 
+                                                305, 
+                                                1419, 
+                                                1085
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.FrameLayout", 
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            14, 
+                                            14, 
+                                            1426, 
+                                            816
+                                          ], 
+                                          "draw": true, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": false, 
+                                          "abs-pos": true, 
+                                          "class": "android.support.v7.widget.CardView", 
+                                          "visible-to-user": true, 
+                                          "package": "com.bravolang.spanish", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            14, 
+                                            294, 
+                                            1426, 
+                                            1096
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "resource-id": "com.bravolang.spanish:id/btn_watch_ad", 
+                                          "adapter-view": false, 
+                                          "pointer": "4ba1e1a", 
+                                          "children": [
+                                            {
+                                              "resource-id": "com.bravolang.spanish:id/btn_wrapper", 
+                                              "adapter-view": false, 
+                                              "pointer": "a86ed4b", 
+                                              "children": [
+                                                {
+                                                  "scrollable-horizontal": false, 
+                                                  "draw": true, 
+                                                  "ancestors": [
+                                                    "android.view.ViewGroup", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "clickable": false, 
+                                                  "pressed": "not_pressed", 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    21, 
+                                                    1107, 
+                                                    1419, 
+                                                    1357
+                                                  ], 
+                                                  "visibility": "visible", 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    0, 
+                                                    1398, 
+                                                    250
+                                                  ], 
+                                                  "focused": false, 
+                                                  "selected": false, 
+                                                  "scrollable-vertical": false, 
+                                                  "children": [
+                                                    {
+                                                      "scrollable-horizontal": false, 
+                                                      "draw": true, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "clickable": false, 
+                                                      "pressed": "not_pressed", 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        77, 
+                                                        1163, 
+                                                        1228, 
+                                                        1301
+                                                      ], 
+                                                      "visibility": "visible", 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        56, 
+                                                        56, 
+                                                        1207, 
+                                                        194
+                                                      ], 
+                                                      "focused": false, 
+                                                      "selected": false, 
+                                                      "scrollable-vertical": false, 
+                                                      "children": [
+                                                        {
+                                                          "text": "One Time", 
+                                                          "resource-id": "com.bravolang.spanish:id/desc", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "c4c01e6", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            0, 
+                                                            1123, 
+                                                            56
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.v7.widget.AppCompatTextView", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            77, 
+                                                            1163, 
+                                                            1200, 
+                                                            1219
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "text": "TRIAL", 
+                                                          "resource-id": "com.bravolang.spanish:id/details", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "2d51327", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            56, 
+                                                            1123, 
+                                                            138
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.v7.widget.AppCompatTextView", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            77, 
+                                                            1219, 
+                                                            1200, 
+                                                            1301
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "adapter-view": false, 
+                                                      "abs-pos": true, 
+                                                      "pointer": "f688841", 
+                                                      "class": "android.widget.LinearLayout", 
+                                                      "visible-to-user": true
+                                                    }, 
+                                                    {
+                                                      "scrollable-horizontal": false, 
+                                                      "draw": true, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "clickable": false, 
+                                                      "pressed": "not_pressed", 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        1228, 
+                                                        1163, 
+                                                        1363, 
+                                                        1245
+                                                      ], 
+                                                      "visibility": "visible", 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        1207, 
+                                                        56, 
+                                                        1342, 
+                                                        138
+                                                      ], 
+                                                      "focused": false, 
+                                                      "selected": false, 
+                                                      "scrollable-vertical": false, 
+                                                      "children": [
+                                                        {
+                                                          "text": "Free", 
+                                                          "resource-id": "com.bravolang.spanish:id/price", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "774677d", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            0, 
+                                                            135, 
+                                                            82
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.v7.widget.AppCompatTextView", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            1228, 
+                                                            1163, 
+                                                            1363, 
+                                                            1245
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "text": "", 
+                                                          "resource-id": "com.bravolang.spanish:id/price_desc", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "bc65672", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            0, 
+                                                            0, 
+                                                            0
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "gone", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.v7.widget.AppCompatTextView", 
+                                                          "visible-to-user": false, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            1228, 
+                                                            1163, 
+                                                            1228, 
+                                                            1163
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "adapter-view": false, 
+                                                      "abs-pos": true, 
+                                                      "pointer": "7b939d4", 
+                                                      "class": "android.widget.LinearLayout", 
+                                                      "visible-to-user": true
+                                                    }
+                                                  ], 
+                                                  "adapter-view": false, 
+                                                  "abs-pos": true, 
+                                                  "pointer": "ac21328", 
+                                                  "class": "android.widget.LinearLayout", 
+                                                  "visible-to-user": true
+                                                }, 
+                                                {
+                                                  "text": "WATCH AD", 
+                                                  "resource-id": "com.bravolang.spanish:id/bottom_text", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "ff5bac3", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    250, 
+                                                    1398, 
+                                                    372
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "sans-serif", 
+                                                  "class": "android.support.v7.widget.AppCompatTextView", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.bravolang.spanish", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    21, 
+                                                    1357, 
+                                                    1419, 
+                                                    1479
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }
+                                              ], 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.view.ViewGroup", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                7, 
+                                                11, 
+                                                1405, 
+                                                383
+                                              ], 
+                                              "draw": true, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "class": "android.widget.LinearLayout", 
+                                              "visible-to-user": true, 
+                                              "package": "com.bravolang.spanish", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                21, 
+                                                1107, 
+                                                1419, 
+                                                1479
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.FrameLayout", 
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            14, 
+                                            816, 
+                                            1426, 
+                                            1210
+                                          ], 
+                                          "draw": true, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "class": "android.support.v7.widget.CardView", 
+                                          "visible-to-user": true, 
+                                          "package": "com.bravolang.spanish", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            14, 
+                                            1096, 
+                                            1426, 
+                                            1490
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "resource-id": "com.bravolang.spanish:id/btn_upgrade_single", 
+                                          "adapter-view": false, 
+                                          "pointer": "5a1f40", 
+                                          "children": [
+                                            {
+                                              "resource-id": "com.bravolang.spanish:id/btn_wrapper", 
+                                              "adapter-view": false, 
+                                              "pointer": "764fe79", 
+                                              "children": [
+                                                {
+                                                  "scrollable-horizontal": false, 
+                                                  "draw": true, 
+                                                  "ancestors": [
+                                                    "android.view.ViewGroup", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "clickable": false, 
+                                                  "pressed": "not_pressed", 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    0, 
+                                                    280, 
+                                                    0, 
+                                                    280
+                                                  ], 
+                                                  "visibility": "visible", 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    0, 
+                                                    0, 
+                                                    0
+                                                  ], 
+                                                  "focused": false, 
+                                                  "selected": false, 
+                                                  "scrollable-vertical": false, 
+                                                  "children": [
+                                                    {
+                                                      "scrollable-horizontal": false, 
+                                                      "draw": true, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "clickable": false, 
+                                                      "pressed": "not_pressed", 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        0, 
+                                                        280, 
+                                                        0, 
+                                                        280
+                                                      ], 
+                                                      "visibility": "visible", 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        0, 
+                                                        0, 
+                                                        0, 
+                                                        0
+                                                      ], 
+                                                      "focused": false, 
+                                                      "selected": false, 
+                                                      "scrollable-vertical": false, 
+                                                      "children": [
+                                                        {
+                                                          "text": "", 
+                                                          "resource-id": "com.bravolang.spanish:id/desc", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "d61ef6c", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            0, 
+                                                            0, 
+                                                            0
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.v7.widget.AppCompatTextView", 
+                                                          "visible-to-user": false, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            0, 
+                                                            280, 
+                                                            0, 
+                                                            280
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "text": "", 
+                                                          "resource-id": "com.bravolang.spanish:id/details", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "32e0935", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            0, 
+                                                            0, 
+                                                            0
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.v7.widget.AppCompatTextView", 
+                                                          "visible-to-user": false, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            0, 
+                                                            280, 
+                                                            0, 
+                                                            280
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "adapter-view": false, 
+                                                      "abs-pos": true, 
+                                                      "pointer": "7ef401f", 
+                                                      "class": "android.widget.LinearLayout", 
+                                                      "visible-to-user": false
+                                                    }, 
+                                                    {
+                                                      "scrollable-horizontal": false, 
+                                                      "draw": true, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "clickable": false, 
+                                                      "pressed": "not_pressed", 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        0, 
+                                                        280, 
+                                                        0, 
+                                                        280
+                                                      ], 
+                                                      "visibility": "visible", 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        0, 
+                                                        0, 
+                                                        0, 
+                                                        0
+                                                      ], 
+                                                      "focused": false, 
+                                                      "selected": false, 
+                                                      "scrollable-vertical": false, 
+                                                      "children": [
+                                                        {
+                                                          "text": "", 
+                                                          "resource-id": "com.bravolang.spanish:id/price", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "d1bf3b", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            0, 
+                                                            0, 
+                                                            0
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.v7.widget.AppCompatTextView", 
+                                                          "visible-to-user": false, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            0, 
+                                                            280, 
+                                                            0, 
+                                                            280
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "text": "", 
+                                                          "resource-id": "com.bravolang.spanish:id/price_desc", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "4349658", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            0, 
+                                                            0, 
+                                                            0
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "gone", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.v7.widget.AppCompatTextView", 
+                                                          "visible-to-user": false, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            0, 
+                                                            280, 
+                                                            0, 
+                                                            280
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "adapter-view": false, 
+                                                      "abs-pos": true, 
+                                                      "pointer": "56641ca", 
+                                                      "class": "android.widget.LinearLayout", 
+                                                      "visible-to-user": false
+                                                    }
+                                                  ], 
+                                                  "adapter-view": false, 
+                                                  "abs-pos": true, 
+                                                  "pointer": "61f67be", 
+                                                  "class": "android.widget.LinearLayout", 
+                                                  "visible-to-user": false
+                                                }, 
+                                                {
+                                                  "text": "", 
+                                                  "resource-id": "com.bravolang.spanish:id/bottom_text", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "4303b1", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    0, 
+                                                    0, 
+                                                    0
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "sans-serif", 
+                                                  "class": "android.support.v7.widget.AppCompatTextView", 
+                                                  "visible-to-user": false, 
+                                                  "package": "com.bravolang.spanish", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    0, 
+                                                    280, 
+                                                    0, 
+                                                    280
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }
+                                              ], 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.view.ViewGroup", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                0, 
+                                                0
+                                              ], 
+                                              "draw": true, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "class": "android.widget.LinearLayout", 
+                                              "visible-to-user": false, 
+                                              "package": "com.bravolang.spanish", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                280, 
+                                                0, 
+                                                280
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.FrameLayout", 
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            0, 
+                                            0
+                                          ], 
+                                          "draw": true, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "gone", 
+                                          "focused": false, 
+                                          "clickable": false, 
+                                          "abs-pos": true, 
+                                          "class": "android.support.v7.widget.CardView", 
+                                          "visible-to-user": false, 
+                                          "package": "com.bravolang.spanish", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            280, 
+                                            0, 
+                                            280
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "resource-id": "com.bravolang.spanish:id/btn_upgrade_all", 
+                                          "adapter-view": false, 
+                                          "pointer": "38eb096", 
+                                          "children": [
+                                            {
+                                              "resource-id": "com.bravolang.spanish:id/btn_wrapper", 
+                                              "adapter-view": false, 
+                                              "pointer": "7931417", 
+                                              "children": [
+                                                {
+                                                  "scrollable-horizontal": false, 
+                                                  "draw": true, 
+                                                  "ancestors": [
+                                                    "android.view.ViewGroup", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "clickable": false, 
+                                                  "pressed": "not_pressed", 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    21, 
+                                                    1501, 
+                                                    1419, 
+                                                    1751
+                                                  ], 
+                                                  "visibility": "visible", 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    0, 
+                                                    1398, 
+                                                    250
+                                                  ], 
+                                                  "focused": false, 
+                                                  "selected": false, 
+                                                  "scrollable-vertical": false, 
+                                                  "children": [
+                                                    {
+                                                      "scrollable-horizontal": false, 
+                                                      "draw": true, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "clickable": false, 
+                                                      "pressed": "not_pressed", 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        77, 
+                                                        1557, 
+                                                        1189, 
+                                                        1695
+                                                      ], 
+                                                      "visibility": "visible", 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        56, 
+                                                        56, 
+                                                        1168, 
+                                                        194
+                                                      ], 
+                                                      "focused": false, 
+                                                      "selected": false, 
+                                                      "scrollable-vertical": false, 
+                                                      "children": [
+                                                        {
+                                                          "text": "Upgrade for learning all languages", 
+                                                          "resource-id": "com.bravolang.spanish:id/desc", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "3fd4022", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            0, 
+                                                            1084, 
+                                                            56
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.v7.widget.AppCompatTextView", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            77, 
+                                                            1557, 
+                                                            1161, 
+                                                            1613
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "text": "SPANISH", 
+                                                          "resource-id": "com.bravolang.spanish:id/details", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "8aadab3", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            56, 
+                                                            1084, 
+                                                            138
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.v7.widget.AppCompatTextView", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            77, 
+                                                            1613, 
+                                                            1161, 
+                                                            1695
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "adapter-view": false, 
+                                                      "abs-pos": true, 
+                                                      "pointer": "dd329ed", 
+                                                      "class": "android.widget.LinearLayout", 
+                                                      "visible-to-user": true
+                                                    }, 
+                                                    {
+                                                      "scrollable-horizontal": false, 
+                                                      "draw": true, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "clickable": false, 
+                                                      "pressed": "not_pressed", 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        1189, 
+                                                        1557, 
+                                                        1363, 
+                                                        1639
+                                                      ], 
+                                                      "visibility": "visible", 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        1168, 
+                                                        56, 
+                                                        1342, 
+                                                        138
+                                                      ], 
+                                                      "focused": false, 
+                                                      "selected": false, 
+                                                      "scrollable-vertical": false, 
+                                                      "children": [
+                                                        {
+                                                          "text": "$4.99", 
+                                                          "resource-id": "com.bravolang.spanish:id/price", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "4c577e9", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            0, 
+                                                            174, 
+                                                            82
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.v7.widget.AppCompatTextView", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            1189, 
+                                                            1557, 
+                                                            1363, 
+                                                            1639
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "text": "", 
+                                                          "resource-id": "com.bravolang.spanish:id/price_desc", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "9d33c6e", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            0, 
+                                                            0, 
+                                                            0
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "gone", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.v7.widget.AppCompatTextView", 
+                                                          "visible-to-user": false, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            1189, 
+                                                            1557, 
+                                                            1189, 
+                                                            1557
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "adapter-view": false, 
+                                                      "abs-pos": true, 
+                                                      "pointer": "8d3d870", 
+                                                      "class": "android.widget.LinearLayout", 
+                                                      "visible-to-user": true
+                                                    }
+                                                  ], 
+                                                  "adapter-view": false, 
+                                                  "abs-pos": true, 
+                                                  "pointer": "a88c004", 
+                                                  "class": "android.widget.LinearLayout", 
+                                                  "visible-to-user": true
+                                                }, 
+                                                {
+                                                  "text": "PERFECT FOR TRAVEL", 
+                                                  "resource-id": "com.bravolang.spanish:id/bottom_text", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "66e6f0f", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    250, 
+                                                    1398, 
+                                                    372
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "sans-serif", 
+                                                  "class": "android.support.v7.widget.AppCompatTextView", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.bravolang.spanish", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    21, 
+                                                    1751, 
+                                                    1419, 
+                                                    1873
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }
+                                              ], 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.view.ViewGroup", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                7, 
+                                                11, 
+                                                1405, 
+                                                383
+                                              ], 
+                                              "draw": true, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "class": "android.widget.LinearLayout", 
+                                              "visible-to-user": true, 
+                                              "package": "com.bravolang.spanish", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                21, 
+                                                1501, 
+                                                1419, 
+                                                1873
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.FrameLayout", 
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            14, 
+                                            1210, 
+                                            1426, 
+                                            1604
+                                          ], 
+                                          "draw": true, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "class": "android.support.v7.widget.CardView", 
+                                          "visible-to-user": true, 
+                                          "package": "com.bravolang.spanish", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            14, 
+                                            1490, 
+                                            1426, 
+                                            1884
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "scrollable-horizontal": false, 
+                                          "draw": true, 
+                                          "ancestors": [
+                                            "android.widget.FrameLayout", 
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "clickable": false, 
+                                          "pressed": "not_pressed", 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            14, 
+                                            1884, 
+                                            1426, 
+                                            2392
+                                          ], 
+                                          "visibility": "visible", 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            14, 
+                                            1604, 
+                                            1426, 
+                                            2646
+                                          ], 
+                                          "focused": false, 
+                                          "selected": false, 
+                                          "scrollable-vertical": false, 
+                                          "children": [
+                                            {
+                                              "scrollable-horizontal": false, 
+                                              "draw": true, 
+                                              "ancestors": [
+                                                "android.view.ViewGroup", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "clickable": false, 
+                                              "pressed": "not_pressed", 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                21, 
+                                                1895, 
+                                                1419, 
+                                                2392
+                                              ], 
+                                              "visibility": "visible", 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                7, 
+                                                11, 
+                                                1405, 
+                                                1031
+                                              ], 
+                                              "focused": false, 
+                                              "selected": false, 
+                                              "scrollable-vertical": false, 
+                                              "children": [
+                                                {
+                                                  "text": "ABOUT PREMIUM", 
+                                                  "resource-id": "com.bravolang.spanish:id/desc_title", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "6fab17a", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    56, 
+                                                    56, 
+                                                    1342, 
+                                                    166
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "sans-serif", 
+                                                  "class": "android.support.v7.widget.AppCompatTextView", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.bravolang.spanish", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    77, 
+                                                    1951, 
+                                                    1363, 
+                                                    2061
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }, 
+                                                {
+                                                  "resource-id": "com.bravolang.spanish:id/btn_feature1", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "92ced2b", 
+                                                  "children": [
+                                                    {
+                                                      "scrollable-horizontal": false, 
+                                                      "draw": true, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "clickable": false, 
+                                                      "pressed": "not_pressed", 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        133, 
+                                                        2117, 
+                                                        343, 
+                                                        2327
+                                                      ], 
+                                                      "visibility": "visible", 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        56, 
+                                                        56, 
+                                                        266, 
+                                                        266
+                                                      ], 
+                                                      "focused": false, 
+                                                      "selected": false, 
+                                                      "scrollable-vertical": false, 
+                                                      "children": [
+                                                        {
+                                                          "resource-id": "com.bravolang.spanish:id/icon", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "92b3b21", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.ImageView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            0, 
+                                                            210, 
+                                                            210
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "class": "android.support.v7.widget.AppCompatImageView", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            133, 
+                                                            2117, 
+                                                            343, 
+                                                            2327
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "adapter-view": false, 
+                                                      "abs-pos": true, 
+                                                      "pointer": "2a64588", 
+                                                      "class": "android.widget.LinearLayout", 
+                                                      "visible-to-user": true
+                                                    }, 
+                                                    {
+                                                      "scrollable-horizontal": false, 
+                                                      "draw": true, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "clickable": false, 
+                                                      "pressed": "not_pressed", 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        343, 
+                                                        2143, 
+                                                        1307, 
+                                                        2301
+                                                      ], 
+                                                      "visibility": "visible", 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        266, 
+                                                        82, 
+                                                        1230, 
+                                                        240
+                                                      ], 
+                                                      "focused": false, 
+                                                      "selected": false, 
+                                                      "scrollable-vertical": false, 
+                                                      "children": [
+                                                        {
+                                                          "text": "Get Everything", 
+                                                          "resource-id": "com.bravolang.spanish:id/icon_desc", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "50b3107", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            112, 
+                                                            0, 
+                                                            517, 
+                                                            101
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.v7.widget.AppCompatTextView", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            455, 
+                                                            2143, 
+                                                            860, 
+                                                            2244
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "text": "Learn all phrases & vocabularies.", 
+                                                          "resource-id": "com.bravolang.spanish:id/text1", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "11e3234", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            112, 
+                                                            101, 
+                                                            828, 
+                                                            158
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.v7.widget.AppCompatTextView", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            455, 
+                                                            2244, 
+                                                            1171, 
+                                                            2301
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "adapter-view": false, 
+                                                      "abs-pos": true, 
+                                                      "pointer": "ff26b46", 
+                                                      "class": "android.widget.LinearLayout", 
+                                                      "visible-to-user": true
+                                                    }
+                                                  ], 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.view.ViewGroup", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    56, 
+                                                    166, 
+                                                    1342, 
+                                                    432
+                                                  ], 
+                                                  "draw": true, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "class": "android.widget.LinearLayout", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.bravolang.spanish", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    77, 
+                                                    2061, 
+                                                    1363, 
+                                                    2327
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }, 
+                                                {
+                                                  "resource-id": "com.bravolang.spanish:id/btn_feature2", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "55f685d", 
+                                                  "children": [
+                                                    {
+                                                      "scrollable-horizontal": false, 
+                                                      "draw": true, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "clickable": false, 
+                                                      "pressed": "not_pressed", 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        133, 
+                                                        2383, 
+                                                        343, 
+                                                        2392
+                                                      ], 
+                                                      "visibility": "visible", 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        56, 
+                                                        56, 
+                                                        266, 
+                                                        266
+                                                      ], 
+                                                      "focused": false, 
+                                                      "selected": false, 
+                                                      "scrollable-vertical": false, 
+                                                      "children": [
+                                                        {
+                                                          "resource-id": "com.bravolang.spanish:id/icon", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "19fd6a3", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.ImageView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            0, 
+                                                            210, 
+                                                            210
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "class": "android.support.v7.widget.AppCompatImageView", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            133, 
+                                                            2383, 
+                                                            343, 
+                                                            2392
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "adapter-view": false, 
+                                                      "abs-pos": true, 
+                                                      "pointer": "59f5d2", 
+                                                      "class": "android.widget.LinearLayout", 
+                                                      "visible-to-user": true
+                                                    }, 
+                                                    {
+                                                      "scrollable-horizontal": false, 
+                                                      "draw": true, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "clickable": false, 
+                                                      "pressed": "not_pressed", 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        343, 
+                                                        2409, 
+                                                        1307, 
+                                                        2392
+                                                      ], 
+                                                      "visibility": "visible", 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        266, 
+                                                        82, 
+                                                        1230, 
+                                                        240
+                                                      ], 
+                                                      "focused": false, 
+                                                      "selected": false, 
+                                                      "scrollable-vertical": false, 
+                                                      "children": [
+                                                        {
+                                                          "text": "No Ads", 
+                                                          "resource-id": "com.bravolang.spanish:id/icon_desc", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "eaf2d59", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            112, 
+                                                            0, 
+                                                            318, 
+                                                            101
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.v7.widget.AppCompatTextView", 
+                                                          "visible-to-user": false, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            455, 
+                                                            2409, 
+                                                            661, 
+                                                            2392
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "text": "Uninterrupted learning experience.", 
+                                                          "resource-id": "com.bravolang.spanish:id/text1", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "c3d9d1e", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            112, 
+                                                            101, 
+                                                            859, 
+                                                            158
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.v7.widget.AppCompatTextView", 
+                                                          "visible-to-user": false, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            455, 
+                                                            2510, 
+                                                            1202, 
+                                                            2392
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "adapter-view": false, 
+                                                      "abs-pos": true, 
+                                                      "pointer": "9863da0", 
+                                                      "class": "android.widget.LinearLayout", 
+                                                      "visible-to-user": false
+                                                    }
+                                                  ], 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.view.ViewGroup", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    56, 
+                                                    432, 
+                                                    1342, 
+                                                    698
+                                                  ], 
+                                                  "draw": true, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "class": "android.widget.LinearLayout", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.bravolang.spanish", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    77, 
+                                                    2327, 
+                                                    1363, 
+                                                    2392
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }, 
+                                                {
+                                                  "resource-id": "com.bravolang.spanish:id/btn_feature3", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "f4f39ff", 
+                                                  "children": [
+                                                    {
+                                                      "scrollable-horizontal": false, 
+                                                      "draw": true, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "clickable": false, 
+                                                      "pressed": "not_pressed", 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        133, 
+                                                        2649, 
+                                                        343, 
+                                                        2392
+                                                      ], 
+                                                      "visibility": "visible", 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        56, 
+                                                        56, 
+                                                        266, 
+                                                        266
+                                                      ], 
+                                                      "focused": false, 
+                                                      "selected": false, 
+                                                      "scrollable-vertical": false, 
+                                                      "children": [
+                                                        {
+                                                          "resource-id": "com.bravolang.spanish:id/icon", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "59c4615", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.ImageView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            0, 
+                                                            210, 
+                                                            210
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "class": "android.support.v7.widget.AppCompatImageView", 
+                                                          "visible-to-user": false, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            133, 
+                                                            2649, 
+                                                            343, 
+                                                            2392
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "adapter-view": false, 
+                                                      "abs-pos": true, 
+                                                      "pointer": "2a193cc", 
+                                                      "class": "android.widget.LinearLayout", 
+                                                      "visible-to-user": false
+                                                    }, 
+                                                    {
+                                                      "scrollable-horizontal": false, 
+                                                      "draw": true, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "clickable": false, 
+                                                      "pressed": "not_pressed", 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        343, 
+                                                        2675, 
+                                                        1307, 
+                                                        2392
+                                                      ], 
+                                                      "visibility": "visible", 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        266, 
+                                                        82, 
+                                                        1230, 
+                                                        240
+                                                      ], 
+                                                      "focused": false, 
+                                                      "selected": false, 
+                                                      "scrollable-vertical": false, 
+                                                      "children": [
+                                                        {
+                                                          "text": "Listen Offline", 
+                                                          "resource-id": "com.bravolang.spanish:id/icon_desc", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "667771b", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            112, 
+                                                            0, 
+                                                            482, 
+                                                            101
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.v7.widget.AppCompatTextView", 
+                                                          "visible-to-user": false, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            455, 
+                                                            2675, 
+                                                            825, 
+                                                            2392
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "text": "No Internet connection required.", 
+                                                          "resource-id": "com.bravolang.spanish:id/text1", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "a3a20b8", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.TextView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            112, 
+                                                            101, 
+                                                            816, 
+                                                            158
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "font-family": "sans-serif", 
+                                                          "class": "android.support.v7.widget.AppCompatTextView", 
+                                                          "visible-to-user": false, 
+                                                          "package": "com.bravolang.spanish", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            455, 
+                                                            2776, 
+                                                            1159, 
+                                                            2392
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "adapter-view": false, 
+                                                      "abs-pos": true, 
+                                                      "pointer": "a226d2a", 
+                                                      "class": "android.widget.LinearLayout", 
+                                                      "visible-to-user": false
+                                                    }
+                                                  ], 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.view.ViewGroup", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    56, 
+                                                    698, 
+                                                    1342, 
+                                                    964
+                                                  ], 
+                                                  "draw": true, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "class": "android.widget.LinearLayout", 
+                                                  "visible-to-user": false, 
+                                                  "package": "com.bravolang.spanish", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    77, 
+                                                    2593, 
+                                                    1363, 
+                                                    2392
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }
+                                              ], 
+                                              "adapter-view": false, 
+                                              "abs-pos": true, 
+                                              "pointer": "b74a9a5", 
+                                              "class": "android.widget.LinearLayout", 
+                                              "visible-to-user": true
+                                            }
+                                          ], 
+                                          "adapter-view": false, 
+                                          "abs-pos": true, 
+                                          "pointer": "7760b9c", 
+                                          "class": "android.support.v7.widget.CardView", 
+                                          "visible-to-user": true
+                                        }
+                                      ], 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        1440, 
+                                        2660
+                                      ], 
+                                      "draw": true, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.LinearLayout", 
+                                      "visible-to-user": true, 
+                                      "package": "com.bravolang.spanish", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        0, 
+                                        280, 
+                                        1440, 
+                                        2392
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }
+                                  ], 
+                                  "scrollable-horizontal": false, 
+                                  "ancestors": [
+                                    "android.widget.FrameLayout", 
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "selected": false, 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    0, 
+                                    1440, 
+                                    2112
+                                  ], 
+                                  "draw": false, 
+                                  "focusable": true, 
+                                  "long-clickable": false, 
+                                  "visibility": "visible", 
+                                  "focused": false, 
+                                  "clickable": false, 
+                                  "abs-pos": true, 
+                                  "class": "android.support.v4.widget.NestedScrollView", 
+                                  "visible-to-user": true, 
+                                  "package": "com.bravolang.spanish", 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    280, 
+                                    1440, 
+                                    2392
+                                  ], 
+                                  "pressed": "not_pressed", 
+                                  "scrollable-vertical": false
+                                }, 
+                                {
+                                  "resource-id": "com.bravolang.spanish:id/shading", 
+                                  "adapter-view": false, 
+                                  "pointer": "7082e91", 
+                                  "scrollable-horizontal": false, 
+                                  "ancestors": [
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "selected": false, 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0
+                                  ], 
+                                  "draw": true, 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "visibility": "gone", 
+                                  "focused": false, 
+                                  "clickable": false, 
+                                  "abs-pos": true, 
+                                  "class": "android.widget.LinearLayout", 
+                                  "visible-to-user": false, 
+                                  "package": "com.bravolang.spanish", 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    280, 
+                                    0, 
+                                    280
+                                  ], 
+                                  "pressed": "not_pressed", 
+                                  "scrollable-vertical": false
+                                }
+                              ], 
+                              "adapter-view": false, 
+                              "abs-pos": true, 
+                              "pointer": "669b277", 
+                              "class": "android.widget.RelativeLayout", 
+                              "visible-to-user": true
+                            }
+                          ], 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.view.ViewGroup", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            1440, 
+                            2308
+                          ], 
+                          "draw": true, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "class": "android.support.design.widget.CoordinatorLayout", 
+                          "visible-to-user": true, 
+                          "package": "com.bravolang.spanish", 
+                          "enabled": true, 
+                          "bounds": [
+                            0, 
+                            84, 
+                            1440, 
+                            2392
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }
+                      ], 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.FrameLayout", 
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        1440, 
+                        2308
+                      ], 
+                      "draw": true, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.widget.ContentFrameLayout", 
+                      "visible-to-user": true, 
+                      "package": "android", 
+                      "enabled": true, 
+                      "bounds": [
+                        0, 
+                        84, 
+                        1440, 
+                        2392
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "scrollable-horizontal": false, 
+                  "ancestors": [
+                    "android.widget.LinearLayout", 
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "selected": false, 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    0, 
+                    1440, 
+                    2308
+                  ], 
+                  "draw": true, 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "visibility": "visible", 
+                  "focused": false, 
+                  "clickable": false, 
+                  "abs-pos": true, 
+                  "class": "android.support.v7.widget.FitWindowsLinearLayout", 
+                  "visible-to-user": true, 
+                  "package": "com.bravolang.spanish", 
+                  "enabled": true, 
+                  "bounds": [
+                    0, 
+                    84, 
+                    1440, 
+                    2392
+                  ], 
+                  "pressed": "not_pressed", 
+                  "scrollable-vertical": false
+                }
+              ], 
+              "adapter-view": false, 
+              "abs-pos": true, 
+              "pointer": "53d775b", 
+              "class": "android.widget.FrameLayout", 
+              "visible-to-user": true
+            }, 
+            {
+              "resource-id": "android:id/action_mode_bar_stub", 
+              "adapter-view": false, 
+              "pointer": "1d231f6", 
+              "scrollable-horizontal": false, 
+              "ancestors": [
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "selected": false, 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                0, 
+                0, 
+                0
+              ], 
+              "draw": true, 
+              "focusable": false, 
+              "long-clickable": false, 
+              "visibility": "gone", 
+              "focused": false, 
+              "clickable": false, 
+              "abs-pos": true, 
+              "class": "android.view.ViewStub", 
+              "visible-to-user": false, 
+              "package": "android", 
+              "enabled": true, 
+              "bounds": [
+                0, 
+                0, 
+                0, 
+                0
+              ], 
+              "pressed": "not_pressed", 
+              "scrollable-vertical": false
+            }
+          ], 
+          "adapter-view": false, 
+          "abs-pos": true, 
+          "pointer": "50b466a", 
+          "class": "android.widget.FrameLayout", 
+          "visible-to-user": true
+        }, 
+        {
+          "resource-id": "android:id/navigationBarBackground", 
+          "adapter-view": false, 
+          "pointer": "bfc69f7", 
+          "scrollable-horizontal": false, 
+          "ancestors": [
+            "java.lang.Object"
+          ], 
+          "selected": false, 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            2392, 
+            1440, 
+            2560
+          ], 
+          "draw": false, 
+          "focusable": false, 
+          "long-clickable": false, 
+          "visibility": "visible", 
+          "focused": false, 
+          "clickable": false, 
+          "abs-pos": true, 
+          "class": "android.view.View", 
+          "visible-to-user": true, 
+          "package": "android", 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            2392, 
+            1440, 
+            2560
+          ], 
+          "pressed": "not_pressed", 
+          "scrollable-vertical": false
+        }, 
+        {
+          "resource-id": "android:id/statusBarBackground", 
+          "adapter-view": false, 
+          "pointer": "ecc9064", 
+          "scrollable-horizontal": false, 
+          "ancestors": [
+            "java.lang.Object"
+          ], 
+          "selected": false, 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            1440, 
+            84
+          ], 
+          "draw": false, 
+          "focusable": false, 
+          "long-clickable": false, 
+          "visibility": "visible", 
+          "focused": false, 
+          "clickable": false, 
+          "abs-pos": true, 
+          "class": "android.view.View", 
+          "visible-to-user": true, 
+          "package": "android", 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            0, 
+            1440, 
+            84
+          ], 
+          "pressed": "not_pressed", 
+          "scrollable-vertical": false
+        }
+      ], 
+      "adapter-view": false, 
+      "abs-pos": true, 
+      "pointer": "227bc55", 
+      "class": "com.android.internal.policy.PhoneWindow$DecorView", 
+      "visible-to-user": true
+    }, 
+    "added_fragments": [], 
+    "active_fragments": []
+  }, 
+  "is_keyboard_deployed": false, 
+  "request_id": "6159"
+}

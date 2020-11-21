@@ -1,0 +1,2591 @@
+{
+  "activity_name": "com.fp.cheapoair/com.fareportal.application.hotel.controller.HotelSearchScreenController", 
+  "activity": {
+    "root": {
+      "scrollable-horizontal": false, 
+      "draw": true, 
+      "ancestors": [
+        "android.widget.FrameLayout", 
+        "android.view.ViewGroup", 
+        "android.view.View", 
+        "java.lang.Object"
+      ], 
+      "clickable": false, 
+      "pressed": "not_pressed", 
+      "focusable": false, 
+      "long-clickable": false, 
+      "enabled": true, 
+      "bounds": [
+        0, 
+        0, 
+        1440, 
+        2560
+      ], 
+      "visibility": "visible", 
+      "content-desc": [
+        null
+      ], 
+      "rel-bounds": [
+        0, 
+        0, 
+        1440, 
+        2560
+      ], 
+      "focused": false, 
+      "selected": false, 
+      "scrollable-vertical": false, 
+      "children": [
+        {
+          "scrollable-horizontal": false, 
+          "draw": true, 
+          "ancestors": [
+            "android.view.ViewGroup", 
+            "android.view.View", 
+            "java.lang.Object"
+          ], 
+          "clickable": false, 
+          "pressed": "not_pressed", 
+          "focusable": false, 
+          "long-clickable": false, 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            0, 
+            1440, 
+            2392
+          ], 
+          "visibility": "visible", 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            1440, 
+            2392
+          ], 
+          "focused": false, 
+          "selected": false, 
+          "scrollable-vertical": false, 
+          "children": [
+            {
+              "scrollable-horizontal": false, 
+              "draw": true, 
+              "ancestors": [
+                "android.view.ViewGroup", 
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "clickable": false, 
+              "pressed": "not_pressed", 
+              "focusable": false, 
+              "long-clickable": false, 
+              "enabled": true, 
+              "bounds": [
+                0, 
+                84, 
+                1440, 
+                2392
+              ], 
+              "visibility": "visible", 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                84, 
+                1440, 
+                2392
+              ], 
+              "focused": false, 
+              "selected": false, 
+              "scrollable-vertical": false, 
+              "children": [
+                {
+                  "resource-id": "com.fp.cheapoair:id/action_bar_root", 
+                  "adapter-view": false, 
+                  "pointer": "33fc90e", 
+                  "children": [
+                    {
+                      "resource-id": "android:id/content", 
+                      "adapter-view": false, 
+                      "pointer": "3f0f2f", 
+                      "children": [
+                        {
+                          "scrollable-horizontal": false, 
+                          "draw": true, 
+                          "ancestors": [
+                            "android.view.ViewGroup", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "clickable": false, 
+                          "pressed": "not_pressed", 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "enabled": true, 
+                          "bounds": [
+                            0, 
+                            84, 
+                            1440, 
+                            2392
+                          ], 
+                          "visibility": "visible", 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            1440, 
+                            2308
+                          ], 
+                          "focused": false, 
+                          "selected": false, 
+                          "scrollable-vertical": false, 
+                          "children": [
+                            {
+                              "scrollable-horizontal": false, 
+                              "draw": true, 
+                              "ancestors": [
+                                "android.view.ViewGroup", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "clickable": false, 
+                              "pressed": "not_pressed", 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "enabled": true, 
+                              "bounds": [
+                                0, 
+                                84, 
+                                1440, 
+                                284
+                              ], 
+                              "visibility": "visible", 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                0, 
+                                1440, 
+                                200
+                              ], 
+                              "focused": false, 
+                              "selected": false, 
+                              "scrollable-vertical": false, 
+                              "children": [
+                                {
+                                  "resource-id": "com.fp.cheapoair:id/base_top_toolbar", 
+                                  "adapter-view": false, 
+                                  "pointer": "cb3681a", 
+                                  "children": [
+                                    {
+                                      "text": "Hotel Search", 
+                                      "resource-id": "com.fp.cheapoair:id/toolbar_title", 
+                                      "adapter-view": false, 
+                                      "pointer": "376f4b", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.widget.TextView", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        231, 
+                                        57, 
+                                        632, 
+                                        139
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "font-family": "default", 
+                                      "class": "com.fareportal.corelibrary.view.CustomTextView", 
+                                      "visible-to-user": true, 
+                                      "package": "com.fp.cheapoair", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        231, 
+                                        141, 
+                                        632, 
+                                        223
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "scrollable-horizontal": false, 
+                                      "draw": false, 
+                                      "ancestors": [
+                                        "android.widget.ImageView", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "clickable": true, 
+                                      "pressed": "not_pressed", 
+                                      "focusable": true, 
+                                      "long-clickable": false, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        0, 
+                                        84, 
+                                        196, 
+                                        280
+                                      ], 
+                                      "visibility": "visible", 
+                                      "content-desc": [
+                                        "Navigate up"
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        196, 
+                                        196
+                                      ], 
+                                      "focused": false, 
+                                      "selected": false, 
+                                      "scrollable-vertical": false, 
+                                      "adapter-view": false, 
+                                      "abs-pos": true, 
+                                      "pointer": "a856d28", 
+                                      "class": "android.widget.ImageButton", 
+                                      "visible-to-user": true
+                                    }, 
+                                    {
+                                      "scrollable-horizontal": false, 
+                                      "draw": true, 
+                                      "ancestors": [
+                                        "android.support.v7.widget.LinearLayoutCompat", 
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "clickable": false, 
+                                      "pressed": "not_pressed", 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        1300, 
+                                        84, 
+                                        1440, 
+                                        280
+                                      ], 
+                                      "visibility": "visible", 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        1300, 
+                                        0, 
+                                        1440, 
+                                        196
+                                      ], 
+                                      "focused": false, 
+                                      "selected": false, 
+                                      "scrollable-vertical": false, 
+                                      "children": [
+                                        {
+                                          "scrollable-horizontal": false, 
+                                          "draw": false, 
+                                          "ancestors": [
+                                            "android.support.v7.internal.widget.TintImageView", 
+                                            "android.widget.ImageView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "clickable": true, 
+                                          "pressed": "not_pressed", 
+                                          "focusable": true, 
+                                          "long-clickable": false, 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            1300, 
+                                            98, 
+                                            1440, 
+                                            266
+                                          ], 
+                                          "visibility": "visible", 
+                                          "content-desc": [
+                                            "More options"
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            14, 
+                                            140, 
+                                            182
+                                          ], 
+                                          "focused": false, 
+                                          "selected": false, 
+                                          "scrollable-vertical": false, 
+                                          "adapter-view": false, 
+                                          "abs-pos": true, 
+                                          "pointer": "b8febe6", 
+                                          "class": "android.support.v7.widget.ActionMenuPresenter$OverflowMenuButton", 
+                                          "visible-to-user": true
+                                        }
+                                      ], 
+                                      "adapter-view": false, 
+                                      "abs-pos": true, 
+                                      "pointer": "701da41", 
+                                      "class": "android.support.v7.widget.ActionMenuView", 
+                                      "visible-to-user": true
+                                    }
+                                  ], 
+                                  "scrollable-horizontal": false, 
+                                  "ancestors": [
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "selected": false, 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    0, 
+                                    1440, 
+                                    196
+                                  ], 
+                                  "draw": true, 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "visibility": "visible", 
+                                  "focused": false, 
+                                  "clickable": false, 
+                                  "abs-pos": true, 
+                                  "class": "android.support.v7.widget.Toolbar", 
+                                  "visible-to-user": true, 
+                                  "package": "com.fp.cheapoair", 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    84, 
+                                    1440, 
+                                    280
+                                  ], 
+                                  "pressed": "not_pressed", 
+                                  "scrollable-vertical": false
+                                }, 
+                                {
+                                  "resource-id": "com.fp.cheapoair:id/base_top_toolbar_shadow", 
+                                  "adapter-view": false, 
+                                  "pointer": "bb527", 
+                                  "scrollable-horizontal": false, 
+                                  "ancestors": [
+                                    "java.lang.Object"
+                                  ], 
+                                  "selected": false, 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    196, 
+                                    1440, 
+                                    200
+                                  ], 
+                                  "draw": false, 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "visibility": "visible", 
+                                  "focused": false, 
+                                  "clickable": false, 
+                                  "abs-pos": true, 
+                                  "class": "android.view.View", 
+                                  "visible-to-user": true, 
+                                  "package": "com.fp.cheapoair", 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    280, 
+                                    1440, 
+                                    284
+                                  ], 
+                                  "pressed": "not_pressed", 
+                                  "scrollable-vertical": false
+                                }
+                              ], 
+                              "adapter-view": false, 
+                              "abs-pos": true, 
+                              "pointer": "69996c5", 
+                              "class": "android.widget.LinearLayout", 
+                              "visible-to-user": true
+                            }, 
+                            {
+                              "scrollable-horizontal": false, 
+                              "draw": false, 
+                              "ancestors": [
+                                "android.widget.FrameLayout", 
+                                "android.view.ViewGroup", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "clickable": false, 
+                              "pressed": "not_pressed", 
+                              "focusable": true, 
+                              "long-clickable": false, 
+                              "enabled": true, 
+                              "bounds": [
+                                0, 
+                                284, 
+                                1440, 
+                                2122
+                              ], 
+                              "visibility": "visible", 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                200, 
+                                1440, 
+                                2038
+                              ], 
+                              "focused": false, 
+                              "selected": false, 
+                              "scrollable-vertical": false, 
+                              "children": [
+                                {
+                                  "scrollable-horizontal": false, 
+                                  "draw": true, 
+                                  "ancestors": [
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "clickable": false, 
+                                  "pressed": "not_pressed", 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    284, 
+                                    1440, 
+                                    1280
+                                  ], 
+                                  "visibility": "visible", 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    0, 
+                                    1440, 
+                                    996
+                                  ], 
+                                  "focused": false, 
+                                  "selected": false, 
+                                  "scrollable-vertical": false, 
+                                  "children": [
+                                    {
+                                      "resource-id": "com.fp.cheapoair:id/hotel_search_screen_frame_container", 
+                                      "adapter-view": false, 
+                                      "pointer": "c5ee072", 
+                                      "children": [
+                                        {
+                                          "scrollable-horizontal": false, 
+                                          "draw": true, 
+                                          "ancestors": [
+                                            "android.widget.FrameLayout", 
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "clickable": false, 
+                                          "pressed": "not_pressed", 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            33, 
+                                            317, 
+                                            1407, 
+                                            1247
+                                          ], 
+                                          "visibility": "visible", 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            1374, 
+                                            930
+                                          ], 
+                                          "focused": false, 
+                                          "selected": false, 
+                                          "scrollable-vertical": false, 
+                                          "children": [
+                                            {
+                                              "scrollable-horizontal": false, 
+                                              "draw": true, 
+                                              "ancestors": [
+                                                "android.view.ViewGroup", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "clickable": false, 
+                                              "pressed": "not_pressed", 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                33, 
+                                                317, 
+                                                1407, 
+                                                1247
+                                              ], 
+                                              "visibility": "visible", 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                1374, 
+                                                930
+                                              ], 
+                                              "focused": false, 
+                                              "selected": false, 
+                                              "scrollable-vertical": false, 
+                                              "children": [
+                                                {
+                                                  "resource-id": "com.fp.cheapoair:id/hotel_search_card_view", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "a969079", 
+                                                  "children": [
+                                                    {
+                                                      "scrollable-horizontal": false, 
+                                                      "draw": true, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "clickable": false, 
+                                                      "pressed": "not_pressed", 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        40, 
+                                                        328, 
+                                                        1400, 
+                                                        1236
+                                                      ], 
+                                                      "visibility": "visible", 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        7, 
+                                                        11, 
+                                                        1367, 
+                                                        919
+                                                      ], 
+                                                      "focused": false, 
+                                                      "selected": false, 
+                                                      "scrollable-vertical": false, 
+                                                      "children": [
+                                                        {
+                                                          "resource-id": "com.fp.cheapoair:id/hotel_search_segment_destination_layout", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "d18221f", 
+                                                          "children": [
+                                                            {
+                                                              "text": "\ue60d", 
+                                                              "resource-id": "com.fp.cheapoair:id/hotel_search_segment_destination_image", 
+                                                              "adapter-view": false, 
+                                                              "pointer": "a6296c", 
+                                                              "scrollable-horizontal": false, 
+                                                              "ancestors": [
+                                                                "android.widget.TextView", 
+                                                                "android.view.View", 
+                                                                "java.lang.Object"
+                                                              ], 
+                                                              "selected": false, 
+                                                              "content-desc": [
+                                                                null
+                                                              ], 
+                                                              "rel-bounds": [
+                                                                29, 
+                                                                54, 
+                                                                145, 
+                                                                170
+                                                              ], 
+                                                              "draw": false, 
+                                                              "focusable": false, 
+                                                              "long-clickable": false, 
+                                                              "visibility": "visible", 
+                                                              "focused": false, 
+                                                              "clickable": false, 
+                                                              "abs-pos": true, 
+                                                              "font-family": "default", 
+                                                              "class": "com.fareportal.corelibrary.view.CustomImageView", 
+                                                              "visible-to-user": true, 
+                                                              "package": "com.fp.cheapoair", 
+                                                              "enabled": true, 
+                                                              "bounds": [
+                                                                69, 
+                                                                382, 
+                                                                185, 
+                                                                498
+                                                              ], 
+                                                              "pressed": "not_pressed", 
+                                                              "scrollable-vertical": false
+                                                            }, 
+                                                            {
+                                                              "text": "Destination", 
+                                                              "resource-id": "com.fp.cheapoair:id/hotel_search_segment_destination_label", 
+                                                              "adapter-view": false, 
+                                                              "pointer": "ce6bb35", 
+                                                              "scrollable-horizontal": false, 
+                                                              "ancestors": [
+                                                                "android.widget.TextView", 
+                                                                "android.view.View", 
+                                                                "java.lang.Object"
+                                                              ], 
+                                                              "selected": false, 
+                                                              "content-desc": [
+                                                                null
+                                                              ], 
+                                                              "rel-bounds": [
+                                                                174, 
+                                                                29, 
+                                                                445, 
+                                                                91
+                                                              ], 
+                                                              "draw": false, 
+                                                              "focusable": false, 
+                                                              "long-clickable": false, 
+                                                              "visibility": "visible", 
+                                                              "focused": false, 
+                                                              "clickable": false, 
+                                                              "abs-pos": true, 
+                                                              "font-family": "default", 
+                                                              "class": "com.fareportal.corelibrary.view.CustomTextView", 
+                                                              "visible-to-user": true, 
+                                                              "package": "com.fp.cheapoair", 
+                                                              "enabled": true, 
+                                                              "bounds": [
+                                                                214, 
+                                                                357, 
+                                                                485, 
+                                                                419
+                                                              ], 
+                                                              "pressed": "not_pressed", 
+                                                              "scrollable-vertical": false
+                                                            }, 
+                                                            {
+                                                              "text": "Enter a city, airport or landmark", 
+                                                              "resource-id": "com.fp.cheapoair:id/hotel_search_segment_destination_text_view", 
+                                                              "adapter-view": false, 
+                                                              "pointer": "b460bca", 
+                                                              "scrollable-horizontal": false, 
+                                                              "ancestors": [
+                                                                "android.widget.TextView", 
+                                                                "android.view.View", 
+                                                                "java.lang.Object"
+                                                              ], 
+                                                              "selected": false, 
+                                                              "content-desc": [
+                                                                null
+                                                              ], 
+                                                              "rel-bounds": [
+                                                                0, 
+                                                                0, 
+                                                                0, 
+                                                                0
+                                                              ], 
+                                                              "draw": false, 
+                                                              "focusable": false, 
+                                                              "long-clickable": false, 
+                                                              "visibility": "gone", 
+                                                              "focused": false, 
+                                                              "clickable": false, 
+                                                              "abs-pos": true, 
+                                                              "font-family": "default", 
+                                                              "class": "com.fareportal.corelibrary.view.CustomTextViewLight", 
+                                                              "visible-to-user": false, 
+                                                              "package": "com.fp.cheapoair", 
+                                                              "enabled": true, 
+                                                              "bounds": [
+                                                                40, 
+                                                                328, 
+                                                                40, 
+                                                                328
+                                                              ], 
+                                                              "pressed": "not_pressed", 
+                                                              "scrollable-vertical": false
+                                                            }, 
+                                                            {
+                                                              "text": "Enter a city, airport or landmark", 
+                                                              "resource-id": "com.fp.cheapoair:id/hotel_search_segment_destination_placeholder_text", 
+                                                              "adapter-view": false, 
+                                                              "pointer": "ca6c13b", 
+                                                              "scrollable-horizontal": false, 
+                                                              "ancestors": [
+                                                                "android.widget.TextView", 
+                                                                "android.view.View", 
+                                                                "java.lang.Object"
+                                                              ], 
+                                                              "selected": false, 
+                                                              "content-desc": [
+                                                                null
+                                                              ], 
+                                                              "rel-bounds": [
+                                                                174, 
+                                                                91, 
+                                                                1331, 
+                                                                179
+                                                              ], 
+                                                              "draw": false, 
+                                                              "focusable": false, 
+                                                              "long-clickable": false, 
+                                                              "visibility": "visible", 
+                                                              "focused": false, 
+                                                              "clickable": false, 
+                                                              "abs-pos": true, 
+                                                              "font-family": "default", 
+                                                              "class": "com.fareportal.corelibrary.view.CustomTextViewLight", 
+                                                              "visible-to-user": true, 
+                                                              "package": "com.fp.cheapoair", 
+                                                              "enabled": true, 
+                                                              "bounds": [
+                                                                214, 
+                                                                419, 
+                                                                1371, 
+                                                                507
+                                                              ], 
+                                                              "pressed": "not_pressed", 
+                                                              "scrollable-vertical": false
+                                                            }
+                                                          ], 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.view.ViewGroup", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            0, 
+                                                            1360, 
+                                                            224
+                                                          ], 
+                                                          "draw": true, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": true, 
+                                                          "abs-pos": true, 
+                                                          "class": "android.widget.RelativeLayout", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.fp.cheapoair", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            40, 
+                                                            328, 
+                                                            1400, 
+                                                            552
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "scrollable-horizontal": false, 
+                                                          "draw": true, 
+                                                          "ancestors": [
+                                                            "android.view.ViewGroup", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "clickable": false, 
+                                                          "pressed": "not_pressed", 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            40, 
+                                                            552, 
+                                                            1400, 
+                                                            556
+                                                          ], 
+                                                          "visibility": "visible", 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            224, 
+                                                            1360, 
+                                                            228
+                                                          ], 
+                                                          "focused": false, 
+                                                          "selected": false, 
+                                                          "scrollable-vertical": false, 
+                                                          "adapter-view": false, 
+                                                          "abs-pos": true, 
+                                                          "pointer": "827058", 
+                                                          "class": "android.widget.RelativeLayout", 
+                                                          "visible-to-user": true
+                                                        }, 
+                                                        {
+                                                          "resource-id": "com.fp.cheapoair:id/hotel_search_segment_date_selection_layout", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "1d4d5b1", 
+                                                          "children": [
+                                                            {
+                                                              "resource-id": "com.fp.cheapoair:id/hotel_search_segment_check_in_date_layout", 
+                                                              "adapter-view": false, 
+                                                              "pointer": "8a11a96", 
+                                                              "children": [
+                                                                {
+                                                                  "text": "\ue60f", 
+                                                                  "resource-id": "com.fp.cheapoair:id/hotel_search_segment_check_in_date_calendar_image", 
+                                                                  "adapter-view": false, 
+                                                                  "pointer": "8b63617", 
+                                                                  "scrollable-horizontal": false, 
+                                                                  "ancestors": [
+                                                                    "android.widget.TextView", 
+                                                                    "android.view.View", 
+                                                                    "java.lang.Object"
+                                                                  ], 
+                                                                  "selected": false, 
+                                                                  "content-desc": [
+                                                                    null
+                                                                  ], 
+                                                                  "rel-bounds": [
+                                                                    29, 
+                                                                    66, 
+                                                                    145, 
+                                                                    182
+                                                                  ], 
+                                                                  "draw": false, 
+                                                                  "focusable": false, 
+                                                                  "long-clickable": false, 
+                                                                  "visibility": "visible", 
+                                                                  "focused": false, 
+                                                                  "clickable": false, 
+                                                                  "abs-pos": true, 
+                                                                  "font-family": "default", 
+                                                                  "class": "com.fareportal.corelibrary.view.CustomImageView", 
+                                                                  "visible-to-user": true, 
+                                                                  "package": "com.fp.cheapoair", 
+                                                                  "enabled": true, 
+                                                                  "bounds": [
+                                                                    69, 
+                                                                    622, 
+                                                                    185, 
+                                                                    738
+                                                                  ], 
+                                                                  "pressed": "not_pressed", 
+                                                                  "scrollable-vertical": false
+                                                                }, 
+                                                                {
+                                                                  "text": "Check-in", 
+                                                                  "resource-id": "com.fp.cheapoair:id/hotel_search_segment_check_in_date_label", 
+                                                                  "adapter-view": false, 
+                                                                  "pointer": "6da3a04", 
+                                                                  "scrollable-horizontal": false, 
+                                                                  "ancestors": [
+                                                                    "android.widget.TextView", 
+                                                                    "android.view.View", 
+                                                                    "java.lang.Object"
+                                                                  ], 
+                                                                  "selected": false, 
+                                                                  "content-desc": [
+                                                                    null
+                                                                  ], 
+                                                                  "rel-bounds": [
+                                                                    174, 
+                                                                    41, 
+                                                                    379, 
+                                                                    103
+                                                                  ], 
+                                                                  "draw": false, 
+                                                                  "focusable": false, 
+                                                                  "long-clickable": false, 
+                                                                  "visibility": "visible", 
+                                                                  "focused": false, 
+                                                                  "clickable": false, 
+                                                                  "abs-pos": true, 
+                                                                  "font-family": "default", 
+                                                                  "class": "com.fareportal.corelibrary.view.CustomTextView", 
+                                                                  "visible-to-user": true, 
+                                                                  "package": "com.fp.cheapoair", 
+                                                                  "enabled": true, 
+                                                                  "bounds": [
+                                                                    214, 
+                                                                    597, 
+                                                                    419, 
+                                                                    659
+                                                                  ], 
+                                                                  "pressed": "not_pressed", 
+                                                                  "scrollable-vertical": false
+                                                                }, 
+                                                                {
+                                                                  "text": "Dec 22, 2016", 
+                                                                  "resource-id": "com.fp.cheapoair:id/hotel_search_segment_check_in_date_text_view", 
+                                                                  "adapter-view": false, 
+                                                                  "pointer": "bb01bed", 
+                                                                  "scrollable-horizontal": false, 
+                                                                  "ancestors": [
+                                                                    "android.widget.TextView", 
+                                                                    "android.view.View", 
+                                                                    "java.lang.Object"
+                                                                  ], 
+                                                                  "selected": false, 
+                                                                  "content-desc": [
+                                                                    null
+                                                                  ], 
+                                                                  "rel-bounds": [
+                                                                    174, 
+                                                                    130, 
+                                                                    473, 
+                                                                    191
+                                                                  ], 
+                                                                  "draw": false, 
+                                                                  "focusable": false, 
+                                                                  "long-clickable": false, 
+                                                                  "visibility": "visible", 
+                                                                  "focused": false, 
+                                                                  "clickable": false, 
+                                                                  "abs-pos": true, 
+                                                                  "font-family": "default", 
+                                                                  "class": "com.fareportal.corelibrary.view.CustomTextViewLight", 
+                                                                  "visible-to-user": true, 
+                                                                  "package": "com.fp.cheapoair", 
+                                                                  "enabled": true, 
+                                                                  "bounds": [
+                                                                    214, 
+                                                                    686, 
+                                                                    513, 
+                                                                    747
+                                                                  ], 
+                                                                  "pressed": "not_pressed", 
+                                                                  "scrollable-vertical": false
+                                                                }, 
+                                                                {
+                                                                  "text": "Choose Date", 
+                                                                  "resource-id": "com.fp.cheapoair:id/hotel_search_segment_check_in_date_placeholder", 
+                                                                  "adapter-view": false, 
+                                                                  "pointer": "8cc4a22", 
+                                                                  "scrollable-horizontal": false, 
+                                                                  "ancestors": [
+                                                                    "android.widget.TextView", 
+                                                                    "android.view.View", 
+                                                                    "java.lang.Object"
+                                                                  ], 
+                                                                  "selected": false, 
+                                                                  "content-desc": [
+                                                                    null
+                                                                  ], 
+                                                                  "rel-bounds": [
+                                                                    0, 
+                                                                    0, 
+                                                                    0, 
+                                                                    0
+                                                                  ], 
+                                                                  "draw": false, 
+                                                                  "focusable": false, 
+                                                                  "long-clickable": false, 
+                                                                  "visibility": "gone", 
+                                                                  "focused": false, 
+                                                                  "clickable": false, 
+                                                                  "abs-pos": true, 
+                                                                  "font-family": "default", 
+                                                                  "class": "com.fareportal.corelibrary.view.CustomTextViewLight", 
+                                                                  "visible-to-user": false, 
+                                                                  "package": "com.fp.cheapoair", 
+                                                                  "enabled": true, 
+                                                                  "bounds": [
+                                                                    40, 
+                                                                    556, 
+                                                                    40, 
+                                                                    556
+                                                                  ], 
+                                                                  "pressed": "not_pressed", 
+                                                                  "scrollable-vertical": false
+                                                                }
+                                                              ], 
+                                                              "scrollable-horizontal": false, 
+                                                              "ancestors": [
+                                                                "android.view.ViewGroup", 
+                                                                "android.view.View", 
+                                                                "java.lang.Object"
+                                                              ], 
+                                                              "selected": false, 
+                                                              "content-desc": [
+                                                                null
+                                                              ], 
+                                                              "rel-bounds": [
+                                                                0, 
+                                                                0, 
+                                                                678, 
+                                                                224
+                                                              ], 
+                                                              "draw": true, 
+                                                              "focusable": false, 
+                                                              "long-clickable": false, 
+                                                              "visibility": "visible", 
+                                                              "focused": false, 
+                                                              "clickable": true, 
+                                                              "abs-pos": true, 
+                                                              "class": "android.widget.RelativeLayout", 
+                                                              "visible-to-user": true, 
+                                                              "package": "com.fp.cheapoair", 
+                                                              "enabled": true, 
+                                                              "bounds": [
+                                                                40, 
+                                                                556, 
+                                                                718, 
+                                                                780
+                                                              ], 
+                                                              "pressed": "not_pressed", 
+                                                              "scrollable-vertical": false
+                                                            }, 
+                                                            {
+                                                              "resource-id": "com.fp.cheapoair:id/hotel_search_segment_check_out_date_layout", 
+                                                              "adapter-view": false, 
+                                                              "pointer": "5de1cb3", 
+                                                              "children": [
+                                                                {
+                                                                  "text": "\ue60f", 
+                                                                  "resource-id": "com.fp.cheapoair:id/hotel_search_segment_check_out_date_calendar_image", 
+                                                                  "adapter-view": false, 
+                                                                  "pointer": "1c2f270", 
+                                                                  "scrollable-horizontal": false, 
+                                                                  "ancestors": [
+                                                                    "android.widget.TextView", 
+                                                                    "android.view.View", 
+                                                                    "java.lang.Object"
+                                                                  ], 
+                                                                  "selected": false, 
+                                                                  "content-desc": [
+                                                                    null
+                                                                  ], 
+                                                                  "rel-bounds": [
+                                                                    29, 
+                                                                    66, 
+                                                                    145, 
+                                                                    182
+                                                                  ], 
+                                                                  "draw": false, 
+                                                                  "focusable": false, 
+                                                                  "long-clickable": false, 
+                                                                  "visibility": "visible", 
+                                                                  "focused": false, 
+                                                                  "clickable": false, 
+                                                                  "abs-pos": true, 
+                                                                  "font-family": "default", 
+                                                                  "class": "com.fareportal.corelibrary.view.CustomImageView", 
+                                                                  "visible-to-user": true, 
+                                                                  "package": "com.fp.cheapoair", 
+                                                                  "enabled": true, 
+                                                                  "bounds": [
+                                                                    751, 
+                                                                    622, 
+                                                                    867, 
+                                                                    738
+                                                                  ], 
+                                                                  "pressed": "not_pressed", 
+                                                                  "scrollable-vertical": false
+                                                                }, 
+                                                                {
+                                                                  "text": "Check-out", 
+                                                                  "resource-id": "com.fp.cheapoair:id/hotel_search_segment_check_out_date_label", 
+                                                                  "adapter-view": false, 
+                                                                  "pointer": "87f89e9", 
+                                                                  "scrollable-horizontal": false, 
+                                                                  "ancestors": [
+                                                                    "android.widget.TextView", 
+                                                                    "android.view.View", 
+                                                                    "java.lang.Object"
+                                                                  ], 
+                                                                  "selected": false, 
+                                                                  "content-desc": [
+                                                                    null
+                                                                  ], 
+                                                                  "rel-bounds": [
+                                                                    174, 
+                                                                    41, 
+                                                                    413, 
+                                                                    103
+                                                                  ], 
+                                                                  "draw": false, 
+                                                                  "focusable": false, 
+                                                                  "long-clickable": false, 
+                                                                  "visibility": "visible", 
+                                                                  "focused": false, 
+                                                                  "clickable": false, 
+                                                                  "abs-pos": true, 
+                                                                  "font-family": "default", 
+                                                                  "class": "com.fareportal.corelibrary.view.CustomTextView", 
+                                                                  "visible-to-user": true, 
+                                                                  "package": "com.fp.cheapoair", 
+                                                                  "enabled": true, 
+                                                                  "bounds": [
+                                                                    896, 
+                                                                    597, 
+                                                                    1135, 
+                                                                    659
+                                                                  ], 
+                                                                  "pressed": "not_pressed", 
+                                                                  "scrollable-vertical": false
+                                                                }, 
+                                                                {
+                                                                  "text": "Dec 23, 2016", 
+                                                                  "resource-id": "com.fp.cheapoair:id/hotel_search_segment_check_out_date_text_view", 
+                                                                  "adapter-view": false, 
+                                                                  "pointer": "d88e66e", 
+                                                                  "scrollable-horizontal": false, 
+                                                                  "ancestors": [
+                                                                    "android.widget.TextView", 
+                                                                    "android.view.View", 
+                                                                    "java.lang.Object"
+                                                                  ], 
+                                                                  "selected": false, 
+                                                                  "content-desc": [
+                                                                    null
+                                                                  ], 
+                                                                  "rel-bounds": [
+                                                                    174, 
+                                                                    130, 
+                                                                    473, 
+                                                                    191
+                                                                  ], 
+                                                                  "draw": false, 
+                                                                  "focusable": false, 
+                                                                  "long-clickable": false, 
+                                                                  "visibility": "visible", 
+                                                                  "focused": false, 
+                                                                  "clickable": false, 
+                                                                  "abs-pos": true, 
+                                                                  "font-family": "default", 
+                                                                  "class": "com.fareportal.corelibrary.view.CustomTextViewLight", 
+                                                                  "visible-to-user": true, 
+                                                                  "package": "com.fp.cheapoair", 
+                                                                  "enabled": true, 
+                                                                  "bounds": [
+                                                                    896, 
+                                                                    686, 
+                                                                    1195, 
+                                                                    747
+                                                                  ], 
+                                                                  "pressed": "not_pressed", 
+                                                                  "scrollable-vertical": false
+                                                                }, 
+                                                                {
+                                                                  "text": "Choose Date", 
+                                                                  "resource-id": "com.fp.cheapoair:id/hotel_search_segment_check_out_date_placeholder", 
+                                                                  "adapter-view": false, 
+                                                                  "pointer": "93d10f", 
+                                                                  "scrollable-horizontal": false, 
+                                                                  "ancestors": [
+                                                                    "android.widget.TextView", 
+                                                                    "android.view.View", 
+                                                                    "java.lang.Object"
+                                                                  ], 
+                                                                  "selected": false, 
+                                                                  "content-desc": [
+                                                                    null
+                                                                  ], 
+                                                                  "rel-bounds": [
+                                                                    0, 
+                                                                    0, 
+                                                                    0, 
+                                                                    0
+                                                                  ], 
+                                                                  "draw": false, 
+                                                                  "focusable": false, 
+                                                                  "long-clickable": false, 
+                                                                  "visibility": "gone", 
+                                                                  "focused": false, 
+                                                                  "clickable": false, 
+                                                                  "abs-pos": true, 
+                                                                  "font-family": "default", 
+                                                                  "class": "com.fareportal.corelibrary.view.CustomTextViewLight", 
+                                                                  "visible-to-user": false, 
+                                                                  "package": "com.fp.cheapoair", 
+                                                                  "enabled": true, 
+                                                                  "bounds": [
+                                                                    722, 
+                                                                    556, 
+                                                                    722, 
+                                                                    556
+                                                                  ], 
+                                                                  "pressed": "not_pressed", 
+                                                                  "scrollable-vertical": false
+                                                                }
+                                                              ], 
+                                                              "scrollable-horizontal": false, 
+                                                              "ancestors": [
+                                                                "android.view.ViewGroup", 
+                                                                "android.view.View", 
+                                                                "java.lang.Object"
+                                                              ], 
+                                                              "selected": false, 
+                                                              "content-desc": [
+                                                                null
+                                                              ], 
+                                                              "rel-bounds": [
+                                                                682, 
+                                                                0, 
+                                                                1360, 
+                                                                224
+                                                              ], 
+                                                              "draw": true, 
+                                                              "focusable": false, 
+                                                              "long-clickable": false, 
+                                                              "visibility": "visible", 
+                                                              "focused": false, 
+                                                              "clickable": true, 
+                                                              "abs-pos": true, 
+                                                              "class": "android.widget.RelativeLayout", 
+                                                              "visible-to-user": true, 
+                                                              "package": "com.fp.cheapoair", 
+                                                              "enabled": true, 
+                                                              "bounds": [
+                                                                722, 
+                                                                556, 
+                                                                1400, 
+                                                                780
+                                                              ], 
+                                                              "pressed": "not_pressed", 
+                                                              "scrollable-vertical": false
+                                                            }
+                                                          ], 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.view.ViewGroup", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            228, 
+                                                            1360, 
+                                                            452
+                                                          ], 
+                                                          "draw": true, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "class": "android.widget.LinearLayout", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.fp.cheapoair", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            40, 
+                                                            556, 
+                                                            1400, 
+                                                            780
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "scrollable-horizontal": false, 
+                                                          "draw": true, 
+                                                          "ancestors": [
+                                                            "android.view.ViewGroup", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "clickable": false, 
+                                                          "pressed": "not_pressed", 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            40, 
+                                                            780, 
+                                                            1400, 
+                                                            784
+                                                          ], 
+                                                          "visibility": "visible", 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            452, 
+                                                            1360, 
+                                                            456
+                                                          ], 
+                                                          "focused": false, 
+                                                          "selected": false, 
+                                                          "scrollable-vertical": false, 
+                                                          "adapter-view": false, 
+                                                          "abs-pos": true, 
+                                                          "pointer": "93cc59c", 
+                                                          "class": "android.widget.RelativeLayout", 
+                                                          "visible-to-user": true
+                                                        }, 
+                                                        {
+                                                          "resource-id": "com.fp.cheapoair:id/hotel_search_segment_rooms_n_guests_selection_layout", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "5bddba5", 
+                                                          "children": [
+                                                            {
+                                                              "resource-id": "com.fp.cheapoair:id/hotel_search_segment_rooms_selection_layout", 
+                                                              "adapter-view": false, 
+                                                              "pointer": "160fb7a", 
+                                                              "children": [
+                                                                {
+                                                                  "text": "\ue786", 
+                                                                  "resource-id": "com.fp.cheapoair:id/hotel_search_segment_room_selection_image", 
+                                                                  "adapter-view": false, 
+                                                                  "pointer": "d466f2b", 
+                                                                  "scrollable-horizontal": false, 
+                                                                  "ancestors": [
+                                                                    "android.widget.TextView", 
+                                                                    "android.view.View", 
+                                                                    "java.lang.Object"
+                                                                  ], 
+                                                                  "selected": false, 
+                                                                  "content-desc": [
+                                                                    null
+                                                                  ], 
+                                                                  "rel-bounds": [
+                                                                    29, 
+                                                                    57, 
+                                                                    139, 
+                                                                    167
+                                                                  ], 
+                                                                  "draw": false, 
+                                                                  "focusable": false, 
+                                                                  "long-clickable": false, 
+                                                                  "visibility": "visible", 
+                                                                  "focused": false, 
+                                                                  "clickable": false, 
+                                                                  "abs-pos": true, 
+                                                                  "font-family": "default", 
+                                                                  "class": "com.fareportal.corelibrary.view.CustomImageView", 
+                                                                  "visible-to-user": true, 
+                                                                  "package": "com.fp.cheapoair", 
+                                                                  "enabled": true, 
+                                                                  "bounds": [
+                                                                    69, 
+                                                                    841, 
+                                                                    179, 
+                                                                    951
+                                                                  ], 
+                                                                  "pressed": "not_pressed", 
+                                                                  "scrollable-vertical": false
+                                                                }, 
+                                                                {
+                                                                  "text": "Room(s)", 
+                                                                  "resource-id": "com.fp.cheapoair:id/hotel_search_segment_rooms_label", 
+                                                                  "adapter-view": false, 
+                                                                  "pointer": "31e9f88", 
+                                                                  "scrollable-horizontal": false, 
+                                                                  "ancestors": [
+                                                                    "android.widget.TextView", 
+                                                                    "android.view.View", 
+                                                                    "java.lang.Object"
+                                                                  ], 
+                                                                  "selected": false, 
+                                                                  "content-desc": [
+                                                                    null
+                                                                  ], 
+                                                                  "rel-bounds": [
+                                                                    168, 
+                                                                    29, 
+                                                                    372, 
+                                                                    91
+                                                                  ], 
+                                                                  "draw": false, 
+                                                                  "focusable": false, 
+                                                                  "long-clickable": false, 
+                                                                  "visibility": "visible", 
+                                                                  "focused": false, 
+                                                                  "clickable": false, 
+                                                                  "abs-pos": true, 
+                                                                  "font-family": "default", 
+                                                                  "class": "com.fareportal.corelibrary.view.CustomTextView", 
+                                                                  "visible-to-user": true, 
+                                                                  "package": "com.fp.cheapoair", 
+                                                                  "enabled": true, 
+                                                                  "bounds": [
+                                                                    208, 
+                                                                    813, 
+                                                                    412, 
+                                                                    875
+                                                                  ], 
+                                                                  "pressed": "not_pressed", 
+                                                                  "scrollable-vertical": false
+                                                                }, 
+                                                                {
+                                                                  "text": "1", 
+                                                                  "resource-id": "com.fp.cheapoair:id/hotel_search_segment_rooms_number_text", 
+                                                                  "adapter-view": false, 
+                                                                  "pointer": "3e9983f", 
+                                                                  "scrollable-horizontal": false, 
+                                                                  "ancestors": [
+                                                                    "android.widget.TextView", 
+                                                                    "android.view.View", 
+                                                                    "java.lang.Object"
+                                                                  ], 
+                                                                  "selected": false, 
+                                                                  "content-desc": [
+                                                                    null
+                                                                  ], 
+                                                                  "rel-bounds": [
+                                                                    168, 
+                                                                    91, 
+                                                                    218, 
+                                                                    195
+                                                                  ], 
+                                                                  "draw": false, 
+                                                                  "focusable": false, 
+                                                                  "long-clickable": false, 
+                                                                  "visibility": "visible", 
+                                                                  "focused": false, 
+                                                                  "clickable": false, 
+                                                                  "abs-pos": true, 
+                                                                  "font-family": "default", 
+                                                                  "class": "com.fareportal.corelibrary.view.CustomTextViewMedium", 
+                                                                  "visible-to-user": true, 
+                                                                  "package": "com.fp.cheapoair", 
+                                                                  "enabled": true, 
+                                                                  "bounds": [
+                                                                    208, 
+                                                                    875, 
+                                                                    258, 
+                                                                    979
+                                                                  ], 
+                                                                  "pressed": "not_pressed", 
+                                                                  "scrollable-vertical": false
+                                                                }, 
+                                                                {
+                                                                  "scrollable-horizontal": false, 
+                                                                  "draw": false, 
+                                                                  "ancestors": [
+                                                                    "android.view.View", 
+                                                                    "java.lang.Object"
+                                                                  ], 
+                                                                  "clickable": false, 
+                                                                  "pressed": "not_pressed", 
+                                                                  "focusable": false, 
+                                                                  "long-clickable": false, 
+                                                                  "enabled": true, 
+                                                                  "bounds": [
+                                                                    658, 
+                                                                    930, 
+                                                                    689, 
+                                                                    979
+                                                                  ], 
+                                                                  "visibility": "visible", 
+                                                                  "content-desc": [
+                                                                    null
+                                                                  ], 
+                                                                  "rel-bounds": [
+                                                                    618, 
+                                                                    146, 
+                                                                    649, 
+                                                                    195
+                                                                  ], 
+                                                                  "focused": false, 
+                                                                  "selected": false, 
+                                                                  "scrollable-vertical": false, 
+                                                                  "adapter-view": false, 
+                                                                  "abs-pos": true, 
+                                                                  "pointer": "3d58d21", 
+                                                                  "class": "android.widget.ImageView", 
+                                                                  "visible-to-user": true
+                                                                }
+                                                              ], 
+                                                              "scrollable-horizontal": false, 
+                                                              "ancestors": [
+                                                                "android.view.ViewGroup", 
+                                                                "android.view.View", 
+                                                                "java.lang.Object"
+                                                              ], 
+                                                              "selected": false, 
+                                                              "content-desc": [
+                                                                null
+                                                              ], 
+                                                              "rel-bounds": [
+                                                                0, 
+                                                                0, 
+                                                                678, 
+                                                                224
+                                                              ], 
+                                                              "draw": true, 
+                                                              "focusable": false, 
+                                                              "long-clickable": false, 
+                                                              "visibility": "visible", 
+                                                              "focused": false, 
+                                                              "clickable": true, 
+                                                              "abs-pos": true, 
+                                                              "class": "android.widget.RelativeLayout", 
+                                                              "visible-to-user": true, 
+                                                              "package": "com.fp.cheapoair", 
+                                                              "enabled": true, 
+                                                              "bounds": [
+                                                                40, 
+                                                                784, 
+                                                                718, 
+                                                                1008
+                                                              ], 
+                                                              "pressed": "not_pressed", 
+                                                              "scrollable-vertical": false
+                                                            }, 
+                                                            {
+                                                              "resource-id": "com.fp.cheapoair:id/hotel_search_segment_guests_layout", 
+                                                              "adapter-view": false, 
+                                                              "pointer": "b735546", 
+                                                              "children": [
+                                                                {
+                                                                  "text": "\ue617", 
+                                                                  "resource-id": "com.fp.cheapoair:id/hotel_search_segment_guests_image", 
+                                                                  "adapter-view": false, 
+                                                                  "pointer": "e3ad307", 
+                                                                  "scrollable-horizontal": false, 
+                                                                  "ancestors": [
+                                                                    "android.widget.TextView", 
+                                                                    "android.view.View", 
+                                                                    "java.lang.Object"
+                                                                  ], 
+                                                                  "selected": false, 
+                                                                  "content-desc": [
+                                                                    null
+                                                                  ], 
+                                                                  "rel-bounds": [
+                                                                    29, 
+                                                                    53, 
+                                                                    146, 
+                                                                    170
+                                                                  ], 
+                                                                  "draw": false, 
+                                                                  "focusable": false, 
+                                                                  "long-clickable": false, 
+                                                                  "visibility": "visible", 
+                                                                  "focused": false, 
+                                                                  "clickable": false, 
+                                                                  "abs-pos": true, 
+                                                                  "font-family": "default", 
+                                                                  "class": "com.fareportal.corelibrary.view.CustomImageView", 
+                                                                  "visible-to-user": true, 
+                                                                  "package": "com.fp.cheapoair", 
+                                                                  "enabled": true, 
+                                                                  "bounds": [
+                                                                    751, 
+                                                                    837, 
+                                                                    868, 
+                                                                    954
+                                                                  ], 
+                                                                  "pressed": "not_pressed", 
+                                                                  "scrollable-vertical": false
+                                                                }, 
+                                                                {
+                                                                  "text": "Guests", 
+                                                                  "resource-id": "com.fp.cheapoair:id/hotel_search_segment_guests_label", 
+                                                                  "adapter-view": false, 
+                                                                  "pointer": "9c22c34", 
+                                                                  "scrollable-horizontal": false, 
+                                                                  "ancestors": [
+                                                                    "android.widget.TextView", 
+                                                                    "android.view.View", 
+                                                                    "java.lang.Object"
+                                                                  ], 
+                                                                  "selected": false, 
+                                                                  "content-desc": [
+                                                                    null
+                                                                  ], 
+                                                                  "rel-bounds": [
+                                                                    165, 
+                                                                    29, 
+                                                                    332, 
+                                                                    91
+                                                                  ], 
+                                                                  "draw": false, 
+                                                                  "focusable": false, 
+                                                                  "long-clickable": false, 
+                                                                  "visibility": "visible", 
+                                                                  "focused": false, 
+                                                                  "clickable": false, 
+                                                                  "abs-pos": true, 
+                                                                  "font-family": "default", 
+                                                                  "class": "com.fareportal.corelibrary.view.CustomTextView", 
+                                                                  "visible-to-user": true, 
+                                                                  "package": "com.fp.cheapoair", 
+                                                                  "enabled": true, 
+                                                                  "bounds": [
+                                                                    887, 
+                                                                    813, 
+                                                                    1054, 
+                                                                    875
+                                                                  ], 
+                                                                  "pressed": "not_pressed", 
+                                                                  "scrollable-vertical": false
+                                                                }, 
+                                                                {
+                                                                  "text": "2", 
+                                                                  "resource-id": "com.fp.cheapoair:id/hotel_search_segment_guests_num_text", 
+                                                                  "adapter-view": false, 
+                                                                  "pointer": "693350c", 
+                                                                  "scrollable-horizontal": false, 
+                                                                  "ancestors": [
+                                                                    "android.widget.TextView", 
+                                                                    "android.view.View", 
+                                                                    "java.lang.Object"
+                                                                  ], 
+                                                                  "selected": false, 
+                                                                  "content-desc": [
+                                                                    null
+                                                                  ], 
+                                                                  "rel-bounds": [
+                                                                    165, 
+                                                                    91, 
+                                                                    215, 
+                                                                    195
+                                                                  ], 
+                                                                  "draw": false, 
+                                                                  "focusable": false, 
+                                                                  "long-clickable": false, 
+                                                                  "visibility": "visible", 
+                                                                  "focused": false, 
+                                                                  "clickable": false, 
+                                                                  "abs-pos": true, 
+                                                                  "font-family": "default", 
+                                                                  "class": "com.fareportal.corelibrary.view.CustomTextViewMedium", 
+                                                                  "visible-to-user": true, 
+                                                                  "package": "com.fp.cheapoair", 
+                                                                  "enabled": true, 
+                                                                  "bounds": [
+                                                                    887, 
+                                                                    875, 
+                                                                    937, 
+                                                                    979
+                                                                  ], 
+                                                                  "pressed": "not_pressed", 
+                                                                  "scrollable-vertical": false
+                                                                }, 
+                                                                {
+                                                                  "resource-id": "com.fp.cheapoair:id/tempDropDown", 
+                                                                  "adapter-view": false, 
+                                                                  "pointer": "55cda5d", 
+                                                                  "scrollable-horizontal": false, 
+                                                                  "ancestors": [
+                                                                    "android.view.View", 
+                                                                    "java.lang.Object"
+                                                                  ], 
+                                                                  "selected": false, 
+                                                                  "content-desc": [
+                                                                    null
+                                                                  ], 
+                                                                  "rel-bounds": [
+                                                                    618, 
+                                                                    146, 
+                                                                    649, 
+                                                                    195
+                                                                  ], 
+                                                                  "draw": false, 
+                                                                  "focusable": false, 
+                                                                  "long-clickable": false, 
+                                                                  "visibility": "visible", 
+                                                                  "focused": false, 
+                                                                  "clickable": false, 
+                                                                  "abs-pos": true, 
+                                                                  "class": "android.widget.ImageView", 
+                                                                  "visible-to-user": true, 
+                                                                  "package": "com.fp.cheapoair", 
+                                                                  "enabled": true, 
+                                                                  "bounds": [
+                                                                    1340, 
+                                                                    930, 
+                                                                    1371, 
+                                                                    979
+                                                                  ], 
+                                                                  "pressed": "not_pressed", 
+                                                                  "scrollable-vertical": false
+                                                                }
+                                                              ], 
+                                                              "scrollable-horizontal": false, 
+                                                              "ancestors": [
+                                                                "android.view.ViewGroup", 
+                                                                "android.view.View", 
+                                                                "java.lang.Object"
+                                                              ], 
+                                                              "selected": false, 
+                                                              "content-desc": [
+                                                                null
+                                                              ], 
+                                                              "rel-bounds": [
+                                                                682, 
+                                                                0, 
+                                                                1360, 
+                                                                224
+                                                              ], 
+                                                              "draw": true, 
+                                                              "focusable": false, 
+                                                              "long-clickable": false, 
+                                                              "visibility": "visible", 
+                                                              "focused": false, 
+                                                              "clickable": true, 
+                                                              "abs-pos": true, 
+                                                              "class": "android.widget.RelativeLayout", 
+                                                              "visible-to-user": true, 
+                                                              "package": "com.fp.cheapoair", 
+                                                              "enabled": true, 
+                                                              "bounds": [
+                                                                722, 
+                                                                784, 
+                                                                1400, 
+                                                                1008
+                                                              ], 
+                                                              "pressed": "not_pressed", 
+                                                              "scrollable-vertical": false
+                                                            }
+                                                          ], 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.view.ViewGroup", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            456, 
+                                                            1360, 
+                                                            680
+                                                          ], 
+                                                          "draw": true, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "class": "android.widget.LinearLayout", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.fp.cheapoair", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            40, 
+                                                            784, 
+                                                            1400, 
+                                                            1008
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "scrollable-horizontal": false, 
+                                                          "draw": true, 
+                                                          "ancestors": [
+                                                            "android.view.ViewGroup", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "clickable": false, 
+                                                          "pressed": "not_pressed", 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            40, 
+                                                            1008, 
+                                                            1400, 
+                                                            1012
+                                                          ], 
+                                                          "visibility": "visible", 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            680, 
+                                                            1360, 
+                                                            684
+                                                          ], 
+                                                          "focused": false, 
+                                                          "selected": false, 
+                                                          "scrollable-vertical": false, 
+                                                          "adapter-view": false, 
+                                                          "abs-pos": true, 
+                                                          "pointer": "3ff7fd2", 
+                                                          "class": "android.widget.RelativeLayout", 
+                                                          "visible-to-user": true
+                                                        }, 
+                                                        {
+                                                          "resource-id": "com.fp.cheapoair:id/hotel_search_segment_room_tonight_layout", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "b2798a3", 
+                                                          "children": [
+                                                            {
+                                                              "text": "\ue760", 
+                                                              "resource-id": "com.fp.cheapoair:id/hotel_search_segment_room_tonight_image", 
+                                                              "adapter-view": false, 
+                                                              "pointer": "16fd7a0", 
+                                                              "scrollable-horizontal": false, 
+                                                              "ancestors": [
+                                                                "android.widget.TextView", 
+                                                                "android.view.View", 
+                                                                "java.lang.Object"
+                                                              ], 
+                                                              "selected": false, 
+                                                              "content-desc": [
+                                                                null
+                                                              ], 
+                                                              "rel-bounds": [
+                                                                29, 
+                                                                56, 
+                                                                141, 
+                                                                168
+                                                              ], 
+                                                              "draw": false, 
+                                                              "focusable": false, 
+                                                              "long-clickable": false, 
+                                                              "visibility": "visible", 
+                                                              "focused": false, 
+                                                              "clickable": false, 
+                                                              "abs-pos": true, 
+                                                              "font-family": "default", 
+                                                              "class": "com.fareportal.corelibrary.view.CustomImageView", 
+                                                              "visible-to-user": true, 
+                                                              "package": "com.fp.cheapoair", 
+                                                              "enabled": true, 
+                                                              "bounds": [
+                                                                69, 
+                                                                1068, 
+                                                                181, 
+                                                                1180
+                                                              ], 
+                                                              "pressed": "not_pressed", 
+                                                              "scrollable-vertical": false
+                                                            }, 
+                                                            {
+                                                              "text": "Need a Room for Tonight?", 
+                                                              "resource-id": "com.fp.cheapoair:id/hotel_search_segment_room_tonight_label", 
+                                                              "adapter-view": false, 
+                                                              "pointer": "611bf59", 
+                                                              "scrollable-horizontal": false, 
+                                                              "ancestors": [
+                                                                "android.widget.TextView", 
+                                                                "android.view.View", 
+                                                                "java.lang.Object"
+                                                              ], 
+                                                              "selected": false, 
+                                                              "content-desc": [
+                                                                null
+                                                              ], 
+                                                              "rel-bounds": [
+                                                                170, 
+                                                                81, 
+                                                                786, 
+                                                                143
+                                                              ], 
+                                                              "draw": false, 
+                                                              "focusable": false, 
+                                                              "long-clickable": false, 
+                                                              "visibility": "visible", 
+                                                              "focused": false, 
+                                                              "clickable": false, 
+                                                              "abs-pos": true, 
+                                                              "font-family": "default", 
+                                                              "class": "com.fareportal.corelibrary.view.CustomTextView", 
+                                                              "visible-to-user": true, 
+                                                              "package": "com.fp.cheapoair", 
+                                                              "enabled": true, 
+                                                              "bounds": [
+                                                                210, 
+                                                                1093, 
+                                                                826, 
+                                                                1155
+                                                              ], 
+                                                              "pressed": "not_pressed", 
+                                                              "scrollable-vertical": false
+                                                            }, 
+                                                            {
+                                                              "text": "\ue75d", 
+                                                              "resource-id": "com.fp.cheapoair:id/hotel_search_segment_room_tonight_right_arrow_image", 
+                                                              "adapter-view": false, 
+                                                              "pointer": "5b1c71e", 
+                                                              "scrollable-horizontal": false, 
+                                                              "ancestors": [
+                                                                "android.widget.TextView", 
+                                                                "android.view.View", 
+                                                                "java.lang.Object"
+                                                              ], 
+                                                              "selected": false, 
+                                                              "content-desc": [
+                                                                null
+                                                              ], 
+                                                              "rel-bounds": [
+                                                                1280, 
+                                                                86, 
+                                                                1331, 
+                                                                137
+                                                              ], 
+                                                              "draw": false, 
+                                                              "focusable": false, 
+                                                              "long-clickable": false, 
+                                                              "visibility": "visible", 
+                                                              "focused": false, 
+                                                              "clickable": false, 
+                                                              "abs-pos": true, 
+                                                              "font-family": "default", 
+                                                              "class": "com.fareportal.corelibrary.view.CustomImageView", 
+                                                              "visible-to-user": true, 
+                                                              "package": "com.fp.cheapoair", 
+                                                              "enabled": true, 
+                                                              "bounds": [
+                                                                1320, 
+                                                                1098, 
+                                                                1371, 
+                                                                1149
+                                                              ], 
+                                                              "pressed": "not_pressed", 
+                                                              "scrollable-vertical": false
+                                                            }
+                                                          ], 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.view.ViewGroup", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            684, 
+                                                            1360, 
+                                                            908
+                                                          ], 
+                                                          "draw": true, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": true, 
+                                                          "abs-pos": true, 
+                                                          "class": "android.widget.RelativeLayout", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.fp.cheapoair", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            40, 
+                                                            1012, 
+                                                            1400, 
+                                                            1236
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }
+                                                      ], 
+                                                      "adapter-view": false, 
+                                                      "abs-pos": true, 
+                                                      "pointer": "8b691be", 
+                                                      "class": "android.widget.LinearLayout", 
+                                                      "visible-to-user": true
+                                                    }
+                                                  ], 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.FrameLayout", 
+                                                    "android.view.ViewGroup", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    0, 
+                                                    1374, 
+                                                    930
+                                                  ], 
+                                                  "draw": true, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "class": "android.support.v7.widget.CardView", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.fp.cheapoair", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    33, 
+                                                    317, 
+                                                    1407, 
+                                                    1247
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }
+                                              ], 
+                                              "adapter-view": false, 
+                                              "abs-pos": true, 
+                                              "pointer": "5eeb940", 
+                                              "class": "android.widget.FrameLayout", 
+                                              "visible-to-user": true
+                                            }
+                                          ], 
+                                          "adapter-view": false, 
+                                          "abs-pos": true, 
+                                          "pointer": "6f47cc3", 
+                                          "class": "com.fareportal.application.hotel.view.HotelSearchSegmentLayout", 
+                                          "visible-to-user": true
+                                        }
+                                      ], 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        33, 
+                                        33, 
+                                        1407, 
+                                        963
+                                      ], 
+                                      "draw": true, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.FrameLayout", 
+                                      "visible-to-user": true, 
+                                      "package": "com.fp.cheapoair", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        33, 
+                                        317, 
+                                        1407, 
+                                        1247
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "resource-id": "com.fp.cheapoair:id/frame_container", 
+                                      "adapter-view": false, 
+                                      "pointer": "6911bff", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        0, 
+                                        0
+                                      ], 
+                                      "draw": true, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "gone", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.FrameLayout", 
+                                      "visible-to-user": false, 
+                                      "package": "com.fp.cheapoair", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        0, 
+                                        284, 
+                                        0, 
+                                        284
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }
+                                  ], 
+                                  "adapter-view": false, 
+                                  "abs-pos": true, 
+                                  "pointer": "450d97d", 
+                                  "class": "android.widget.LinearLayout", 
+                                  "visible-to-user": true
+                                }
+                              ], 
+                              "adapter-view": false, 
+                              "abs-pos": true, 
+                              "pointer": "95833d4", 
+                              "class": "android.widget.ScrollView", 
+                              "visible-to-user": true
+                            }, 
+                            {
+                              "scrollable-horizontal": false, 
+                              "draw": true, 
+                              "ancestors": [
+                                "android.view.ViewGroup", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "clickable": false, 
+                              "pressed": "not_pressed", 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "enabled": true, 
+                              "bounds": [
+                                40, 
+                                2151, 
+                                1400, 
+                                2352
+                              ], 
+                              "visibility": "visible", 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                40, 
+                                2067, 
+                                1400, 
+                                2268
+                              ], 
+                              "focused": false, 
+                              "selected": false, 
+                              "scrollable-vertical": false, 
+                              "children": [
+                                {
+                                  "scrollable-horizontal": false, 
+                                  "draw": true, 
+                                  "ancestors": [
+                                    "android.widget.RelativeLayout", 
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "clickable": false, 
+                                  "pressed": "not_pressed", 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    40, 
+                                    2151, 
+                                    1400, 
+                                    2352
+                                  ], 
+                                  "visibility": "visible", 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    0, 
+                                    1360, 
+                                    201
+                                  ], 
+                                  "focused": false, 
+                                  "selected": false, 
+                                  "scrollable-vertical": false, 
+                                  "children": [
+                                    {
+                                      "resource-id": "com.fp.cheapoair:id/base_footer_layout", 
+                                      "adapter-view": false, 
+                                      "pointer": "7af372a", 
+                                      "children": [
+                                        {
+                                          "text": "Search Hotels", 
+                                          "resource-id": "com.fp.cheapoair:id/base_call_to_action_label", 
+                                          "adapter-view": false, 
+                                          "pointer": "ce5791b", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.Button", 
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            1360, 
+                                            201
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": true, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "font-family": "default", 
+                                          "class": "android.support.v7.widget.AppCompatButton", 
+                                          "visible-to-user": true, 
+                                          "package": "com.fp.cheapoair", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            40, 
+                                            2151, 
+                                            1400, 
+                                            2352
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }
+                                      ], 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        1360, 
+                                        201
+                                      ], 
+                                      "draw": true, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": true, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.RelativeLayout", 
+                                      "visible-to-user": true, 
+                                      "package": "com.fp.cheapoair", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        40, 
+                                        2151, 
+                                        1400, 
+                                        2352
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }
+                                  ], 
+                                  "adapter-view": false, 
+                                  "abs-pos": true, 
+                                  "pointer": "595f815", 
+                                  "class": "com.fareportal.corelibrary.view.FooterViewLayout", 
+                                  "visible-to-user": true
+                                }
+                              ], 
+                              "adapter-view": false, 
+                              "abs-pos": true, 
+                              "pointer": "88acdcc", 
+                              "class": "android.widget.LinearLayout", 
+                              "visible-to-user": true
+                            }
+                          ], 
+                          "adapter-view": false, 
+                          "abs-pos": true, 
+                          "pointer": "ed3f93c", 
+                          "class": "android.widget.LinearLayout", 
+                          "visible-to-user": true
+                        }
+                      ], 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.FrameLayout", 
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        1440, 
+                        2308
+                      ], 
+                      "draw": true, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.internal.widget.ContentFrameLayout", 
+                      "visible-to-user": true, 
+                      "package": "android", 
+                      "enabled": true, 
+                      "bounds": [
+                        0, 
+                        84, 
+                        1440, 
+                        2392
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "com.fp.cheapoair:id/action_mode_bar_stub", 
+                      "adapter-view": false, 
+                      "pointer": "e7cfab8", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": true, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.internal.widget.ViewStubCompat", 
+                      "visible-to-user": false, 
+                      "package": "com.fp.cheapoair", 
+                      "enabled": true, 
+                      "bounds": [
+                        0, 
+                        84, 
+                        0, 
+                        84
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "scrollable-horizontal": false, 
+                  "ancestors": [
+                    "android.widget.FrameLayout", 
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "selected": false, 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    0, 
+                    1440, 
+                    2308
+                  ], 
+                  "draw": true, 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "visibility": "visible", 
+                  "focused": false, 
+                  "clickable": false, 
+                  "abs-pos": true, 
+                  "class": "android.support.v7.internal.widget.FitWindowsFrameLayout", 
+                  "visible-to-user": true, 
+                  "package": "com.fp.cheapoair", 
+                  "enabled": true, 
+                  "bounds": [
+                    0, 
+                    84, 
+                    1440, 
+                    2392
+                  ], 
+                  "pressed": "not_pressed", 
+                  "scrollable-vertical": false
+                }
+              ], 
+              "adapter-view": false, 
+              "abs-pos": true, 
+              "pointer": "14fd309", 
+              "class": "android.widget.FrameLayout", 
+              "visible-to-user": true
+            }, 
+            {
+              "resource-id": "android:id/action_mode_bar_stub", 
+              "adapter-view": false, 
+              "pointer": "1eb0091", 
+              "scrollable-horizontal": false, 
+              "ancestors": [
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "selected": false, 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                0, 
+                0, 
+                0
+              ], 
+              "draw": true, 
+              "focusable": false, 
+              "long-clickable": false, 
+              "visibility": "gone", 
+              "focused": false, 
+              "clickable": false, 
+              "abs-pos": true, 
+              "class": "android.view.ViewStub", 
+              "visible-to-user": false, 
+              "package": "android", 
+              "enabled": true, 
+              "bounds": [
+                0, 
+                0, 
+                0, 
+                0
+              ], 
+              "pressed": "not_pressed", 
+              "scrollable-vertical": false
+            }
+          ], 
+          "adapter-view": false, 
+          "abs-pos": true, 
+          "pointer": "7302c10", 
+          "class": "android.widget.FrameLayout", 
+          "visible-to-user": true
+        }, 
+        {
+          "resource-id": "android:id/navigationBarBackground", 
+          "adapter-view": false, 
+          "pointer": "c619bf6", 
+          "scrollable-horizontal": false, 
+          "ancestors": [
+            "java.lang.Object"
+          ], 
+          "selected": false, 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            2392, 
+            1440, 
+            2560
+          ], 
+          "draw": false, 
+          "focusable": false, 
+          "long-clickable": false, 
+          "visibility": "visible", 
+          "focused": false, 
+          "clickable": false, 
+          "abs-pos": true, 
+          "class": "android.view.View", 
+          "visible-to-user": true, 
+          "package": "android", 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            2392, 
+            1440, 
+            2560
+          ], 
+          "pressed": "not_pressed", 
+          "scrollable-vertical": false
+        }, 
+        {
+          "resource-id": "android:id/statusBarBackground", 
+          "adapter-view": false, 
+          "pointer": "9588bf7", 
+          "scrollable-horizontal": false, 
+          "ancestors": [
+            "java.lang.Object"
+          ], 
+          "selected": false, 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            1440, 
+            84
+          ], 
+          "draw": false, 
+          "focusable": false, 
+          "long-clickable": false, 
+          "visibility": "visible", 
+          "focused": false, 
+          "clickable": false, 
+          "abs-pos": true, 
+          "class": "android.view.View", 
+          "visible-to-user": true, 
+          "package": "android", 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            0, 
+            1440, 
+            84
+          ], 
+          "pressed": "not_pressed", 
+          "scrollable-vertical": false
+        }
+      ], 
+      "adapter-view": false, 
+      "abs-pos": true, 
+      "pointer": "27bb8d3", 
+      "class": "com.android.internal.policy.PhoneWindow$DecorView", 
+      "visible-to-user": true
+    }, 
+    "added_fragments": [], 
+    "active_fragments": []
+  }, 
+  "is_keyboard_deployed": false, 
+  "request_id": "2538"
+}

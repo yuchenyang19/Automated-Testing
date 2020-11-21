@@ -1,0 +1,3052 @@
+{
+  "activity_name": "com.jm.android.frequencygenerator/com.jm.android.frequencygenerator.PlayActivity", 
+  "activity": {
+    "root": {
+      "scrollable-horizontal": false, 
+      "draw": true, 
+      "ancestors": [
+        "android.widget.FrameLayout", 
+        "android.view.ViewGroup", 
+        "android.view.View", 
+        "java.lang.Object"
+      ], 
+      "clickable": false, 
+      "pressed": "not_pressed", 
+      "focusable": false, 
+      "long-clickable": false, 
+      "enabled": true, 
+      "bounds": [
+        0, 
+        0, 
+        1440, 
+        2392
+      ], 
+      "visibility": "visible", 
+      "content-desc": [
+        null
+      ], 
+      "rel-bounds": [
+        0, 
+        0, 
+        1440, 
+        2392
+      ], 
+      "focused": false, 
+      "selected": false, 
+      "scrollable-vertical": false, 
+      "children": [
+        {
+          "scrollable-horizontal": false, 
+          "draw": true, 
+          "ancestors": [
+            "android.view.ViewGroup", 
+            "android.view.View", 
+            "java.lang.Object"
+          ], 
+          "clickable": false, 
+          "pressed": "not_pressed", 
+          "focusable": false, 
+          "long-clickable": false, 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            0, 
+            1440, 
+            2392
+          ], 
+          "visibility": "visible", 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            1440, 
+            2392
+          ], 
+          "focused": false, 
+          "selected": false, 
+          "scrollable-vertical": false, 
+          "children": [
+            {
+              "resource-id": "android:id/action_mode_bar_stub", 
+              "adapter-view": false, 
+              "pointer": "881bb84", 
+              "scrollable-horizontal": false, 
+              "ancestors": [
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "selected": false, 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                0, 
+                0, 
+                0
+              ], 
+              "draw": true, 
+              "focusable": false, 
+              "long-clickable": false, 
+              "visibility": "gone", 
+              "focused": false, 
+              "clickable": false, 
+              "abs-pos": true, 
+              "class": "android.view.ViewStub", 
+              "visible-to-user": false, 
+              "package": "android", 
+              "enabled": true, 
+              "bounds": [
+                0, 
+                0, 
+                0, 
+                0
+              ], 
+              "pressed": "not_pressed", 
+              "scrollable-vertical": false
+            }, 
+            {
+              "resource-id": "android:id/content", 
+              "adapter-view": false, 
+              "pointer": "2773f6d", 
+              "children": [
+                {
+                  "resource-id": "com.jm.android.frequencygenerator:id/LinearLayout1", 
+                  "adapter-view": false, 
+                  "pointer": "d6767a2", 
+                  "children": [
+                    {
+                      "resource-id": "com.jm.android.frequencygenerator:id/DashboardLayout", 
+                      "adapter-view": false, 
+                      "pointer": "fe6ac33", 
+                      "children": [
+                        {
+                          "scrollable-horizontal": false, 
+                          "draw": true, 
+                          "ancestors": [
+                            "android.view.ViewGroup", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "clickable": false, 
+                          "pressed": "not_pressed", 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "enabled": true, 
+                          "bounds": [
+                            21, 
+                            126, 
+                            1419, 
+                            238
+                          ], 
+                          "visibility": "visible", 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            21, 
+                            21, 
+                            1419, 
+                            133
+                          ], 
+                          "focused": false, 
+                          "selected": false, 
+                          "scrollable-vertical": false, 
+                          "children": [
+                            {
+                              "text": "FREQ:", 
+                              "resource-id": "com.jm.android.frequencygenerator:id/lbFrequency", 
+                              "adapter-view": false, 
+                              "pointer": "b556569", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                0, 
+                                224, 
+                                112
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.TextView", 
+                              "visible-to-user": true, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                21, 
+                                126, 
+                                245, 
+                                238
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "text": "1365.10 Hz", 
+                              "resource-id": "com.jm.android.frequencygenerator:id/lbFreqValue", 
+                              "adapter-view": false, 
+                              "pointer": "785bee", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                245, 
+                                0, 
+                                1033, 
+                                112
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.TextView", 
+                              "visible-to-user": true, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                266, 
+                                126, 
+                                1054, 
+                                238
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "resource-id": "com.jm.android.frequencygenerator:id/pbTime", 
+                              "adapter-view": false, 
+                              "pointer": "755d88f", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                1033, 
+                                0, 
+                                1243, 
+                                112
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.ProgressBar", 
+                              "visible-to-user": true, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                1054, 
+                                126, 
+                                1264, 
+                                238
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "text": "00:06", 
+                              "resource-id": "com.jm.android.frequencygenerator:id/chrono", 
+                              "adapter-view": false, 
+                              "pointer": "522f71c", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.widget.TextView", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                1243, 
+                                0, 
+                                1398, 
+                                112
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.Chronometer", 
+                              "visible-to-user": true, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                1264, 
+                                126, 
+                                1419, 
+                                238
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }
+                          ], 
+                          "adapter-view": false, 
+                          "abs-pos": true, 
+                          "pointer": "210bf0", 
+                          "class": "android.widget.LinearLayout", 
+                          "visible-to-user": true
+                        }, 
+                        {
+                          "scrollable-horizontal": false, 
+                          "draw": true, 
+                          "ancestors": [
+                            "android.view.ViewGroup", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "clickable": false, 
+                          "pressed": "not_pressed", 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "enabled": true, 
+                          "bounds": [
+                            21, 
+                            238, 
+                            1107, 
+                            285
+                          ], 
+                          "visibility": "visible", 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            21, 
+                            133, 
+                            1107, 
+                            180
+                          ], 
+                          "focused": false, 
+                          "selected": false, 
+                          "scrollable-vertical": false, 
+                          "children": [
+                            {
+                              "text": "48000 Hz", 
+                              "resource-id": "com.jm.android.frequencygenerator:id/lbSampleRate", 
+                              "adapter-view": false, 
+                              "pointer": "f9248fa", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                0, 
+                                165, 
+                                47
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.TextView", 
+                              "visible-to-user": true, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                21, 
+                                238, 
+                                186, 
+                                285
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "text": "Sweep", 
+                              "resource-id": "com.jm.android.frequencygenerator:id/LbToneSweep", 
+                              "adapter-view": false, 
+                              "pointer": "ee16eab", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                186, 
+                                0, 
+                                291, 
+                                47
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.TextView", 
+                              "visible-to-user": true, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                207, 
+                                238, 
+                                312, 
+                                285
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "text": "Wobble", 
+                              "resource-id": "com.jm.android.frequencygenerator:id/lbLoop", 
+                              "adapter-view": false, 
+                              "pointer": "8f66908", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                312, 
+                                0, 
+                                430, 
+                                47
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.TextView", 
+                              "visible-to-user": true, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                333, 
+                                238, 
+                                451, 
+                                285
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "text": "Repeat", 
+                              "resource-id": "com.jm.android.frequencygenerator:id/lbRepeat", 
+                              "adapter-view": false, 
+                              "pointer": "91b58a1", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                465, 
+                                0, 
+                                575, 
+                                47
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.TextView", 
+                              "visible-to-user": true, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                486, 
+                                238, 
+                                596, 
+                                285
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "text": "Time:", 
+                              "resource-id": "com.jm.android.frequencygenerator:id/lbTime", 
+                              "adapter-view": false, 
+                              "pointer": "32bfac6", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                610, 
+                                0, 
+                                698, 
+                                47
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.TextView", 
+                              "visible-to-user": true, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                631, 
+                                238, 
+                                719, 
+                                285
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "text": "5s", 
+                              "resource-id": "com.jm.android.frequencygenerator:id/lbTimeValue", 
+                              "adapter-view": false, 
+                              "pointer": "b464a87", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                698, 
+                                0, 
+                                736, 
+                                47
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.TextView", 
+                              "visible-to-user": true, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                719, 
+                                238, 
+                                757, 
+                                285
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "text": "Right delay:", 
+                              "resource-id": "com.jm.android.frequencygenerator:id/LbTimeDelay", 
+                              "adapter-view": false, 
+                              "pointer": "30d0db4", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                771, 
+                                0, 
+                                953, 
+                                47
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.TextView", 
+                              "visible-to-user": true, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                792, 
+                                238, 
+                                974, 
+                                285
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "text": "0.0ms", 
+                              "resource-id": "com.jm.android.frequencygenerator:id/LbTimeDelayValue", 
+                              "adapter-view": false, 
+                              "pointer": "3f3dddd", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                953, 
+                                0, 
+                                1051, 
+                                47
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.TextView", 
+                              "visible-to-user": true, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                974, 
+                                238, 
+                                1072, 
+                                285
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }
+                          ], 
+                          "adapter-view": false, 
+                          "abs-pos": true, 
+                          "pointer": "2d5ef25", 
+                          "class": "android.widget.LinearLayout", 
+                          "visible-to-user": true
+                        }, 
+                        {
+                          "text": "Right channel phase offset: At 180\u00ba the amplitudes will cancel out (destructive interference).", 
+                          "resource-id": "com.jm.android.frequencygenerator:id/tvWiki", 
+                          "adapter-view": false, 
+                          "pointer": "25cfd52", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": true, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            21, 
+                            201, 
+                            1419, 
+                            272
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": true, 
+                          "abs-pos": true, 
+                          "class": "android.widget.TextView", 
+                          "visible-to-user": true, 
+                          "package": "com.jm.android.frequencygenerator", 
+                          "enabled": true, 
+                          "bounds": [
+                            21, 
+                            306, 
+                            1419, 
+                            377
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }
+                      ], 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        1440, 
+                        293
+                      ], 
+                      "draw": true, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.widget.LinearLayout", 
+                      "visible-to-user": true, 
+                      "package": "com.jm.android.frequencygenerator", 
+                      "enabled": true, 
+                      "bounds": [
+                        0, 
+                        105, 
+                        1440, 
+                        398
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "com.jm.android.frequencygenerator:id/GraphLayout", 
+                      "adapter-view": false, 
+                      "pointer": "6330823", 
+                      "children": [
+                        {
+                          "scrollable-horizontal": false, 
+                          "draw": false, 
+                          "ancestors": [
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "clickable": false, 
+                          "pressed": "not_pressed", 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "enabled": true, 
+                          "bounds": [
+                            0, 
+                            419, 
+                            1440, 
+                            839
+                          ], 
+                          "visibility": "visible", 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            1440, 
+                            420
+                          ], 
+                          "focused": false, 
+                          "selected": false, 
+                          "scrollable-vertical": false, 
+                          "adapter-view": false, 
+                          "abs-pos": true, 
+                          "pointer": "e475120", 
+                          "class": "com.b.a.b", 
+                          "visible-to-user": true
+                        }
+                      ], 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        314, 
+                        1440, 
+                        734
+                      ], 
+                      "draw": true, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.widget.LinearLayout", 
+                      "visible-to-user": true, 
+                      "package": "com.jm.android.frequencygenerator", 
+                      "enabled": true, 
+                      "bounds": [
+                        0, 
+                        419, 
+                        1440, 
+                        839
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "scrollable-horizontal": false, 
+                      "draw": true, 
+                      "ancestors": [
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "clickable": false, 
+                      "pressed": "not_pressed", 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "enabled": true, 
+                      "bounds": [
+                        0, 
+                        860, 
+                        1440, 
+                        2392
+                      ], 
+                      "visibility": "visible", 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        755, 
+                        1440, 
+                        2287
+                      ], 
+                      "focused": false, 
+                      "selected": false, 
+                      "scrollable-vertical": false, 
+                      "children": [
+                        {
+                          "resource-id": "com.jm.android.frequencygenerator:id/scrollView1", 
+                          "adapter-view": false, 
+                          "pointer": "c299c9e", 
+                          "children": [
+                            {
+                              "resource-id": "com.jm.android.frequencygenerator:id/ControlLayout", 
+                              "adapter-view": false, 
+                              "pointer": "ba4037f", 
+                              "children": [
+                                {
+                                  "scrollable-horizontal": false, 
+                                  "draw": true, 
+                                  "ancestors": [
+                                    "android.widget.LinearLayout", 
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "clickable": false, 
+                                  "pressed": "not_pressed", 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    21, 
+                                    860, 
+                                    1398, 
+                                    972
+                                  ], 
+                                  "visibility": "visible", 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    0, 
+                                    1377, 
+                                    112
+                                  ], 
+                                  "focused": false, 
+                                  "selected": false, 
+                                  "scrollable-vertical": false, 
+                                  "children": [
+                                    {
+                                      "resource-id": "com.jm.android.frequencygenerator:id/radioGroupWaveform", 
+                                      "adapter-view": false, 
+                                      "pointer": "899eb95", 
+                                      "children": [
+                                        {
+                                          "text": "sine", 
+                                          "resource-id": "com.jm.android.frequencygenerator:id/radioSine", 
+                                          "adapter-view": false, 
+                                          "pointer": "98ee4aa", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.CompoundButton", 
+                                            "android.widget.Button", 
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            140, 
+                                            0, 
+                                            367, 
+                                            112
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": true, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.RadioButton", 
+                                          "visible-to-user": true, 
+                                          "package": "com.jm.android.frequencygenerator", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            161, 
+                                            860, 
+                                            388, 
+                                            972
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "text": "square", 
+                                          "resource-id": "com.jm.android.frequencygenerator:id/radioSquare", 
+                                          "adapter-view": false, 
+                                          "pointer": "ff589b", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.CompoundButton", 
+                                            "android.widget.Button", 
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            367, 
+                                            0, 
+                                            669, 
+                                            112
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": true, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.RadioButton", 
+                                          "visible-to-user": true, 
+                                          "package": "com.jm.android.frequencygenerator", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            388, 
+                                            860, 
+                                            690, 
+                                            972
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "text": "sawt", 
+                                          "resource-id": "com.jm.android.frequencygenerator:id/radioSaw", 
+                                          "adapter-view": false, 
+                                          "pointer": "c9a2438", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.CompoundButton", 
+                                            "android.widget.Button", 
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            669, 
+                                            0, 
+                                            915, 
+                                            112
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": true, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.RadioButton", 
+                                          "visible-to-user": true, 
+                                          "package": "com.jm.android.frequencygenerator", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            690, 
+                                            860, 
+                                            936, 
+                                            972
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "text": "triangle", 
+                                          "resource-id": "com.jm.android.frequencygenerator:id/radioTriangle", 
+                                          "adapter-view": false, 
+                                          "pointer": "ffaac11", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.CompoundButton", 
+                                            "android.widget.Button", 
+                                            "android.widget.TextView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            915, 
+                                            0, 
+                                            1236, 
+                                            112
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": true, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.RadioButton", 
+                                          "visible-to-user": true, 
+                                          "package": "com.jm.android.frequencygenerator", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            936, 
+                                            860, 
+                                            1257, 
+                                            972
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }
+                                      ], 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.widget.LinearLayout", 
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        1377, 
+                                        112
+                                      ], 
+                                      "draw": true, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.RadioGroup", 
+                                      "visible-to-user": true, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        21, 
+                                        860, 
+                                        1398, 
+                                        972
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }
+                                  ], 
+                                  "adapter-view": false, 
+                                  "abs-pos": true, 
+                                  "pointer": "1205f4c", 
+                                  "class": "android.widget.TableRow", 
+                                  "visible-to-user": true
+                                }, 
+                                {
+                                  "scrollable-horizontal": false, 
+                                  "draw": true, 
+                                  "ancestors": [
+                                    "android.widget.LinearLayout", 
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "clickable": false, 
+                                  "pressed": "not_pressed", 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    21, 
+                                    993, 
+                                    1398, 
+                                    1105
+                                  ], 
+                                  "visibility": "visible", 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    133, 
+                                    1377, 
+                                    245
+                                  ], 
+                                  "focused": false, 
+                                  "selected": false, 
+                                  "scrollable-vertical": false, 
+                                  "children": [
+                                    {
+                                      "text": "R. phase", 
+                                      "resource-id": "com.jm.android.frequencygenerator:id/lbFaseRight", 
+                                      "adapter-view": false, 
+                                      "pointer": "1f0e377", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        264, 
+                                        85
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.TextView", 
+                                      "visible-to-user": true, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        21, 
+                                        993, 
+                                        285, 
+                                        1078
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "resource-id": "com.jm.android.frequencygenerator:id/seekBarFaseRight", 
+                                      "adapter-view": false, 
+                                      "pointer": "de94be4", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.widget.AbsSeekBar", 
+                                        "android.widget.ProgressBar", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        299, 
+                                        0, 
+                                        1179, 
+                                        112
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": true, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.SeekBar", 
+                                      "visible-to-user": true, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        320, 
+                                        993, 
+                                        1200, 
+                                        1105
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "text": "-000\u00ba", 
+                                      "resource-id": "com.jm.android.frequencygenerator:id/lbFaseRightValue", 
+                                      "adapter-view": false, 
+                                      "pointer": "7ccf84d", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        1226, 
+                                        0, 
+                                        1377, 
+                                        85
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": true, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.TextView", 
+                                      "visible-to-user": true, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        1247, 
+                                        993, 
+                                        1398, 
+                                        1078
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }
+                                  ], 
+                                  "adapter-view": false, 
+                                  "abs-pos": true, 
+                                  "pointer": "44ea176", 
+                                  "class": "android.widget.TableRow", 
+                                  "visible-to-user": true
+                                }, 
+                                {
+                                  "scrollable-horizontal": false, 
+                                  "draw": true, 
+                                  "ancestors": [
+                                    "android.widget.LinearLayout", 
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "clickable": false, 
+                                  "pressed": "not_pressed", 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    21, 
+                                    1140, 
+                                    1398, 
+                                    1252
+                                  ], 
+                                  "visibility": "visible", 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    280, 
+                                    1377, 
+                                    392
+                                  ], 
+                                  "focused": false, 
+                                  "selected": false, 
+                                  "scrollable-vertical": false, 
+                                  "children": [
+                                    {
+                                      "text": "R. freq.+", 
+                                      "resource-id": "com.jm.android.frequencygenerator:id/lbFdifRight", 
+                                      "adapter-view": false, 
+                                      "pointer": "f064013", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        264, 
+                                        85
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.TextView", 
+                                      "visible-to-user": true, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        21, 
+                                        1140, 
+                                        285, 
+                                        1225
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "resource-id": "com.jm.android.frequencygenerator:id/seekBarFdifRight", 
+                                      "adapter-view": false, 
+                                      "pointer": "ee14250", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.widget.AbsSeekBar", 
+                                        "android.widget.ProgressBar", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        299, 
+                                        0, 
+                                        1179, 
+                                        112
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": true, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.SeekBar", 
+                                      "visible-to-user": true, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        320, 
+                                        1140, 
+                                        1200, 
+                                        1252
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "text": "0.0Hz", 
+                                      "resource-id": "com.jm.android.frequencygenerator:id/lbFdifRightValue", 
+                                      "adapter-view": false, 
+                                      "pointer": "1fdcc49", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        1214, 
+                                        0, 
+                                        1377, 
+                                        85
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": true, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.TextView", 
+                                      "visible-to-user": true, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        1235, 
+                                        1140, 
+                                        1398, 
+                                        1225
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }
+                                  ], 
+                                  "adapter-view": false, 
+                                  "abs-pos": true, 
+                                  "pointer": "e7b5f02", 
+                                  "class": "android.widget.TableRow", 
+                                  "visible-to-user": true
+                                }, 
+                                {
+                                  "scrollable-horizontal": false, 
+                                  "draw": true, 
+                                  "ancestors": [
+                                    "android.widget.LinearLayout", 
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "clickable": false, 
+                                  "pressed": "not_pressed", 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    21, 
+                                    1287, 
+                                    1398, 
+                                    1399
+                                  ], 
+                                  "visibility": "visible", 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    427, 
+                                    1377, 
+                                    539
+                                  ], 
+                                  "focused": false, 
+                                  "selected": false, 
+                                  "scrollable-vertical": false, 
+                                  "children": [
+                                    {
+                                      "scrollable-horizontal": false, 
+                                      "draw": false, 
+                                      "ancestors": [
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "clickable": false, 
+                                      "pressed": "not_pressed", 
+                                      "text": "AM freq.", 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        21, 
+                                        1287, 
+                                        285, 
+                                        1372
+                                      ], 
+                                      "visibility": "visible", 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        264, 
+                                        85
+                                      ], 
+                                      "focused": false, 
+                                      "selected": false, 
+                                      "scrollable-vertical": false, 
+                                      "adapter-view": false, 
+                                      "abs-pos": true, 
+                                      "pointer": "a0aca6f", 
+                                      "class": "android.widget.TextView", 
+                                      "visible-to-user": true
+                                    }, 
+                                    {
+                                      "resource-id": "com.jm.android.frequencygenerator:id/seekBarAMFrequency", 
+                                      "adapter-view": false, 
+                                      "pointer": "120337c", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.widget.AbsSeekBar", 
+                                        "android.widget.ProgressBar", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        299, 
+                                        0, 
+                                        1179, 
+                                        112
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": true, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.SeekBar", 
+                                      "visible-to-user": true, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        320, 
+                                        1287, 
+                                        1200, 
+                                        1399
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "text": "0.0Hz", 
+                                      "resource-id": "com.jm.android.frequencygenerator:id/lbAMFrequencyValue", 
+                                      "adapter-view": false, 
+                                      "pointer": "84de405", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        1214, 
+                                        0, 
+                                        1377, 
+                                        85
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": true, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.TextView", 
+                                      "visible-to-user": true, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        1235, 
+                                        1287, 
+                                        1398, 
+                                        1372
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }
+                                  ], 
+                                  "adapter-view": false, 
+                                  "abs-pos": true, 
+                                  "pointer": "6c4694e", 
+                                  "class": "android.widget.TableRow", 
+                                  "visible-to-user": true
+                                }, 
+                                {
+                                  "scrollable-horizontal": false, 
+                                  "draw": true, 
+                                  "ancestors": [
+                                    "android.widget.LinearLayout", 
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "clickable": false, 
+                                  "pressed": "not_pressed", 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    21, 
+                                    1434, 
+                                    1398, 
+                                    1546
+                                  ], 
+                                  "visibility": "visible", 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    574, 
+                                    1377, 
+                                    686
+                                  ], 
+                                  "focused": false, 
+                                  "selected": false, 
+                                  "scrollable-vertical": false, 
+                                  "children": [
+                                    {
+                                      "scrollable-horizontal": false, 
+                                      "draw": false, 
+                                      "ancestors": [
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "clickable": false, 
+                                      "pressed": "not_pressed", 
+                                      "text": "AM amp.", 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        21, 
+                                        1434, 
+                                        285, 
+                                        1519
+                                      ], 
+                                      "visibility": "visible", 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        264, 
+                                        85
+                                      ], 
+                                      "focused": false, 
+                                      "selected": false, 
+                                      "scrollable-vertical": false, 
+                                      "adapter-view": false, 
+                                      "abs-pos": true, 
+                                      "pointer": "c239e8b", 
+                                      "class": "android.widget.TextView", 
+                                      "visible-to-user": true
+                                    }, 
+                                    {
+                                      "resource-id": "com.jm.android.frequencygenerator:id/seekBarAMSensibility", 
+                                      "adapter-view": false, 
+                                      "pointer": "ffb0b68", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.widget.AbsSeekBar", 
+                                        "android.widget.ProgressBar", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        299, 
+                                        0, 
+                                        1179, 
+                                        112
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": true, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.SeekBar", 
+                                      "visible-to-user": true, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        320, 
+                                        1434, 
+                                        1200, 
+                                        1546
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "text": "1.00", 
+                                      "resource-id": "com.jm.android.frequencygenerator:id/lbAMSensibilityValue", 
+                                      "adapter-view": false, 
+                                      "pointer": "5cdbb81", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        1255, 
+                                        0, 
+                                        1377, 
+                                        85
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": true, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.TextView", 
+                                      "visible-to-user": true, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        1276, 
+                                        1434, 
+                                        1398, 
+                                        1519
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }
+                                  ], 
+                                  "adapter-view": false, 
+                                  "abs-pos": true, 
+                                  "pointer": "581cc5a", 
+                                  "class": "android.widget.TableRow", 
+                                  "visible-to-user": true
+                                }, 
+                                {
+                                  "resource-id": "com.jm.android.frequencygenerator:id/rowSilenceGap", 
+                                  "adapter-view": false, 
+                                  "pointer": "e805426", 
+                                  "children": [
+                                    {
+                                      "text": "Silence", 
+                                      "resource-id": "com.jm.android.frequencygenerator:id/lbSilenceGap", 
+                                      "adapter-view": false, 
+                                      "pointer": "1ab9867", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        0, 
+                                        0
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.TextView", 
+                                      "visible-to-user": false, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        21, 
+                                        860, 
+                                        21, 
+                                        860
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "resource-id": "com.jm.android.frequencygenerator:id/seekBarSilenceGap", 
+                                      "adapter-view": false, 
+                                      "pointer": "5297614", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.widget.AbsSeekBar", 
+                                        "android.widget.ProgressBar", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        0, 
+                                        0
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": true, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.SeekBar", 
+                                      "visible-to-user": false, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        21, 
+                                        860, 
+                                        21, 
+                                        860
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "text": "0.00", 
+                                      "resource-id": "com.jm.android.frequencygenerator:id/lbSilenceGapValue", 
+                                      "adapter-view": false, 
+                                      "pointer": "c198ebd", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        0, 
+                                        0
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": true, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.TextView", 
+                                      "visible-to-user": false, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        21, 
+                                        860, 
+                                        21, 
+                                        860
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }
+                                  ], 
+                                  "scrollable-horizontal": false, 
+                                  "ancestors": [
+                                    "android.widget.LinearLayout", 
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "selected": false, 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0
+                                  ], 
+                                  "draw": true, 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "visibility": "gone", 
+                                  "focused": false, 
+                                  "clickable": false, 
+                                  "abs-pos": true, 
+                                  "class": "android.widget.TableRow", 
+                                  "visible-to-user": false, 
+                                  "package": "com.jm.android.frequencygenerator", 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    21, 
+                                    860, 
+                                    21, 
+                                    860
+                                  ], 
+                                  "pressed": "not_pressed", 
+                                  "scrollable-vertical": false
+                                }, 
+                                {
+                                  "scrollable-horizontal": false, 
+                                  "draw": true, 
+                                  "ancestors": [
+                                    "android.widget.LinearLayout", 
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "clickable": false, 
+                                  "pressed": "not_pressed", 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    21, 
+                                    1581, 
+                                    1398, 
+                                    1693
+                                  ], 
+                                  "visibility": "visible", 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    721, 
+                                    1377, 
+                                    833
+                                  ], 
+                                  "focused": false, 
+                                  "selected": false, 
+                                  "scrollable-vertical": false, 
+                                  "children": [
+                                    {
+                                      "scrollable-horizontal": false, 
+                                      "draw": true, 
+                                      "ancestors": [
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "clickable": false, 
+                                      "pressed": "not_pressed", 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        21, 
+                                        1581, 
+                                        320, 
+                                        1693
+                                      ], 
+                                      "visibility": "visible", 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        299, 
+                                        112
+                                      ], 
+                                      "focused": false, 
+                                      "selected": false, 
+                                      "scrollable-vertical": false, 
+                                      "children": [
+                                        {
+                                          "text": "Left", 
+                                          "resource-id": "com.jm.android.frequencygenerator:id/lbVolumeLeft", 
+                                          "adapter-view": false, 
+                                          "pointer": "c31df80", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            110, 
+                                            112
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": false, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.TextView", 
+                                          "visible-to-user": true, 
+                                          "package": "com.jm.android.frequencygenerator", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            21, 
+                                            1581, 
+                                            131, 
+                                            1693
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "resource-id": "com.jm.android.frequencygenerator:id/btVolumeLeftMute", 
+                                          "adapter-view": false, 
+                                          "pointer": "5559b9", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.ImageView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            "Sound mute button"
+                                          ], 
+                                          "rel-bounds": [
+                                            131, 
+                                            0, 
+                                            243, 
+                                            112
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": true, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.ImageButton", 
+                                          "visible-to-user": true, 
+                                          "package": "com.jm.android.frequencygenerator", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            152, 
+                                            1581, 
+                                            264, 
+                                            1693
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }
+                                      ], 
+                                      "adapter-view": false, 
+                                      "abs-pos": true, 
+                                      "pointer": "7cf5403", 
+                                      "class": "android.widget.LinearLayout", 
+                                      "visible-to-user": true
+                                    }, 
+                                    {
+                                      "resource-id": "com.jm.android.frequencygenerator:id/seekBarVolumeLeft", 
+                                      "adapter-view": false, 
+                                      "pointer": "3c3c1fe", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.widget.AbsSeekBar", 
+                                        "android.widget.ProgressBar", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        299, 
+                                        0, 
+                                        1179, 
+                                        112
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": true, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.SeekBar", 
+                                      "visible-to-user": true, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        320, 
+                                        1581, 
+                                        1200, 
+                                        1693
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "text": "0.0dB", 
+                                      "resource-id": "com.jm.android.frequencygenerator:id/lbVolumeLeftValue", 
+                                      "adapter-view": false, 
+                                      "pointer": "7e92d5f", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        1215, 
+                                        0, 
+                                        1377, 
+                                        85
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.TextView", 
+                                      "visible-to-user": true, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        1236, 
+                                        1581, 
+                                        1398, 
+                                        1666
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }
+                                  ], 
+                                  "adapter-view": false, 
+                                  "abs-pos": true, 
+                                  "pointer": "38d8cb2", 
+                                  "class": "android.widget.TableRow", 
+                                  "visible-to-user": true
+                                }, 
+                                {
+                                  "scrollable-horizontal": false, 
+                                  "draw": true, 
+                                  "ancestors": [
+                                    "android.widget.LinearLayout", 
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "clickable": false, 
+                                  "pressed": "not_pressed", 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    21, 
+                                    1728, 
+                                    1398, 
+                                    1840
+                                  ], 
+                                  "visibility": "visible", 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    868, 
+                                    1377, 
+                                    980
+                                  ], 
+                                  "focused": false, 
+                                  "selected": false, 
+                                  "scrollable-vertical": false, 
+                                  "children": [
+                                    {
+                                      "scrollable-horizontal": false, 
+                                      "draw": true, 
+                                      "ancestors": [
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "clickable": false, 
+                                      "pressed": "not_pressed", 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        21, 
+                                        1728, 
+                                        320, 
+                                        1840
+                                      ], 
+                                      "visibility": "visible", 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        299, 
+                                        112
+                                      ], 
+                                      "focused": false, 
+                                      "selected": false, 
+                                      "scrollable-vertical": false, 
+                                      "children": [
+                                        {
+                                          "text": "Right", 
+                                          "resource-id": "com.jm.android.frequencygenerator:id/lbVolumeRight", 
+                                          "adapter-view": false, 
+                                          "pointer": "396000a", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            145, 
+                                            112
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": false, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.TextView", 
+                                          "visible-to-user": true, 
+                                          "package": "com.jm.android.frequencygenerator", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            21, 
+                                            1728, 
+                                            166, 
+                                            1840
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }, 
+                                        {
+                                          "resource-id": "com.jm.android.frequencygenerator:id/btVolumeRightMute", 
+                                          "adapter-view": false, 
+                                          "pointer": "c9d407b", 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.widget.ImageView", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            "Sound mute button"
+                                          ], 
+                                          "rel-bounds": [
+                                            166, 
+                                            0, 
+                                            278, 
+                                            112
+                                          ], 
+                                          "draw": false, 
+                                          "focusable": true, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": true, 
+                                          "abs-pos": true, 
+                                          "class": "android.widget.ImageButton", 
+                                          "visible-to-user": true, 
+                                          "package": "com.jm.android.frequencygenerator", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            187, 
+                                            1728, 
+                                            299, 
+                                            1840
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }
+                                      ], 
+                                      "adapter-view": false, 
+                                      "abs-pos": true, 
+                                      "pointer": "be8d875", 
+                                      "class": "android.widget.LinearLayout", 
+                                      "visible-to-user": true
+                                    }, 
+                                    {
+                                      "resource-id": "com.jm.android.frequencygenerator:id/seekBarVolumeRight", 
+                                      "adapter-view": false, 
+                                      "pointer": "2bc1e98", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.widget.AbsSeekBar", 
+                                        "android.widget.ProgressBar", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        299, 
+                                        0, 
+                                        1179, 
+                                        112
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": true, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.SeekBar", 
+                                      "visible-to-user": true, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        320, 
+                                        1728, 
+                                        1200, 
+                                        1840
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "text": "0.0dB", 
+                                      "resource-id": "com.jm.android.frequencygenerator:id/lbVolumeRightValue", 
+                                      "adapter-view": false, 
+                                      "pointer": "cfb86f1", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        1215, 
+                                        0, 
+                                        1377, 
+                                        85
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.TextView", 
+                                      "visible-to-user": true, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        1236, 
+                                        1728, 
+                                        1398, 
+                                        1813
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }
+                                  ], 
+                                  "adapter-view": false, 
+                                  "abs-pos": true, 
+                                  "pointer": "9573ac", 
+                                  "class": "android.widget.TableRow", 
+                                  "visible-to-user": true
+                                }, 
+                                {
+                                  "scrollable-horizontal": false, 
+                                  "draw": true, 
+                                  "ancestors": [
+                                    "android.widget.LinearLayout", 
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "clickable": false, 
+                                  "pressed": "not_pressed", 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    21, 
+                                    1875, 
+                                    1398, 
+                                    1987
+                                  ], 
+                                  "visibility": "visible", 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    1015, 
+                                    1377, 
+                                    1127
+                                  ], 
+                                  "focused": false, 
+                                  "selected": false, 
+                                  "scrollable-vertical": false, 
+                                  "children": [
+                                    {
+                                      "text": "MasterV", 
+                                      "resource-id": "com.jm.android.frequencygenerator:id/lbMasterVolume", 
+                                      "adapter-view": false, 
+                                      "pointer": "cb56957", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        264, 
+                                        85
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.TextView", 
+                                      "visible-to-user": true, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        21, 
+                                        1875, 
+                                        285, 
+                                        1960
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "resource-id": "com.jm.android.frequencygenerator:id/seekBarVolume", 
+                                      "adapter-view": false, 
+                                      "pointer": "fa08c44", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.widget.AbsSeekBar", 
+                                        "android.widget.ProgressBar", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        299, 
+                                        0, 
+                                        1179, 
+                                        112
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": true, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.SeekBar", 
+                                      "visible-to-user": true, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        320, 
+                                        1875, 
+                                        1200, 
+                                        1987
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "text": "-60db", 
+                                      "resource-id": "com.jm.android.frequencygenerator:id/lbMasterVolumeValue", 
+                                      "adapter-view": false, 
+                                      "pointer": "2b0a12d", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        1219, 
+                                        0, 
+                                        1377, 
+                                        85
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.widget.TextView", 
+                                      "visible-to-user": true, 
+                                      "package": "com.jm.android.frequencygenerator", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        1240, 
+                                        1875, 
+                                        1398, 
+                                        1960
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }
+                                  ], 
+                                  "adapter-view": false, 
+                                  "abs-pos": true, 
+                                  "pointer": "99c12d6", 
+                                  "class": "android.widget.TableRow", 
+                                  "visible-to-user": true
+                                }
+                              ], 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.widget.LinearLayout", 
+                                "android.view.ViewGroup", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                21, 
+                                0, 
+                                1398, 
+                                1162
+                              ], 
+                              "draw": true, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.widget.TableLayout", 
+                              "visible-to-user": true, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                21, 
+                                860, 
+                                1398, 
+                                2022
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }
+                          ], 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.widget.FrameLayout", 
+                            "android.view.ViewGroup", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            1440, 
+                            1336
+                          ], 
+                          "draw": false, 
+                          "focusable": true, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "class": "android.widget.ScrollView", 
+                          "visible-to-user": true, 
+                          "package": "com.jm.android.frequencygenerator", 
+                          "enabled": true, 
+                          "bounds": [
+                            0, 
+                            860, 
+                            1440, 
+                            2196
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": true
+                        }, 
+                        {
+                          "resource-id": "com.jm.android.frequencygenerator:id/ButtonsLayout", 
+                          "adapter-view": false, 
+                          "pointer": "c1e8662", 
+                          "children": [
+                            {
+                              "resource-id": "com.jm.android.frequencygenerator:id/btPrevious", 
+                              "adapter-view": false, 
+                              "pointer": "7bd43f3", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.widget.ImageView", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                "-"
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                0, 
+                                0, 
+                                0
+                              ], 
+                              "draw": false, 
+                              "focusable": true, 
+                              "long-clickable": false, 
+                              "visibility": "gone", 
+                              "focused": false, 
+                              "clickable": true, 
+                              "abs-pos": true, 
+                              "class": "android.widget.ImageButton", 
+                              "visible-to-user": false, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                0, 
+                                2217, 
+                                0, 
+                                2217
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "resource-id": "com.jm.android.frequencygenerator:id/btDecrement", 
+                              "adapter-view": false, 
+                              "pointer": "73c28b0", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.widget.ImageView", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                "-"
+                              ], 
+                              "rel-bounds": [
+                                21, 
+                                21, 
+                                300, 
+                                154
+                              ], 
+                              "draw": false, 
+                              "focusable": true, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": true, 
+                              "abs-pos": true, 
+                              "class": "android.widget.ImageButton", 
+                              "visible-to-user": true, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                21, 
+                                2238, 
+                                300, 
+                                2371
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "resource-id": "com.jm.android.frequencygenerator:id/btPlay", 
+                              "adapter-view": false, 
+                              "pointer": "1232329", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.widget.ImageView", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                "Play"
+                              ], 
+                              "rel-bounds": [
+                                300, 
+                                21, 
+                                719, 
+                                154
+                              ], 
+                              "draw": false, 
+                              "focusable": true, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": true, 
+                              "abs-pos": true, 
+                              "class": "android.widget.ImageButton", 
+                              "visible-to-user": true, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                300, 
+                                2238, 
+                                719, 
+                                2371
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "resource-id": "com.jm.android.frequencygenerator:id/BtStop", 
+                              "adapter-view": false, 
+                              "pointer": "b62a6ae", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.widget.ImageView", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                "Stop"
+                              ], 
+                              "rel-bounds": [
+                                719, 
+                                21, 
+                                1139, 
+                                154
+                              ], 
+                              "draw": false, 
+                              "focusable": true, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": true, 
+                              "abs-pos": true, 
+                              "class": "android.widget.ImageButton", 
+                              "visible-to-user": true, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                719, 
+                                2238, 
+                                1139, 
+                                2371
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "resource-id": "com.jm.android.frequencygenerator:id/btIncrement", 
+                              "adapter-view": false, 
+                              "pointer": "5e2c4f", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.widget.ImageView", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                "+"
+                              ], 
+                              "rel-bounds": [
+                                1139, 
+                                21, 
+                                1419, 
+                                154
+                              ], 
+                              "draw": false, 
+                              "focusable": true, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": true, 
+                              "abs-pos": true, 
+                              "class": "android.widget.ImageButton", 
+                              "visible-to-user": true, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                1139, 
+                                2238, 
+                                1419, 
+                                2371
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }, 
+                            {
+                              "resource-id": "com.jm.android.frequencygenerator:id/btNext", 
+                              "adapter-view": false, 
+                              "pointer": "db31fdc", 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.widget.ImageView", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                "-"
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                0, 
+                                0, 
+                                0
+                              ], 
+                              "draw": false, 
+                              "focusable": true, 
+                              "long-clickable": false, 
+                              "visibility": "gone", 
+                              "focused": false, 
+                              "clickable": true, 
+                              "abs-pos": true, 
+                              "class": "android.widget.ImageButton", 
+                              "visible-to-user": false, 
+                              "package": "com.jm.android.frequencygenerator", 
+                              "enabled": true, 
+                              "bounds": [
+                                0, 
+                                2217, 
+                                0, 
+                                2217
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }
+                          ], 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.view.ViewGroup", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            1357, 
+                            1440, 
+                            1532
+                          ], 
+                          "draw": true, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "class": "android.widget.LinearLayout", 
+                          "visible-to-user": true, 
+                          "package": "com.jm.android.frequencygenerator", 
+                          "enabled": true, 
+                          "bounds": [
+                            0, 
+                            2217, 
+                            1440, 
+                            2392
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }
+                      ], 
+                      "adapter-view": false, 
+                      "abs-pos": true, 
+                      "pointer": "dd57ad9", 
+                      "class": "android.widget.LinearLayout", 
+                      "visible-to-user": true
+                    }
+                  ], 
+                  "scrollable-horizontal": false, 
+                  "ancestors": [
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "selected": false, 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    21, 
+                    1440, 
+                    2308
+                  ], 
+                  "draw": true, 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "visibility": "visible", 
+                  "focused": false, 
+                  "clickable": false, 
+                  "abs-pos": true, 
+                  "class": "android.widget.LinearLayout", 
+                  "visible-to-user": true, 
+                  "package": "com.jm.android.frequencygenerator", 
+                  "enabled": true, 
+                  "bounds": [
+                    0, 
+                    105, 
+                    1440, 
+                    2392
+                  ], 
+                  "pressed": "not_pressed", 
+                  "scrollable-vertical": false
+                }
+              ], 
+              "scrollable-horizontal": false, 
+              "ancestors": [
+                "android.view.ViewGroup", 
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "selected": false, 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                84, 
+                1440, 
+                2392
+              ], 
+              "draw": true, 
+              "focusable": false, 
+              "long-clickable": false, 
+              "visibility": "visible", 
+              "focused": false, 
+              "clickable": false, 
+              "abs-pos": true, 
+              "class": "android.widget.FrameLayout", 
+              "visible-to-user": true, 
+              "package": "android", 
+              "enabled": true, 
+              "bounds": [
+                0, 
+                84, 
+                1440, 
+                2392
+              ], 
+              "pressed": "not_pressed", 
+              "scrollable-vertical": false
+            }
+          ], 
+          "adapter-view": false, 
+          "abs-pos": true, 
+          "pointer": "92ccd97", 
+          "class": "android.widget.LinearLayout", 
+          "visible-to-user": true
+        }
+      ], 
+      "adapter-view": false, 
+      "abs-pos": true, 
+      "pointer": "ffd6016", 
+      "class": "com.android.internal.policy.PhoneWindow$DecorView", 
+      "visible-to-user": true
+    }, 
+    "added_fragments": [], 
+    "active_fragments": []
+  }, 
+  "is_keyboard_deployed": false, 
+  "request_id": "675"
+}

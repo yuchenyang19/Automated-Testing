@@ -1,0 +1,1776 @@
+{
+  "activity_name": "com.fivefly.android.shoppinglist/com.fivefly.android.shoppinglist.ui.activities.ShoppingListItemsListActivity", 
+  "activity": {
+    "root": {
+      "scrollable-horizontal": false, 
+      "draw": true, 
+      "ancestors": [
+        "android.widget.FrameLayout", 
+        "android.view.ViewGroup", 
+        "android.view.View", 
+        "java.lang.Object"
+      ], 
+      "clickable": false, 
+      "pressed": "not_pressed", 
+      "focusable": false, 
+      "long-clickable": false, 
+      "enabled": true, 
+      "bounds": [
+        740, 
+        98, 
+        1426, 
+        1442
+      ], 
+      "visibility": "visible", 
+      "content-desc": [
+        null
+      ], 
+      "rel-bounds": [
+        0, 
+        0, 
+        686, 
+        1344
+      ], 
+      "focused": false, 
+      "selected": false, 
+      "scrollable-vertical": false, 
+      "children": [
+        {
+          "scrollable-horizontal": false, 
+          "draw": true, 
+          "ancestors": [
+            "android.widget.FrameLayout", 
+            "android.view.ViewGroup", 
+            "android.view.View", 
+            "java.lang.Object"
+          ], 
+          "clickable": false, 
+          "pressed": "not_pressed", 
+          "focusable": false, 
+          "long-clickable": false, 
+          "enabled": true, 
+          "bounds": [
+            740, 
+            98, 
+            1426, 
+            1442
+          ], 
+          "visibility": "visible", 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            686, 
+            1344
+          ], 
+          "focused": false, 
+          "selected": false, 
+          "scrollable-vertical": false, 
+          "children": [
+            {
+              "scrollable-horizontal": false, 
+              "draw": false, 
+              "ancestors": [
+                "android.support.v7.widget.ag", 
+                "android.support.v7.widget.am", 
+                "android.widget.ListView", 
+                "android.widget.AbsListView", 
+                "android.widget.AdapterView", 
+                "android.view.ViewGroup", 
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "clickable": true, 
+              "pressed": "not_pressed", 
+              "focusable": true, 
+              "long-clickable": false, 
+              "enabled": true, 
+              "bounds": [
+                740, 
+                98, 
+                1426, 
+                1442
+              ], 
+              "visibility": "visible", 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                0, 
+                686, 
+                1344
+              ], 
+              "focused": true, 
+              "selected": false, 
+              "scrollable-vertical": true, 
+              "children": [
+                {
+                  "scrollable-horizontal": false, 
+                  "draw": true, 
+                  "ancestors": [
+                    "android.widget.LinearLayout", 
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "clickable": false, 
+                  "pressed": "not_pressed", 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "enabled": true, 
+                  "bounds": [
+                    740, 
+                    98, 
+                    1426, 
+                    266
+                  ], 
+                  "visibility": "visible", 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    0, 
+                    686, 
+                    168
+                  ], 
+                  "focused": false, 
+                  "selected": false, 
+                  "scrollable-vertical": false, 
+                  "children": [
+                    {
+                      "scrollable-horizontal": false, 
+                      "draw": true, 
+                      "ancestors": [
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "clickable": false, 
+                      "pressed": "not_pressed", 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "enabled": true, 
+                      "bounds": [
+                        796, 
+                        144, 
+                        1370, 
+                        220
+                      ], 
+                      "visibility": "visible", 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        56, 
+                        46, 
+                        630, 
+                        122
+                      ], 
+                      "focused": false, 
+                      "selected": false, 
+                      "scrollable-vertical": false, 
+                      "children": [
+                        {
+                          "text": "sort", 
+                          "resource-id": "com.fivefly.android.shoppinglist:id/title", 
+                          "adapter-view": false, 
+                          "pointer": "679f26b", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            574, 
+                            76
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif", 
+                          "class": "android.support.v7.widget.AppCompatTextView", 
+                          "visible-to-user": true, 
+                          "package": "com.fivefly.android.shoppinglist", 
+                          "enabled": true, 
+                          "bounds": [
+                            796, 
+                            144, 
+                            1370, 
+                            220
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }, 
+                        {
+                          "text": "", 
+                          "resource-id": "com.fivefly.android.shoppinglist:id/shortcut", 
+                          "adapter-view": false, 
+                          "pointer": "38b01c8", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            0, 
+                            0
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "gone", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif", 
+                          "class": "android.support.v7.widget.AppCompatTextView", 
+                          "visible-to-user": false, 
+                          "package": "com.fivefly.android.shoppinglist", 
+                          "enabled": true, 
+                          "bounds": [
+                            796, 
+                            144, 
+                            796, 
+                            144
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }
+                      ], 
+                      "adapter-view": false, 
+                      "abs-pos": true, 
+                      "pointer": "56f83ba", 
+                      "class": "android.widget.RelativeLayout", 
+                      "visible-to-user": true
+                    }, 
+                    {
+                      "resource-id": "com.fivefly.android.shoppinglist:id/submenuarrow", 
+                      "adapter-view": false, 
+                      "pointer": "56ae261", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.widget.AppCompatImageView", 
+                      "visible-to-user": false, 
+                      "package": "com.fivefly.android.shoppinglist", 
+                      "enabled": true, 
+                      "bounds": [
+                        740, 
+                        98, 
+                        740, 
+                        98
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "adapter-view": false, 
+                  "abs-pos": true, 
+                  "pointer": "ccc5ce5", 
+                  "class": "android.support.v7.view.menu.ListMenuItemView", 
+                  "visible-to-user": true
+                }, 
+                {
+                  "scrollable-horizontal": false, 
+                  "draw": true, 
+                  "ancestors": [
+                    "android.widget.LinearLayout", 
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "clickable": false, 
+                  "pressed": "not_pressed", 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "enabled": true, 
+                  "bounds": [
+                    740, 
+                    266, 
+                    1426, 
+                    434
+                  ], 
+                  "visibility": "visible", 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    168, 
+                    686, 
+                    336
+                  ], 
+                  "focused": false, 
+                  "selected": false, 
+                  "scrollable-vertical": false, 
+                  "children": [
+                    {
+                      "scrollable-horizontal": false, 
+                      "draw": true, 
+                      "ancestors": [
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "clickable": false, 
+                      "pressed": "not_pressed", 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "enabled": true, 
+                      "bounds": [
+                        796, 
+                        312, 
+                        1370, 
+                        388
+                      ], 
+                      "visibility": "visible", 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        56, 
+                        46, 
+                        630, 
+                        122
+                      ], 
+                      "focused": false, 
+                      "selected": false, 
+                      "scrollable-vertical": false, 
+                      "children": [
+                        {
+                          "text": "sync now", 
+                          "resource-id": "com.fivefly.android.shoppinglist:id/title", 
+                          "adapter-view": false, 
+                          "pointer": "3327274", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            574, 
+                            76
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif", 
+                          "class": "android.support.v7.widget.AppCompatTextView", 
+                          "visible-to-user": true, 
+                          "package": "com.fivefly.android.shoppinglist", 
+                          "enabled": true, 
+                          "bounds": [
+                            796, 
+                            312, 
+                            1370, 
+                            388
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }, 
+                        {
+                          "text": "", 
+                          "resource-id": "com.fivefly.android.shoppinglist:id/shortcut", 
+                          "adapter-view": false, 
+                          "pointer": "512439d", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            0, 
+                            0
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "gone", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif", 
+                          "class": "android.support.v7.widget.AppCompatTextView", 
+                          "visible-to-user": false, 
+                          "package": "com.fivefly.android.shoppinglist", 
+                          "enabled": true, 
+                          "bounds": [
+                            796, 
+                            312, 
+                            796, 
+                            312
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }
+                      ], 
+                      "adapter-view": false, 
+                      "abs-pos": true, 
+                      "pointer": "c434a47", 
+                      "class": "android.widget.RelativeLayout", 
+                      "visible-to-user": true
+                    }, 
+                    {
+                      "resource-id": "com.fivefly.android.shoppinglist:id/submenuarrow", 
+                      "adapter-view": false, 
+                      "pointer": "1ced012", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.widget.AppCompatImageView", 
+                      "visible-to-user": false, 
+                      "package": "com.fivefly.android.shoppinglist", 
+                      "enabled": true, 
+                      "bounds": [
+                        740, 
+                        266, 
+                        740, 
+                        266
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "adapter-view": false, 
+                  "abs-pos": true, 
+                  "pointer": "7822186", 
+                  "class": "android.support.v7.view.menu.ListMenuItemView", 
+                  "visible-to-user": true
+                }, 
+                {
+                  "scrollable-horizontal": false, 
+                  "draw": true, 
+                  "ancestors": [
+                    "android.widget.LinearLayout", 
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "clickable": false, 
+                  "pressed": "not_pressed", 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "enabled": true, 
+                  "bounds": [
+                    740, 
+                    434, 
+                    1426, 
+                    602
+                  ], 
+                  "visibility": "visible", 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    336, 
+                    686, 
+                    504
+                  ], 
+                  "focused": false, 
+                  "selected": false, 
+                  "scrollable-vertical": false, 
+                  "children": [
+                    {
+                      "scrollable-horizontal": false, 
+                      "draw": true, 
+                      "ancestors": [
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "clickable": false, 
+                      "pressed": "not_pressed", 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "enabled": true, 
+                      "bounds": [
+                        796, 
+                        480, 
+                        1370, 
+                        556
+                      ], 
+                      "visibility": "visible", 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        56, 
+                        46, 
+                        630, 
+                        122
+                      ], 
+                      "focused": false, 
+                      "selected": false, 
+                      "scrollable-vertical": false, 
+                      "children": [
+                        {
+                          "text": "quick entry", 
+                          "resource-id": "com.fivefly.android.shoppinglist:id/title", 
+                          "adapter-view": false, 
+                          "pointer": "7d47c99", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            574, 
+                            76
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif", 
+                          "class": "android.support.v7.widget.AppCompatTextView", 
+                          "visible-to-user": true, 
+                          "package": "com.fivefly.android.shoppinglist", 
+                          "enabled": true, 
+                          "bounds": [
+                            796, 
+                            480, 
+                            1370, 
+                            556
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }, 
+                        {
+                          "text": "", 
+                          "resource-id": "com.fivefly.android.shoppinglist:id/shortcut", 
+                          "adapter-view": false, 
+                          "pointer": "ac5db5e", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            0, 
+                            0
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "gone", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif", 
+                          "class": "android.support.v7.widget.AppCompatTextView", 
+                          "visible-to-user": false, 
+                          "package": "com.fivefly.android.shoppinglist", 
+                          "enabled": true, 
+                          "bounds": [
+                            796, 
+                            480, 
+                            796, 
+                            480
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }
+                      ], 
+                      "adapter-view": false, 
+                      "abs-pos": true, 
+                      "pointer": "a3e41e0", 
+                      "class": "android.widget.RelativeLayout", 
+                      "visible-to-user": true
+                    }, 
+                    {
+                      "resource-id": "com.fivefly.android.shoppinglist:id/submenuarrow", 
+                      "adapter-view": false, 
+                      "pointer": "7c93b3f", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.widget.AppCompatImageView", 
+                      "visible-to-user": false, 
+                      "package": "com.fivefly.android.shoppinglist", 
+                      "enabled": true, 
+                      "bounds": [
+                        740, 
+                        434, 
+                        740, 
+                        434
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "adapter-view": false, 
+                  "abs-pos": true, 
+                  "pointer": "86043e3", 
+                  "class": "android.support.v7.view.menu.ListMenuItemView", 
+                  "visible-to-user": true
+                }, 
+                {
+                  "scrollable-horizontal": false, 
+                  "draw": true, 
+                  "ancestors": [
+                    "android.widget.LinearLayout", 
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "clickable": false, 
+                  "pressed": "not_pressed", 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "enabled": true, 
+                  "bounds": [
+                    740, 
+                    602, 
+                    1426, 
+                    770
+                  ], 
+                  "visibility": "visible", 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    504, 
+                    686, 
+                    672
+                  ], 
+                  "focused": false, 
+                  "selected": false, 
+                  "scrollable-vertical": false, 
+                  "children": [
+                    {
+                      "scrollable-horizontal": false, 
+                      "draw": true, 
+                      "ancestors": [
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "clickable": false, 
+                      "pressed": "not_pressed", 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "enabled": true, 
+                      "bounds": [
+                        796, 
+                        648, 
+                        1370, 
+                        724
+                      ], 
+                      "visibility": "visible", 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        56, 
+                        46, 
+                        630, 
+                        122
+                      ], 
+                      "focused": false, 
+                      "selected": false, 
+                      "scrollable-vertical": false, 
+                      "children": [
+                        {
+                          "text": "send", 
+                          "resource-id": "com.fivefly.android.shoppinglist:id/title", 
+                          "adapter-view": false, 
+                          "pointer": "d904f6a", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            574, 
+                            76
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif", 
+                          "class": "android.support.v7.widget.AppCompatTextView", 
+                          "visible-to-user": true, 
+                          "package": "com.fivefly.android.shoppinglist", 
+                          "enabled": true, 
+                          "bounds": [
+                            796, 
+                            648, 
+                            1370, 
+                            724
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }, 
+                        {
+                          "text": "", 
+                          "resource-id": "com.fivefly.android.shoppinglist:id/shortcut", 
+                          "adapter-view": false, 
+                          "pointer": "4a04c5b", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            0, 
+                            0
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "gone", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif", 
+                          "class": "android.support.v7.widget.AppCompatTextView", 
+                          "visible-to-user": false, 
+                          "package": "com.fivefly.android.shoppinglist", 
+                          "enabled": true, 
+                          "bounds": [
+                            796, 
+                            648, 
+                            796, 
+                            648
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }
+                      ], 
+                      "adapter-view": false, 
+                      "abs-pos": true, 
+                      "pointer": "ee74955", 
+                      "class": "android.widget.RelativeLayout", 
+                      "visible-to-user": true
+                    }, 
+                    {
+                      "resource-id": "com.fivefly.android.shoppinglist:id/submenuarrow", 
+                      "adapter-view": false, 
+                      "pointer": "8e66cf8", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.widget.AppCompatImageView", 
+                      "visible-to-user": false, 
+                      "package": "com.fivefly.android.shoppinglist", 
+                      "enabled": true, 
+                      "bounds": [
+                        740, 
+                        602, 
+                        740, 
+                        602
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "adapter-view": false, 
+                  "abs-pos": true, 
+                  "pointer": "2759c0c", 
+                  "class": "android.support.v7.view.menu.ListMenuItemView", 
+                  "visible-to-user": true
+                }, 
+                {
+                  "scrollable-horizontal": false, 
+                  "draw": true, 
+                  "ancestors": [
+                    "android.widget.LinearLayout", 
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "clickable": false, 
+                  "pressed": "not_pressed", 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "enabled": true, 
+                  "bounds": [
+                    740, 
+                    770, 
+                    1426, 
+                    938
+                  ], 
+                  "visibility": "visible", 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    672, 
+                    686, 
+                    840
+                  ], 
+                  "focused": false, 
+                  "selected": false, 
+                  "scrollable-vertical": false, 
+                  "children": [
+                    {
+                      "scrollable-horizontal": false, 
+                      "draw": true, 
+                      "ancestors": [
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "clickable": false, 
+                      "pressed": "not_pressed", 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "enabled": true, 
+                      "bounds": [
+                        796, 
+                        816, 
+                        1370, 
+                        892
+                      ], 
+                      "visibility": "visible", 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        56, 
+                        46, 
+                        630, 
+                        122
+                      ], 
+                      "focused": false, 
+                      "selected": false, 
+                      "scrollable-vertical": false, 
+                      "children": [
+                        {
+                          "text": "delete marked", 
+                          "resource-id": "com.fivefly.android.shoppinglist:id/title", 
+                          "adapter-view": false, 
+                          "pointer": "f0d5337", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            574, 
+                            76
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif", 
+                          "class": "android.support.v7.widget.AppCompatTextView", 
+                          "visible-to-user": true, 
+                          "package": "com.fivefly.android.shoppinglist", 
+                          "enabled": true, 
+                          "bounds": [
+                            796, 
+                            816, 
+                            1370, 
+                            892
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }, 
+                        {
+                          "text": "", 
+                          "resource-id": "com.fivefly.android.shoppinglist:id/shortcut", 
+                          "adapter-view": false, 
+                          "pointer": "b9160a4", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            0, 
+                            0
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "gone", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif", 
+                          "class": "android.support.v7.widget.AppCompatTextView", 
+                          "visible-to-user": false, 
+                          "package": "com.fivefly.android.shoppinglist", 
+                          "enabled": true, 
+                          "bounds": [
+                            796, 
+                            816, 
+                            796, 
+                            816
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }
+                      ], 
+                      "adapter-view": false, 
+                      "abs-pos": true, 
+                      "pointer": "cdbf836", 
+                      "class": "android.widget.RelativeLayout", 
+                      "visible-to-user": true
+                    }, 
+                    {
+                      "resource-id": "com.fivefly.android.shoppinglist:id/submenuarrow", 
+                      "adapter-view": false, 
+                      "pointer": "b304e0d", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.widget.AppCompatImageView", 
+                      "visible-to-user": false, 
+                      "package": "com.fivefly.android.shoppinglist", 
+                      "enabled": true, 
+                      "bounds": [
+                        740, 
+                        770, 
+                        740, 
+                        770
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "adapter-view": false, 
+                  "abs-pos": true, 
+                  "pointer": "f2025d1", 
+                  "class": "android.support.v7.view.menu.ListMenuItemView", 
+                  "visible-to-user": true
+                }, 
+                {
+                  "scrollable-horizontal": false, 
+                  "draw": true, 
+                  "ancestors": [
+                    "android.widget.LinearLayout", 
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "clickable": false, 
+                  "pressed": "not_pressed", 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "enabled": true, 
+                  "bounds": [
+                    740, 
+                    938, 
+                    1426, 
+                    1106
+                  ], 
+                  "visibility": "visible", 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    840, 
+                    686, 
+                    1008
+                  ], 
+                  "focused": false, 
+                  "selected": false, 
+                  "scrollable-vertical": false, 
+                  "children": [
+                    {
+                      "scrollable-horizontal": false, 
+                      "draw": true, 
+                      "ancestors": [
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "clickable": false, 
+                      "pressed": "not_pressed", 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "enabled": true, 
+                      "bounds": [
+                        796, 
+                        984, 
+                        1370, 
+                        1060
+                      ], 
+                      "visibility": "visible", 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        56, 
+                        46, 
+                        630, 
+                        122
+                      ], 
+                      "focused": false, 
+                      "selected": false, 
+                      "scrollable-vertical": false, 
+                      "children": [
+                        {
+                          "text": "uncheck marked", 
+                          "resource-id": "com.fivefly.android.shoppinglist:id/title", 
+                          "adapter-view": false, 
+                          "pointer": "5d5e310", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            574, 
+                            76
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif", 
+                          "class": "android.support.v7.widget.AppCompatTextView", 
+                          "visible-to-user": true, 
+                          "package": "com.fivefly.android.shoppinglist", 
+                          "enabled": true, 
+                          "bounds": [
+                            796, 
+                            984, 
+                            1370, 
+                            1060
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }, 
+                        {
+                          "text": "", 
+                          "resource-id": "com.fivefly.android.shoppinglist:id/shortcut", 
+                          "adapter-view": false, 
+                          "pointer": "5a0be09", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            0, 
+                            0
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "gone", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif", 
+                          "class": "android.support.v7.widget.AppCompatTextView", 
+                          "visible-to-user": false, 
+                          "package": "com.fivefly.android.shoppinglist", 
+                          "enabled": true, 
+                          "bounds": [
+                            796, 
+                            984, 
+                            796, 
+                            984
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }
+                      ], 
+                      "adapter-view": false, 
+                      "abs-pos": true, 
+                      "pointer": "7d9ebd3", 
+                      "class": "android.widget.RelativeLayout", 
+                      "visible-to-user": true
+                    }, 
+                    {
+                      "resource-id": "com.fivefly.android.shoppinglist:id/submenuarrow", 
+                      "adapter-view": false, 
+                      "pointer": "34dd80e", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.widget.AppCompatImageView", 
+                      "visible-to-user": false, 
+                      "package": "com.fivefly.android.shoppinglist", 
+                      "enabled": true, 
+                      "bounds": [
+                        740, 
+                        938, 
+                        740, 
+                        938
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "adapter-view": false, 
+                  "abs-pos": true, 
+                  "pointer": "66761c2", 
+                  "class": "android.support.v7.view.menu.ListMenuItemView", 
+                  "visible-to-user": true
+                }, 
+                {
+                  "scrollable-horizontal": false, 
+                  "draw": true, 
+                  "ancestors": [
+                    "android.widget.LinearLayout", 
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "clickable": false, 
+                  "pressed": "not_pressed", 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "enabled": true, 
+                  "bounds": [
+                    740, 
+                    1106, 
+                    1426, 
+                    1274
+                  ], 
+                  "visibility": "visible", 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    1008, 
+                    686, 
+                    1176
+                  ], 
+                  "focused": false, 
+                  "selected": false, 
+                  "scrollable-vertical": false, 
+                  "children": [
+                    {
+                      "scrollable-horizontal": false, 
+                      "draw": true, 
+                      "ancestors": [
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "clickable": false, 
+                      "pressed": "not_pressed", 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "enabled": true, 
+                      "bounds": [
+                        796, 
+                        1152, 
+                        1258, 
+                        1228
+                      ], 
+                      "visibility": "visible", 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        56, 
+                        46, 
+                        518, 
+                        122
+                      ], 
+                      "focused": false, 
+                      "selected": false, 
+                      "scrollable-vertical": false, 
+                      "children": [
+                        {
+                          "text": "filter by category", 
+                          "resource-id": "com.fivefly.android.shoppinglist:id/title", 
+                          "adapter-view": false, 
+                          "pointer": "68e31c5", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            462, 
+                            76
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif", 
+                          "class": "android.support.v7.widget.AppCompatTextView", 
+                          "visible-to-user": true, 
+                          "package": "com.fivefly.android.shoppinglist", 
+                          "enabled": true, 
+                          "bounds": [
+                            796, 
+                            1152, 
+                            1258, 
+                            1228
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }, 
+                        {
+                          "text": "", 
+                          "resource-id": "com.fivefly.android.shoppinglist:id/shortcut", 
+                          "adapter-view": false, 
+                          "pointer": "113671a", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            0, 
+                            0
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "gone", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif", 
+                          "class": "android.support.v7.widget.AppCompatTextView", 
+                          "visible-to-user": false, 
+                          "package": "com.fivefly.android.shoppinglist", 
+                          "enabled": true, 
+                          "bounds": [
+                            796, 
+                            1152, 
+                            796, 
+                            1152
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }
+                      ], 
+                      "adapter-view": false, 
+                      "abs-pos": true, 
+                      "pointer": "79e203c", 
+                      "class": "android.widget.RelativeLayout", 
+                      "visible-to-user": true
+                    }, 
+                    {
+                      "resource-id": "com.fivefly.android.shoppinglist:id/submenuarrow", 
+                      "adapter-view": false, 
+                      "pointer": "6c9024b", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        546, 
+                        42, 
+                        630, 
+                        126
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.widget.AppCompatImageView", 
+                      "visible-to-user": true, 
+                      "package": "com.fivefly.android.shoppinglist", 
+                      "enabled": true, 
+                      "bounds": [
+                        1286, 
+                        1148, 
+                        1370, 
+                        1232
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "adapter-view": false, 
+                  "abs-pos": true, 
+                  "pointer": "8cd722f", 
+                  "class": "android.support.v7.view.menu.ListMenuItemView", 
+                  "visible-to-user": true
+                }, 
+                {
+                  "scrollable-horizontal": false, 
+                  "draw": true, 
+                  "ancestors": [
+                    "android.widget.LinearLayout", 
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "clickable": false, 
+                  "pressed": "not_pressed", 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "enabled": true, 
+                  "bounds": [
+                    740, 
+                    1274, 
+                    1426, 
+                    1442
+                  ], 
+                  "visibility": "visible", 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    1176, 
+                    686, 
+                    1344
+                  ], 
+                  "focused": false, 
+                  "selected": false, 
+                  "scrollable-vertical": false, 
+                  "children": [
+                    {
+                      "scrollable-horizontal": false, 
+                      "draw": true, 
+                      "ancestors": [
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "clickable": false, 
+                      "pressed": "not_pressed", 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "enabled": true, 
+                      "bounds": [
+                        796, 
+                        1320, 
+                        1370, 
+                        1396
+                      ], 
+                      "visibility": "visible", 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        56, 
+                        46, 
+                        630, 
+                        122
+                      ], 
+                      "focused": false, 
+                      "selected": false, 
+                      "scrollable-vertical": false, 
+                      "children": [
+                        {
+                          "text": "preferences", 
+                          "resource-id": "com.fivefly.android.shoppinglist:id/title", 
+                          "adapter-view": false, 
+                          "pointer": "f70dae6", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            574, 
+                            76
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif", 
+                          "class": "android.support.v7.widget.AppCompatTextView", 
+                          "visible-to-user": true, 
+                          "package": "com.fivefly.android.shoppinglist", 
+                          "enabled": true, 
+                          "bounds": [
+                            796, 
+                            1320, 
+                            1370, 
+                            1396
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }, 
+                        {
+                          "text": "", 
+                          "resource-id": "com.fivefly.android.shoppinglist:id/shortcut", 
+                          "adapter-view": false, 
+                          "pointer": "9a37827", 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.widget.TextView", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            0, 
+                            0
+                          ], 
+                          "draw": false, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "gone", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "font-family": "sans-serif", 
+                          "class": "android.support.v7.widget.AppCompatTextView", 
+                          "visible-to-user": false, 
+                          "package": "com.fivefly.android.shoppinglist", 
+                          "enabled": true, 
+                          "bounds": [
+                            796, 
+                            1320, 
+                            796, 
+                            1320
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }
+                      ], 
+                      "adapter-view": false, 
+                      "abs-pos": true, 
+                      "pointer": "1252541", 
+                      "class": "android.widget.RelativeLayout", 
+                      "visible-to-user": true
+                    }, 
+                    {
+                      "resource-id": "com.fivefly.android.shoppinglist:id/submenuarrow", 
+                      "adapter-view": false, 
+                      "pointer": "e603ad4", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.ImageView", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": false, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.widget.AppCompatImageView", 
+                      "visible-to-user": false, 
+                      "package": "com.fivefly.android.shoppinglist", 
+                      "enabled": true, 
+                      "bounds": [
+                        740, 
+                        1274, 
+                        740, 
+                        1274
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "adapter-view": false, 
+                  "abs-pos": true, 
+                  "pointer": "34b0428", 
+                  "class": "android.support.v7.view.menu.ListMenuItemView", 
+                  "visible-to-user": true
+                }
+              ], 
+              "adapter-view": true, 
+              "abs-pos": true, 
+              "pointer": "701adb9", 
+              "class": "android.support.v7.widget.ao$a", 
+              "visible-to-user": true
+            }
+          ], 
+          "adapter-view": false, 
+          "abs-pos": true, 
+          "pointer": "c4b0a62", 
+          "class": "android.widget.PopupWindow$PopupBackgroundView", 
+          "visible-to-user": true
+        }
+      ], 
+      "adapter-view": false, 
+      "abs-pos": true, 
+      "pointer": "56cb52d", 
+      "class": "android.widget.PopupWindow$PopupDecorView", 
+      "visible-to-user": true
+    }, 
+    "added_fragments": [], 
+    "active_fragments": []
+  }, 
+  "is_keyboard_deployed": false, 
+  "request_id": "187"
+}

@@ -1,0 +1,1666 @@
+{
+  "activity_name": "com.ulmon.android.citymaps2go/com.ulmon.android.lib.ui.activities.TopPoiActivity", 
+  "activity": {
+    "root": {
+      "scrollable-horizontal": false, 
+      "draw": true, 
+      "ancestors": [
+        "android.widget.FrameLayout", 
+        "android.view.ViewGroup", 
+        "android.view.View", 
+        "java.lang.Object"
+      ], 
+      "clickable": false, 
+      "pressed": "not_pressed", 
+      "focusable": false, 
+      "long-clickable": false, 
+      "enabled": true, 
+      "bounds": [
+        0, 
+        0, 
+        1440, 
+        2560
+      ], 
+      "visibility": "visible", 
+      "content-desc": [
+        null
+      ], 
+      "rel-bounds": [
+        0, 
+        0, 
+        1440, 
+        2560
+      ], 
+      "focused": false, 
+      "selected": false, 
+      "scrollable-vertical": false, 
+      "children": [
+        {
+          "scrollable-horizontal": false, 
+          "draw": true, 
+          "ancestors": [
+            "android.view.ViewGroup", 
+            "android.view.View", 
+            "java.lang.Object"
+          ], 
+          "clickable": false, 
+          "pressed": "not_pressed", 
+          "focusable": false, 
+          "long-clickable": false, 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            0, 
+            1440, 
+            2392
+          ], 
+          "visibility": "visible", 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            1440, 
+            2392
+          ], 
+          "focused": false, 
+          "selected": false, 
+          "scrollable-vertical": false, 
+          "children": [
+            {
+              "resource-id": "android:id/action_mode_bar_stub", 
+              "adapter-view": false, 
+              "pointer": "7ad8b4e", 
+              "scrollable-horizontal": false, 
+              "ancestors": [
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "selected": false, 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                0, 
+                0, 
+                0
+              ], 
+              "draw": true, 
+              "focusable": false, 
+              "long-clickable": false, 
+              "visibility": "gone", 
+              "focused": false, 
+              "clickable": false, 
+              "abs-pos": true, 
+              "class": "android.view.ViewStub", 
+              "visible-to-user": false, 
+              "package": "android", 
+              "enabled": true, 
+              "bounds": [
+                0, 
+                0, 
+                0, 
+                0
+              ], 
+              "pressed": "not_pressed", 
+              "scrollable-vertical": false
+            }, 
+            {
+              "scrollable-horizontal": false, 
+              "draw": true, 
+              "ancestors": [
+                "android.view.ViewGroup", 
+                "android.view.View", 
+                "java.lang.Object"
+              ], 
+              "clickable": false, 
+              "pressed": "not_pressed", 
+              "focusable": false, 
+              "long-clickable": false, 
+              "enabled": true, 
+              "bounds": [
+                0, 
+                0, 
+                1440, 
+                2392
+              ], 
+              "visibility": "visible", 
+              "content-desc": [
+                null
+              ], 
+              "rel-bounds": [
+                0, 
+                0, 
+                1440, 
+                2392
+              ], 
+              "focused": false, 
+              "selected": false, 
+              "scrollable-vertical": false, 
+              "children": [
+                {
+                  "resource-id": "com.ulmon.android.citymaps2go:id/action_bar_root", 
+                  "adapter-view": false, 
+                  "pointer": "333257c", 
+                  "children": [
+                    {
+                      "resource-id": "com.ulmon.android.citymaps2go:id/action_mode_bar_stub", 
+                      "adapter-view": false, 
+                      "pointer": "c1aee05", 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "draw": true, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "gone", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.widget.ViewStubCompat", 
+                      "visible-to-user": false, 
+                      "package": "com.ulmon.android.citymaps2go", 
+                      "enabled": true, 
+                      "bounds": [
+                        0, 
+                        0, 
+                        0, 
+                        0
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }, 
+                    {
+                      "resource-id": "android:id/content", 
+                      "adapter-view": false, 
+                      "pointer": "8db0e5a", 
+                      "children": [
+                        {
+                          "resource-id": "com.ulmon.android.citymaps2go:id/view_discover", 
+                          "adapter-view": false, 
+                          "pointer": "740b88b", 
+                          "children": [
+                            {
+                              "resource-id": "com.ulmon.android.citymaps2go:id/fragment_top_poi", 
+                              "adapter-view": false, 
+                              "pointer": "54b1d68", 
+                              "children": [
+                                {
+                                  "resource-id": "com.ulmon.android.citymaps2go:id/abl_top_poi", 
+                                  "adapter-view": false, 
+                                  "pointer": "abcbb4a", 
+                                  "children": [
+                                    {
+                                      "resource-id": "com.ulmon.android.citymaps2go:id/ctl_top_poi", 
+                                      "adapter-view": false, 
+                                      "pointer": "a616581", 
+                                      "children": [
+                                        {
+                                          "scrollable-horizontal": false, 
+                                          "draw": true, 
+                                          "ancestors": [
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "clickable": false, 
+                                          "pressed": "not_pressed", 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            0, 
+                                            1440, 
+                                            1592
+                                          ], 
+                                          "visibility": "visible", 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            0, 
+                                            1440, 
+                                            1592
+                                          ], 
+                                          "focused": false, 
+                                          "selected": false, 
+                                          "scrollable-vertical": false, 
+                                          "children": [
+                                            {
+                                              "scrollable-horizontal": false, 
+                                              "draw": true, 
+                                              "ancestors": [
+                                                "android.view.ViewGroup", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "clickable": false, 
+                                              "pressed": "not_pressed", 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                84, 
+                                                1440, 
+                                                952
+                                              ], 
+                                              "visibility": "visible", 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                84, 
+                                                1440, 
+                                                952
+                                              ], 
+                                              "focused": false, 
+                                              "selected": false, 
+                                              "scrollable-vertical": false, 
+                                              "children": [
+                                                {
+                                                  "resource-id": "com.ulmon.android.citymaps2go:id/top_poi_header_image", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "468a814", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.ImageView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    0, 
+                                                    1440, 
+                                                    868
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "class": "android.support.v7.widget.AppCompatImageView", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.ulmon.android.citymaps2go", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    0, 
+                                                    84, 
+                                                    1440, 
+                                                    952
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }, 
+                                                {
+                                                  "scrollable-horizontal": false, 
+                                                  "draw": false, 
+                                                  "ancestors": [
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "clickable": false, 
+                                                  "pressed": "not_pressed", 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    0, 
+                                                    84, 
+                                                    1440, 
+                                                    952
+                                                  ], 
+                                                  "visibility": "visible", 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    0, 
+                                                    0, 
+                                                    1440, 
+                                                    868
+                                                  ], 
+                                                  "focused": false, 
+                                                  "selected": false, 
+                                                  "scrollable-vertical": false, 
+                                                  "adapter-view": false, 
+                                                  "abs-pos": true, 
+                                                  "pointer": "73dd8bd", 
+                                                  "class": "android.view.View", 
+                                                  "visible-to-user": true
+                                                }, 
+                                                {
+                                                  "text": "London", 
+                                                  "resource-id": "com.ulmon.android.citymaps2go:id/top_poi_header_city", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "c8d0eb2", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    56, 
+                                                    551, 
+                                                    1384, 
+                                                    868
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "sans-serif", 
+                                                  "class": "android.support.v7.widget.AppCompatTextView", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.ulmon.android.citymaps2go", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    56, 
+                                                    635, 
+                                                    1384, 
+                                                    952
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }, 
+                                                {
+                                                  "text": "United Kingdom", 
+                                                  "resource-id": "com.ulmon.android.citymaps2go:id/top_poi_header_country", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "235ae03", 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.TextView", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    56, 
+                                                    718, 
+                                                    1384, 
+                                                    868
+                                                  ], 
+                                                  "draw": false, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": false, 
+                                                  "abs-pos": true, 
+                                                  "font-family": "sans-serif", 
+                                                  "class": "android.support.v7.widget.AppCompatTextView", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.ulmon.android.citymaps2go", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    56, 
+                                                    802, 
+                                                    1384, 
+                                                    952
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }
+                                              ], 
+                                              "adapter-view": false, 
+                                              "abs-pos": true, 
+                                              "pointer": "a805267", 
+                                              "class": "android.widget.RelativeLayout", 
+                                              "visible-to-user": true
+                                            }, 
+                                            {
+                                              "resource-id": "com.ulmon.android.citymaps2go:id/gyg_area", 
+                                              "adapter-view": false, 
+                                              "pointer": "5323180", 
+                                              "children": [
+                                                {
+                                                  "resource-id": "com.ulmon.android.citymaps2go:id/gyg_tickets_tours", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "a7443b9", 
+                                                  "children": [
+                                                    {
+                                                      "scrollable-horizontal": false, 
+                                                      "draw": true, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "clickable": false, 
+                                                      "pressed": "not_pressed", 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        38, 
+                                                        993, 
+                                                        1402, 
+                                                        1245
+                                                      ], 
+                                                      "visibility": "visible", 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        10, 
+                                                        13, 
+                                                        1374, 
+                                                        265
+                                                      ], 
+                                                      "focused": false, 
+                                                      "selected": false, 
+                                                      "scrollable-vertical": false, 
+                                                      "children": [
+                                                        {
+                                                          "resource-id": "com.ulmon.android.citymaps2go:id/top_poi_header_tickets_image", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "b5b275f", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.ImageView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            84, 
+                                                            224, 
+                                                            168
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "class": "android.support.v7.widget.AppCompatImageView", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.ulmon.android.citymaps2go", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            38, 
+                                                            1077, 
+                                                            262, 
+                                                            1161
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "scrollable-horizontal": false, 
+                                                          "draw": true, 
+                                                          "ancestors": [
+                                                            "android.view.ViewGroup", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "clickable": false, 
+                                                          "pressed": "not_pressed", 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            262, 
+                                                            1009, 
+                                                            1063, 
+                                                            1229
+                                                          ], 
+                                                          "visibility": "visible", 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            224, 
+                                                            16, 
+                                                            1025, 
+                                                            236
+                                                          ], 
+                                                          "focused": false, 
+                                                          "selected": false, 
+                                                          "scrollable-vertical": false, 
+                                                          "children": [
+                                                            {
+                                                              "text": "Tickets & Tours", 
+                                                              "resource-id": "com.ulmon.android.citymaps2go:id/top_poi_header_tickets", 
+                                                              "adapter-view": false, 
+                                                              "pointer": "a0c6275", 
+                                                              "scrollable-horizontal": false, 
+                                                              "ancestors": [
+                                                                "android.widget.TextView", 
+                                                                "android.view.View", 
+                                                                "java.lang.Object"
+                                                              ], 
+                                                              "selected": false, 
+                                                              "content-desc": [
+                                                                null
+                                                              ], 
+                                                              "rel-bounds": [
+                                                                0, 
+                                                                32, 
+                                                                467, 
+                                                                122
+                                                              ], 
+                                                              "draw": false, 
+                                                              "focusable": false, 
+                                                              "long-clickable": false, 
+                                                              "visibility": "visible", 
+                                                              "focused": false, 
+                                                              "clickable": false, 
+                                                              "abs-pos": true, 
+                                                              "font-family": "sans-serif", 
+                                                              "class": "android.support.v7.widget.AppCompatTextView", 
+                                                              "visible-to-user": true, 
+                                                              "package": "com.ulmon.android.citymaps2go", 
+                                                              "enabled": true, 
+                                                              "bounds": [
+                                                                262, 
+                                                                1041, 
+                                                                729, 
+                                                                1131
+                                                              ], 
+                                                              "pressed": "not_pressed", 
+                                                              "scrollable-vertical": false
+                                                            }, 
+                                                            {
+                                                              "text": "Skip the Line, Attractions, Excursions", 
+                                                              "scrollable-vertical": false, 
+                                                              "adapter-view": false, 
+                                                              "pointer": "8c3c20a", 
+                                                              "scrollable-horizontal": false, 
+                                                              "ancestors": [
+                                                                "android.widget.TextView", 
+                                                                "android.view.View", 
+                                                                "java.lang.Object"
+                                                              ], 
+                                                              "selected": false, 
+                                                              "content-desc": [
+                                                                null
+                                                              ], 
+                                                              "rel-bounds": [
+                                                                0, 
+                                                                122, 
+                                                                801, 
+                                                                188
+                                                              ], 
+                                                              "draw": false, 
+                                                              "focusable": false, 
+                                                              "long-clickable": false, 
+                                                              "visibility": "visible", 
+                                                              "focused": false, 
+                                                              "clickable": false, 
+                                                              "abs-pos": true, 
+                                                              "font-family": "sans-serif", 
+                                                              "class": "android.support.v7.widget.AppCompatTextView", 
+                                                              "visible-to-user": true, 
+                                                              "enabled": true, 
+                                                              "bounds": [
+                                                                262, 
+                                                                1131, 
+                                                                1063, 
+                                                                1197
+                                                              ], 
+                                                              "pressed": "not_pressed"
+                                                            }
+                                                          ], 
+                                                          "adapter-view": false, 
+                                                          "abs-pos": true, 
+                                                          "pointer": "e48e5ac", 
+                                                          "class": "android.widget.RelativeLayout", 
+                                                          "visible-to-user": true
+                                                        }
+                                                      ], 
+                                                      "adapter-view": false, 
+                                                      "abs-pos": true, 
+                                                      "pointer": "a3963fe", 
+                                                      "class": "android.widget.RelativeLayout", 
+                                                      "visible-to-user": true
+                                                    }
+                                                  ], 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.FrameLayout", 
+                                                    "android.view.ViewGroup", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    28, 
+                                                    28, 
+                                                    1412, 
+                                                    306
+                                                  ], 
+                                                  "draw": true, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": true, 
+                                                  "abs-pos": true, 
+                                                  "class": "android.support.v7.widget.CardView", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.ulmon.android.citymaps2go", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    28, 
+                                                    980, 
+                                                    1412, 
+                                                    1258
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }, 
+                                                {
+                                                  "resource-id": "com.ulmon.android.citymaps2go:id/cv_top_poi_header_viator_app_ad", 
+                                                  "adapter-view": false, 
+                                                  "pointer": "e34da7b", 
+                                                  "children": [
+                                                    {
+                                                      "scrollable-horizontal": false, 
+                                                      "draw": true, 
+                                                      "ancestors": [
+                                                        "android.view.ViewGroup", 
+                                                        "android.view.View", 
+                                                        "java.lang.Object"
+                                                      ], 
+                                                      "clickable": false, 
+                                                      "pressed": "not_pressed", 
+                                                      "focusable": false, 
+                                                      "long-clickable": false, 
+                                                      "enabled": true, 
+                                                      "bounds": [
+                                                        38, 
+                                                        1299, 
+                                                        1402, 
+                                                        1551
+                                                      ], 
+                                                      "visibility": "visible", 
+                                                      "content-desc": [
+                                                        null
+                                                      ], 
+                                                      "rel-bounds": [
+                                                        10, 
+                                                        13, 
+                                                        1374, 
+                                                        265
+                                                      ], 
+                                                      "focused": false, 
+                                                      "selected": false, 
+                                                      "scrollable-vertical": false, 
+                                                      "children": [
+                                                        {
+                                                          "resource-id": "com.ulmon.android.citymaps2go:id/iv_top_poi_header_viator_app_ad_icon", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "acdb0f1", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.ImageView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            0, 
+                                                            84, 
+                                                            224, 
+                                                            168
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "class": "android.support.v7.widget.AppCompatImageView", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.ulmon.android.citymaps2go", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            38, 
+                                                            1383, 
+                                                            262, 
+                                                            1467
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "resource-id": "com.ulmon.android.citymaps2go:id/iv_top_poi_header_viator_download_icon", 
+                                                          "adapter-view": false, 
+                                                          "pointer": "e3f4d6", 
+                                                          "scrollable-horizontal": false, 
+                                                          "ancestors": [
+                                                            "android.widget.ImageView", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "selected": false, 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            1227, 
+                                                            84, 
+                                                            1311, 
+                                                            168
+                                                          ], 
+                                                          "draw": false, 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "visibility": "visible", 
+                                                          "focused": false, 
+                                                          "clickable": false, 
+                                                          "abs-pos": true, 
+                                                          "class": "android.support.v7.widget.AppCompatImageView", 
+                                                          "visible-to-user": true, 
+                                                          "package": "com.ulmon.android.citymaps2go", 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            1265, 
+                                                            1383, 
+                                                            1349, 
+                                                            1467
+                                                          ], 
+                                                          "pressed": "not_pressed", 
+                                                          "scrollable-vertical": false
+                                                        }, 
+                                                        {
+                                                          "scrollable-horizontal": false, 
+                                                          "draw": true, 
+                                                          "ancestors": [
+                                                            "android.view.ViewGroup", 
+                                                            "android.view.View", 
+                                                            "java.lang.Object"
+                                                          ], 
+                                                          "clickable": false, 
+                                                          "pressed": "not_pressed", 
+                                                          "focusable": false, 
+                                                          "long-clickable": false, 
+                                                          "enabled": true, 
+                                                          "bounds": [
+                                                            262, 
+                                                            1315, 
+                                                            1212, 
+                                                            1535
+                                                          ], 
+                                                          "visibility": "visible", 
+                                                          "content-desc": [
+                                                            null
+                                                          ], 
+                                                          "rel-bounds": [
+                                                            224, 
+                                                            16, 
+                                                            1174, 
+                                                            236
+                                                          ], 
+                                                          "focused": false, 
+                                                          "selected": false, 
+                                                          "scrollable-vertical": false, 
+                                                          "children": [
+                                                            {
+                                                              "text": "Viator App", 
+                                                              "resource-id": "com.ulmon.android.citymaps2go:id/tv_top_poi_header_viator_line1", 
+                                                              "adapter-view": false, 
+                                                              "pointer": "e103e44", 
+                                                              "scrollable-horizontal": false, 
+                                                              "ancestors": [
+                                                                "android.widget.TextView", 
+                                                                "android.view.View", 
+                                                                "java.lang.Object"
+                                                              ], 
+                                                              "selected": false, 
+                                                              "content-desc": [
+                                                                null
+                                                              ], 
+                                                              "rel-bounds": [
+                                                                0, 
+                                                                32, 
+                                                                318, 
+                                                                122
+                                                              ], 
+                                                              "draw": false, 
+                                                              "focusable": false, 
+                                                              "long-clickable": false, 
+                                                              "visibility": "visible", 
+                                                              "focused": false, 
+                                                              "clickable": false, 
+                                                              "abs-pos": true, 
+                                                              "font-family": "sans-serif", 
+                                                              "class": "android.support.v7.widget.AppCompatTextView", 
+                                                              "visible-to-user": true, 
+                                                              "package": "com.ulmon.android.citymaps2go", 
+                                                              "enabled": true, 
+                                                              "bounds": [
+                                                                262, 
+                                                                1347, 
+                                                                580, 
+                                                                1437
+                                                              ], 
+                                                              "pressed": "not_pressed", 
+                                                              "scrollable-vertical": false
+                                                            }, 
+                                                            {
+                                                              "text": "Amazing premium tours through the city!", 
+                                                              "resource-id": "com.ulmon.android.citymaps2go:id/tv_top_poi_header_viator_line2", 
+                                                              "adapter-view": false, 
+                                                              "pointer": "c7b6b2d", 
+                                                              "scrollable-horizontal": false, 
+                                                              "ancestors": [
+                                                                "android.widget.TextView", 
+                                                                "android.view.View", 
+                                                                "java.lang.Object"
+                                                              ], 
+                                                              "selected": false, 
+                                                              "content-desc": [
+                                                                null
+                                                              ], 
+                                                              "rel-bounds": [
+                                                                0, 
+                                                                122, 
+                                                                888, 
+                                                                188
+                                                              ], 
+                                                              "draw": false, 
+                                                              "focusable": false, 
+                                                              "long-clickable": false, 
+                                                              "visibility": "visible", 
+                                                              "focused": false, 
+                                                              "clickable": false, 
+                                                              "abs-pos": true, 
+                                                              "font-family": "sans-serif", 
+                                                              "class": "android.support.v7.widget.AppCompatTextView", 
+                                                              "visible-to-user": true, 
+                                                              "package": "com.ulmon.android.citymaps2go", 
+                                                              "enabled": true, 
+                                                              "bounds": [
+                                                                262, 
+                                                                1437, 
+                                                                1150, 
+                                                                1503
+                                                              ], 
+                                                              "pressed": "not_pressed", 
+                                                              "scrollable-vertical": false
+                                                            }
+                                                          ], 
+                                                          "adapter-view": false, 
+                                                          "abs-pos": true, 
+                                                          "pointer": "92ca357", 
+                                                          "class": "android.widget.RelativeLayout", 
+                                                          "visible-to-user": true
+                                                        }
+                                                      ], 
+                                                      "adapter-view": false, 
+                                                      "abs-pos": true, 
+                                                      "pointer": "d34b098", 
+                                                      "class": "android.widget.RelativeLayout", 
+                                                      "visible-to-user": true
+                                                    }
+                                                  ], 
+                                                  "scrollable-horizontal": false, 
+                                                  "ancestors": [
+                                                    "android.widget.FrameLayout", 
+                                                    "android.view.ViewGroup", 
+                                                    "android.view.View", 
+                                                    "java.lang.Object"
+                                                  ], 
+                                                  "selected": false, 
+                                                  "content-desc": [
+                                                    null
+                                                  ], 
+                                                  "rel-bounds": [
+                                                    28, 
+                                                    334, 
+                                                    1412, 
+                                                    612
+                                                  ], 
+                                                  "draw": true, 
+                                                  "focusable": false, 
+                                                  "long-clickable": false, 
+                                                  "visibility": "visible", 
+                                                  "focused": false, 
+                                                  "clickable": true, 
+                                                  "abs-pos": true, 
+                                                  "class": "android.support.v7.widget.CardView", 
+                                                  "visible-to-user": true, 
+                                                  "package": "com.ulmon.android.citymaps2go", 
+                                                  "enabled": true, 
+                                                  "bounds": [
+                                                    28, 
+                                                    1286, 
+                                                    1412, 
+                                                    1564
+                                                  ], 
+                                                  "pressed": "not_pressed", 
+                                                  "scrollable-vertical": false
+                                                }
+                                              ], 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.view.ViewGroup", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                952, 
+                                                1440, 
+                                                1592
+                                              ], 
+                                              "draw": true, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "class": "android.widget.LinearLayout", 
+                                              "visible-to-user": true, 
+                                              "package": "com.ulmon.android.citymaps2go", 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                952, 
+                                                1440, 
+                                                1592
+                                              ], 
+                                              "pressed": "not_pressed", 
+                                              "scrollable-vertical": false
+                                            }
+                                          ], 
+                                          "adapter-view": false, 
+                                          "abs-pos": true, 
+                                          "pointer": "b2bb626", 
+                                          "class": "android.widget.LinearLayout", 
+                                          "visible-to-user": true
+                                        }, 
+                                        {
+                                          "resource-id": "com.ulmon.android.citymaps2go:id/toolbar_top_poi", 
+                                          "adapter-view": false, 
+                                          "pointer": "d028862", 
+                                          "children": [
+                                            {
+                                              "text": "CityMaps2Go", 
+                                              "scrollable-vertical": false, 
+                                              "adapter-view": false, 
+                                              "pointer": "d6e1df3", 
+                                              "scrollable-horizontal": false, 
+                                              "ancestors": [
+                                                "android.widget.TextView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "selected": false, 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                252, 
+                                                51, 
+                                                252, 
+                                                144
+                                              ], 
+                                              "draw": false, 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "visibility": "visible", 
+                                              "focused": false, 
+                                              "clickable": false, 
+                                              "abs-pos": true, 
+                                              "font-family": "sans-serif-medium", 
+                                              "class": "android.support.v7.widget.AppCompatTextView", 
+                                              "visible-to-user": false, 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                252, 
+                                                135, 
+                                                252, 
+                                                228
+                                              ], 
+                                              "pressed": "not_pressed"
+                                            }, 
+                                            {
+                                              "scrollable-horizontal": false, 
+                                              "draw": false, 
+                                              "ancestors": [
+                                                "android.widget.ImageButton", 
+                                                "android.widget.ImageView", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "clickable": true, 
+                                              "pressed": "not_pressed", 
+                                              "focusable": true, 
+                                              "long-clickable": false, 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                0, 
+                                                84, 
+                                                196, 
+                                                280
+                                              ], 
+                                              "visibility": "visible", 
+                                              "content-desc": [
+                                                "Navigate up"
+                                              ], 
+                                              "rel-bounds": [
+                                                0, 
+                                                0, 
+                                                196, 
+                                                196
+                                              ], 
+                                              "focused": false, 
+                                              "selected": false, 
+                                              "scrollable-vertical": false, 
+                                              "adapter-view": false, 
+                                              "abs-pos": true, 
+                                              "pointer": "1f4fab0", 
+                                              "class": "android.support.v7.widget.AppCompatImageButton", 
+                                              "visible-to-user": true
+                                            }, 
+                                            {
+                                              "scrollable-horizontal": false, 
+                                              "draw": false, 
+                                              "ancestors": [
+                                                "java.lang.Object"
+                                              ], 
+                                              "clickable": false, 
+                                              "pressed": "not_pressed", 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                252, 
+                                                84, 
+                                                1440, 
+                                                280
+                                              ], 
+                                              "visibility": "visible", 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                252, 
+                                                0, 
+                                                1440, 
+                                                196
+                                              ], 
+                                              "focused": false, 
+                                              "selected": false, 
+                                              "scrollable-vertical": false, 
+                                              "adapter-view": false, 
+                                              "abs-pos": true, 
+                                              "pointer": "dd08d29", 
+                                              "class": "android.view.View", 
+                                              "visible-to-user": true
+                                            }, 
+                                            {
+                                              "scrollable-horizontal": false, 
+                                              "draw": true, 
+                                              "ancestors": [
+                                                "android.support.v7.widget.LinearLayoutCompat", 
+                                                "android.view.ViewGroup", 
+                                                "android.view.View", 
+                                                "java.lang.Object"
+                                              ], 
+                                              "clickable": false, 
+                                              "pressed": "not_pressed", 
+                                              "focusable": false, 
+                                              "long-clickable": false, 
+                                              "enabled": true, 
+                                              "bounds": [
+                                                1440, 
+                                                84, 
+                                                1440, 
+                                                280
+                                              ], 
+                                              "visibility": "visible", 
+                                              "content-desc": [
+                                                null
+                                              ], 
+                                              "rel-bounds": [
+                                                1440, 
+                                                0, 
+                                                1440, 
+                                                196
+                                              ], 
+                                              "focused": false, 
+                                              "selected": false, 
+                                              "scrollable-vertical": false, 
+                                              "adapter-view": false, 
+                                              "abs-pos": true, 
+                                              "pointer": "384c8ae", 
+                                              "class": "android.support.v7.widget.ActionMenuView", 
+                                              "visible-to-user": false
+                                            }
+                                          ], 
+                                          "scrollable-horizontal": false, 
+                                          "ancestors": [
+                                            "android.view.ViewGroup", 
+                                            "android.view.View", 
+                                            "java.lang.Object"
+                                          ], 
+                                          "selected": false, 
+                                          "content-desc": [
+                                            null
+                                          ], 
+                                          "rel-bounds": [
+                                            0, 
+                                            84, 
+                                            1440, 
+                                            280
+                                          ], 
+                                          "draw": true, 
+                                          "focusable": false, 
+                                          "long-clickable": false, 
+                                          "visibility": "visible", 
+                                          "focused": false, 
+                                          "clickable": false, 
+                                          "abs-pos": true, 
+                                          "class": "android.support.v7.widget.Toolbar", 
+                                          "visible-to-user": true, 
+                                          "package": "com.ulmon.android.citymaps2go", 
+                                          "enabled": true, 
+                                          "bounds": [
+                                            0, 
+                                            84, 
+                                            1440, 
+                                            280
+                                          ], 
+                                          "pressed": "not_pressed", 
+                                          "scrollable-vertical": false
+                                        }
+                                      ], 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.widget.FrameLayout", 
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        1440, 
+                                        1592
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": false, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.support.design.widget.CollapsingToolbarLayout", 
+                                      "visible-to-user": true, 
+                                      "package": "com.ulmon.android.citymaps2go", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        0, 
+                                        0, 
+                                        1440, 
+                                        1592
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }
+                                  ], 
+                                  "scrollable-horizontal": false, 
+                                  "ancestors": [
+                                    "android.widget.LinearLayout", 
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "selected": false, 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    0, 
+                                    1440, 
+                                    1592
+                                  ], 
+                                  "draw": true, 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "visibility": "visible", 
+                                  "focused": false, 
+                                  "clickable": false, 
+                                  "abs-pos": true, 
+                                  "class": "android.support.design.widget.AppBarLayout", 
+                                  "visible-to-user": true, 
+                                  "package": "com.ulmon.android.citymaps2go", 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    0, 
+                                    1440, 
+                                    1592
+                                  ], 
+                                  "pressed": "not_pressed", 
+                                  "scrollable-vertical": false
+                                }, 
+                                {
+                                  "scrollable-horizontal": false, 
+                                  "draw": true, 
+                                  "ancestors": [
+                                    "android.view.ViewGroup", 
+                                    "android.view.View", 
+                                    "java.lang.Object"
+                                  ], 
+                                  "clickable": false, 
+                                  "pressed": "not_pressed", 
+                                  "focusable": false, 
+                                  "long-clickable": false, 
+                                  "enabled": true, 
+                                  "bounds": [
+                                    0, 
+                                    1592, 
+                                    1440, 
+                                    2392
+                                  ], 
+                                  "visibility": "visible", 
+                                  "content-desc": [
+                                    null
+                                  ], 
+                                  "rel-bounds": [
+                                    0, 
+                                    1592, 
+                                    1440, 
+                                    3704
+                                  ], 
+                                  "focused": false, 
+                                  "selected": false, 
+                                  "scrollable-vertical": false, 
+                                  "children": [
+                                    {
+                                      "resource-id": "com.ulmon.android.citymaps2go:id/rv_top_poi_list", 
+                                      "adapter-view": false, 
+                                      "pointer": "942a64f", 
+                                      "scrollable-horizontal": false, 
+                                      "ancestors": [
+                                        "android.view.ViewGroup", 
+                                        "android.view.View", 
+                                        "java.lang.Object"
+                                      ], 
+                                      "selected": false, 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        1440, 
+                                        0
+                                      ], 
+                                      "draw": false, 
+                                      "focusable": true, 
+                                      "long-clickable": false, 
+                                      "visibility": "visible", 
+                                      "focused": true, 
+                                      "clickable": false, 
+                                      "abs-pos": true, 
+                                      "class": "android.support.v7.widget.RecyclerView", 
+                                      "visible-to-user": false, 
+                                      "package": "com.ulmon.android.citymaps2go", 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        0, 
+                                        1592, 
+                                        1440, 
+                                        1592
+                                      ], 
+                                      "pressed": "not_pressed", 
+                                      "scrollable-vertical": false
+                                    }, 
+                                    {
+                                      "scrollable-horizontal": false, 
+                                      "draw": false, 
+                                      "ancestors": [
+                                        "java.lang.Object"
+                                      ], 
+                                      "clickable": false, 
+                                      "pressed": "not_pressed", 
+                                      "focusable": false, 
+                                      "long-clickable": false, 
+                                      "enabled": true, 
+                                      "bounds": [
+                                        0, 
+                                        1592, 
+                                        1440, 
+                                        1788
+                                      ], 
+                                      "visibility": "visible", 
+                                      "content-desc": [
+                                        null
+                                      ], 
+                                      "rel-bounds": [
+                                        0, 
+                                        0, 
+                                        1440, 
+                                        196
+                                      ], 
+                                      "focused": false, 
+                                      "selected": false, 
+                                      "scrollable-vertical": false, 
+                                      "adapter-view": false, 
+                                      "abs-pos": true, 
+                                      "pointer": "2711dc", 
+                                      "class": "android.view.View", 
+                                      "visible-to-user": true
+                                    }
+                                  ], 
+                                  "adapter-view": false, 
+                                  "abs-pos": true, 
+                                  "pointer": "8a87abb", 
+                                  "class": "android.widget.LinearLayout", 
+                                  "visible-to-user": true
+                                }
+                              ], 
+                              "scrollable-horizontal": false, 
+                              "ancestors": [
+                                "android.view.ViewGroup", 
+                                "android.view.View", 
+                                "java.lang.Object"
+                              ], 
+                              "selected": false, 
+                              "content-desc": [
+                                null
+                              ], 
+                              "rel-bounds": [
+                                0, 
+                                0, 
+                                1440, 
+                                2392
+                              ], 
+                              "draw": false, 
+                              "focusable": false, 
+                              "long-clickable": false, 
+                              "visibility": "visible", 
+                              "focused": false, 
+                              "clickable": false, 
+                              "abs-pos": true, 
+                              "class": "android.support.design.widget.CoordinatorLayout", 
+                              "visible-to-user": true, 
+                              "package": "com.ulmon.android.citymaps2go", 
+                              "enabled": true, 
+                              "bounds": [
+                                0, 
+                                0, 
+                                1440, 
+                                2392
+                              ], 
+                              "pressed": "not_pressed", 
+                              "scrollable-vertical": false
+                            }
+                          ], 
+                          "scrollable-horizontal": false, 
+                          "ancestors": [
+                            "android.view.ViewGroup", 
+                            "android.view.View", 
+                            "java.lang.Object"
+                          ], 
+                          "selected": false, 
+                          "content-desc": [
+                            null
+                          ], 
+                          "rel-bounds": [
+                            0, 
+                            0, 
+                            1440, 
+                            2392
+                          ], 
+                          "draw": true, 
+                          "focusable": false, 
+                          "long-clickable": false, 
+                          "visibility": "visible", 
+                          "focused": false, 
+                          "clickable": false, 
+                          "abs-pos": true, 
+                          "class": "android.widget.RelativeLayout", 
+                          "visible-to-user": true, 
+                          "package": "com.ulmon.android.citymaps2go", 
+                          "enabled": true, 
+                          "bounds": [
+                            0, 
+                            0, 
+                            1440, 
+                            2392
+                          ], 
+                          "pressed": "not_pressed", 
+                          "scrollable-vertical": false
+                        }
+                      ], 
+                      "scrollable-horizontal": false, 
+                      "ancestors": [
+                        "android.widget.FrameLayout", 
+                        "android.view.ViewGroup", 
+                        "android.view.View", 
+                        "java.lang.Object"
+                      ], 
+                      "selected": false, 
+                      "content-desc": [
+                        null
+                      ], 
+                      "rel-bounds": [
+                        0, 
+                        0, 
+                        1440, 
+                        2392
+                      ], 
+                      "draw": true, 
+                      "focusable": false, 
+                      "long-clickable": false, 
+                      "visibility": "visible", 
+                      "focused": false, 
+                      "clickable": false, 
+                      "abs-pos": true, 
+                      "class": "android.support.v7.widget.ContentFrameLayout", 
+                      "visible-to-user": true, 
+                      "package": "android", 
+                      "enabled": true, 
+                      "bounds": [
+                        0, 
+                        0, 
+                        1440, 
+                        2392
+                      ], 
+                      "pressed": "not_pressed", 
+                      "scrollable-vertical": false
+                    }
+                  ], 
+                  "scrollable-horizontal": false, 
+                  "ancestors": [
+                    "android.widget.LinearLayout", 
+                    "android.view.ViewGroup", 
+                    "android.view.View", 
+                    "java.lang.Object"
+                  ], 
+                  "selected": false, 
+                  "content-desc": [
+                    null
+                  ], 
+                  "rel-bounds": [
+                    0, 
+                    0, 
+                    1440, 
+                    2392
+                  ], 
+                  "draw": true, 
+                  "focusable": false, 
+                  "long-clickable": false, 
+                  "visibility": "visible", 
+                  "focused": false, 
+                  "clickable": false, 
+                  "abs-pos": true, 
+                  "class": "android.support.v7.widget.FitWindowsLinearLayout", 
+                  "visible-to-user": true, 
+                  "package": "com.ulmon.android.citymaps2go", 
+                  "enabled": true, 
+                  "bounds": [
+                    0, 
+                    0, 
+                    1440, 
+                    2392
+                  ], 
+                  "pressed": "not_pressed", 
+                  "scrollable-vertical": false
+                }
+              ], 
+              "adapter-view": false, 
+              "abs-pos": true, 
+              "pointer": "1aa446f", 
+              "class": "android.widget.FrameLayout", 
+              "visible-to-user": true
+            }
+          ], 
+          "adapter-view": false, 
+          "abs-pos": true, 
+          "pointer": "22e3649", 
+          "class": "android.widget.LinearLayout", 
+          "visible-to-user": true
+        }, 
+        {
+          "resource-id": "android:id/navigationBarBackground", 
+          "adapter-view": false, 
+          "pointer": "43bd2e5", 
+          "scrollable-horizontal": false, 
+          "ancestors": [
+            "java.lang.Object"
+          ], 
+          "selected": false, 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            2392, 
+            1440, 
+            2560
+          ], 
+          "draw": false, 
+          "focusable": false, 
+          "long-clickable": false, 
+          "visibility": "visible", 
+          "focused": false, 
+          "clickable": false, 
+          "abs-pos": true, 
+          "class": "android.view.View", 
+          "visible-to-user": true, 
+          "package": "android", 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            2392, 
+            1440, 
+            2560
+          ], 
+          "pressed": "not_pressed", 
+          "scrollable-vertical": false
+        }, 
+        {
+          "resource-id": "android:id/statusBarBackground", 
+          "adapter-view": false, 
+          "pointer": "9d8c1ba", 
+          "scrollable-horizontal": false, 
+          "ancestors": [
+            "java.lang.Object"
+          ], 
+          "selected": false, 
+          "content-desc": [
+            null
+          ], 
+          "rel-bounds": [
+            0, 
+            0, 
+            1440, 
+            84
+          ], 
+          "draw": false, 
+          "focusable": false, 
+          "long-clickable": false, 
+          "visibility": "visible", 
+          "focused": false, 
+          "clickable": false, 
+          "abs-pos": true, 
+          "class": "android.view.View", 
+          "visible-to-user": true, 
+          "package": "android", 
+          "enabled": true, 
+          "bounds": [
+            0, 
+            0, 
+            1440, 
+            84
+          ], 
+          "pressed": "not_pressed", 
+          "scrollable-vertical": false
+        }
+      ], 
+      "adapter-view": false, 
+      "abs-pos": true, 
+      "pointer": "d491450", 
+      "class": "com.android.internal.policy.PhoneWindow$DecorView", 
+      "visible-to-user": true
+    }, 
+    "added_fragments": [], 
+    "active_fragments": []
+  }, 
+  "is_keyboard_deployed": false, 
+  "request_id": "5632"
+}
